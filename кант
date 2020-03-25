@@ -1,0 +1,1484 @@
+with(LinearAlgebra):
+hermites:=proc() local timestart,eq,tmpv,itermax1,r0,r1,r2,l0,l1,l2,l3,l4,zjrp
+,kappamaxr,vf,weigth,gg,phijrp,groptss,hererrors,herwarning,nmesh1,vv,qq,zz,NNN
+,vvfa,vvfb,vmesh,zjmax,zjmin,NN,RR,pr,iLmax,iNmin,ilmax,ngrid0,indp,filenamew1 
+,kappa,kappa1,ll1,ll2,lk1,lk2,lk3,lk4,AFEM,BFEM,AFEM1,vects,wst,func1,nel1,nel,feq
+,func1r,func1i,muk,mukn,mukd,absmuk,DRBoundL,DRBoundR,FFAL,FFBL,FFAA,FFBB,FFAR,FFBR
+,tauk,Vnew2,Vnew1,fda,fdb,Gba,Gaa,Gab,Gbb,Gbc,Gcc,Gcb,Yaa,Ycc,Yca,Yac,Fba,Fbc,rkvk
+,Phiascat,Phibscat,Phicscat,DPhiascat,DPhicscat,eqsscat1,eqsscat2,solscat,Eh1,bvk
+,COpenL,COpenR,CCloseL,CCloseR,func1RLr,func1RLi,func1LRr,func1LRi,Phinkm,tmpvint
+,lenww,temp,temp1,l2min,l2max,rk2old,rk2new,rk2,Phinkm1,itern;
+
+global keypot,nexec,femmatcal,intprep,DirL,DirR,RBoundL,RBoundR,grprint,ngrid
+,mukc,mukopt,eqs,FFB,FFA,FFBD,FFAD,asymexp,filenameh,filenamew,filenamea,filenamei
+,itermax,psubint,kappamax,grid11,nmesh,numberf,fun,zpoints,fpoints,gropts
+,zmin,zmax,zmesh,Qap,Eh,Phink,NOpenL,NOpenR,NCloseL,NCloseR,normtp
+,Lp2OC,LBoundLR,LBoundRL,DLBoundLR,DLBoundRL,LBoundC,DLBoundC,vpot,qpot
+,Rp2OC,RBoundLR,RBoundRL,DRBoundLR,DRBoundRL,RBoundC,DRBoundC,infopr,infoerr
+,RLRscat,RLRscatc,TLRscat,TLRscatc,RRLscat,RRLscatc,TRLscat,TRLscatc,Smatr; 
+
+timestart:=time();
+
+#defaults
+if not(type(nexec,numeric)) then nexec:=1; fi;
+if not(keypot=0 or keypot=2 or keypot=3 or keypot=4)  then keypot:=1; fi;
+if (femmatcal=-1) then intprep:=0; elif not(femmatcal=1) then femmatcal:=0;  fi;
+if not(DirL=1 or DirL=3 or DirL=0 or DirL=2)  then DirL:=`if`(keypot=2,0,2); fi;
+if not(DirR=1 or DirR=3 or DirR=0 or DirR=2)  then DirR:=`if`(keypot=2,0,2); fi;
+if (eqs=0 and RBoundL='RBoundL') then RBoundL:=0; fi; 
+if not(grprint=0 or grprint=-1 or grprint=2) then grprint:=1; fi; 
+if not(infopr=0) then infopr:=1; fi; 
+if not(infoerr=0) then infoerr:=1; fi; 
+if not(mukc=0) then mukc:=1; fi; 
+if (eqs=0 and RBoundR='RBoundR') then   RBoundR:=0; fi; 
+if (FFA='FFA') then FFA:=1; fi;
+if (FFB='FFB') then FFB:=1; fi;
+if not(FFAD=1 or FFAD=0 or FFAD=-1) then 
+  FFAD:=`if`(diff(z*diff(FFA,z)/FFA,z)=0,0,1); 
+fi;
+if not(FFBD=1 or FFBD=0 or FFBD=-1) then 
+  FFBD:=`if`(diff(z*diff(FFB,z)/FFB,z)=0,0,1); 
+fi; 
+if not(Qap=1) then Qap:=0; fi;
+#if not(dtest=1) then dtest:=0; fi;
+if not(asymexp=1) then asymexp:=0; fi;
+if (filenameh='filenameh') then filenameh:="hermites.dat"; fi;
+if (filenamew='filenamew') 
+  then filenamew1:=cat("wfuncts",convert(nexec,string),".dat");
+  else filenamew1:=filenamew;
+fi;
+if (filenamea='filenamea') then filenamea:="abfem.dat"; fi;
+if (filenamei='filenamei') then filenamei:="inta.dat"; fi;
+if not(normtp=0) then normtp:=1; fi;
+if not(mukopt=1) then mukopt:=0; fi;
+if  (psubint='psubint')  then psubint:=3; fi;
+if (itermax='itermax') then itermax1:=20; else itermax1:=itermax; fi; 
+if (itermax1<2) then itermax1:=2; fi; 
+if (eqs='eqs') then eqs:=0; fi; 
+
+if keypot>0 then
+  #the multiplicity of nodes;
+  if (kappamax='kappamax') then kappamax:=2;fi;
+  #distribution of nodes in interval [-1,1]
+  for r0 from 0 to psubint do if (grid11(r0)='grid11'(r0)) then grid11(r0):=-1+2*r0/psubint; fi; od;
+  for r0 from 0 to psubint do kappamaxr(r0):=kappamax; od;
+  if (nmesh='nmesh') then nmesh:=0; fi;
+  if (numberf='numberf') then numberf:=5; fi;
+fi;
+
+#preparing for keypot=0
+if keypot=0 then
+  if (nops(zpoints)=nops(fpoints))
+    then psubint:=nops(zpoints)-1;
+    else
+      print("WARNING: different lenghts of lists zpoints and fpoints. Used lowest of them");
+      psubint:=min(nops(zpoints),nops(fpoints))-1;
+  fi;
+  for r0 from 0 to psubint do kappamaxr(r0):=nops(fpoints[r0+1]); od; # is the multiplicity of nodes;
+  for r0 from 0 to psubint do zjrp(r0):=zpoints[r0+1]; od;
+  for r0 from 0 to psubint do
+    for kappa from 0 to kappamaxr(r0)-1 do
+      vf(r0,kappa):=fpoints[r0+1][kappa+1];
+  od;od;
+  kappamax:=0; 
+  for r0 from 0 to psubint do 
+    kappamax:=max(kappamaxr(r0),kappamax); 
+  od;
+fi;
+
+if keypot>0 then
+  zj(0):=zmin0;
+  zj(1):=zmax0;
+  for r0 from 0 to psubint do
+    zjrp(r0):=(zj(0)*(1-grid11(r0))/2+(grid11(r0)+1)*zj(1)/2);
+  od;
+fi;
+
+#calculations of IHP
+fda:=open(filenameh,WRITE);
+for r0 from 0 to psubint do
+  weigth(r0):=mul(`if`(r0=rr,1,((z-zjrp(rr))/(zjrp(r0)-zjrp(rr)))^kappamaxr(rr)),rr=0..psubint);
+  gg(r0,0):=1;
+  gg(r0,1):=add(`if`(r0=rr,0,kappamaxr(rr)/(z-zjrp(rr))),rr=0..psubint);
+  for r2 from 2 to kappamaxr(r0)-1 do
+    gg(r0,r2):=convert(diff(gg(r0,r2-1),z)+gg(r0,1)*gg(r0,r2-1),parfrac,z);
+od;od;
+for r0 from 0 to psubint do
+  for r2 from 0 to kappamaxr(r0)-1 do
+    gg(r0,r2):=factor(subs(z=zjrp(r0),gg(r0,r2)));
+od;od;
+for r0 from 0 to psubint do
+  a||0:=H(0);
+  for r1 from 1 to kappamaxr(r0)-1 do
+    a||r1:=collect((
+      H(r1)
+      -add(a||rr1*factorial(rr1)*gg(r0,r1-rr1)
+         *factorial(r1)/factorial(rr1)/factorial(r1-rr1)
+     ,rr1=0..r1-1))/factorial(r1)
+   ,H,factor);
+  od;
+  for r2 from 0 to kappamaxr(r0)-1 do
+    phijrp(r0,r2)
+      :=weigth(r0)
+        *subs(seq(H(rr1)=`if`(r2=rr1,1,0),rr1=0..kappamaxr(r0)-1)
+          ,add(a||rr*(z-zjrp(r0))^rr,rr=0..kappamaxr(r0)-1));
+    fprintf(fda,cat("IHP(",convert(r0,string),",",convert(r2,string)
+      ,"):=",convert(phijrp(r0,r2),string),";\n"));     
+od;od;
+close(fda);
+
+#calculations function (for keypot=0)
+if keypot=0 then
+  fun:=expand(add(add(phijrp(rr,rr2)*vf(rr,rr2),rr2=0..kappamaxr(rr)-1),rr=0..psubint));
+  RETURN();
+fi;
+
+eq:=`if`(eqs=0,1,eqs);
+if (gropts='gropts') 
+  then 
+    groptss:=color=[seq(COLOR(HUE,lll1/(eq+1)),lll1=0..eq-1)
+                   ,seq(COLOR(HUE,lll1/(eq+1)),lll1=0..eq-1)]
+            ,linestyle=[seq(1,lll1=1..eq),seq(2,lll1=1..eq)]
+            ,thickness=3,axesfont=[TIMES,ROMAN,18],labelfont=[TIMES,ROMAN,18],titlefont=[TIMES,ROMAN,16];
+  else groptss:=gropts;
+fi;
+if (infopr=1 and grprint>0 and eq>1) then
+  plot([seq(lll1,lll1=1..eq)]
+    ,z=0..1
+    ,groptss
+    ,title="legend",labels=[" ","comps"]);
+  print(%);
+fi;
+
+hererrors:=0;
+
+if (keypot=2 and DirR*DirL>0)  then 
+  print("error: for scattering problem DirR*DirL must be equal 0"); 
+  hererrors:=1;;
+fi;
+
+#calculations of potentials and its derivative
+if (nmesh=0)
+  then
+    nmesh1:=1;
+    if (eqs=0) 
+      then 
+        if (vpot='vpot') 
+          then print("error: vpot is not set"); hererrors:=1;  
+          else vv(1,1,0,1):=vpot; 
+        fi;
+      else
+       herwarning:=" ";
+       for l1 from 1 to eq do
+       for l2 from l1 to eq do
+         if ((vpot(l1,l2)='vpot'(l1,l2)) and (vpot(l2,l1)='vpot'(l2,l1))) 
+           then print("error: vpot(",l1,",",l2,") is not set"); hererrors:=1;  
+           else 
+             if (vpot(l1,l2)='vpot'(l1,l2)) then vpot(l1,l2):=vpot(l2,l1); fi; 
+             if (vpot(l2,l1)='vpot'(l2,l1)) then vpot(l2,l1):=vpot(l1,l2); fi; 
+             if (vpot(l2,l1)<>vpot(l1,l2)) then 
+               herwarning:="warning: program for nonsymmetric potential vpot is not tested"; 
+             fi;
+             vv(l1,l2,0,1):=vpot(l1,l2);vv(l2,l1,0,1):=vpot(l2,l1); 
+         fi;
+       od;od;
+       if (herwarning<>" ") then print(herwarning);herwarning:=" "; fi;
+ 
+       for l1 from 1 to eq do
+       for l2 from 1 to eq do
+         if ((qpot(l1,l2)='qpot'(l1,l2)) and (qpot(l2,l1)='qpot'(l2,l1))) 
+          then if(Qap=1) then print("error: qpot(",l1,",",l2,") is not set at Qap=1.");hererrors:=1; fi;    
+          elif(Qap=0) 
+            then print("warning: qpot(",l1,",",l2,") is ignored at Qap=0.");
+            else
+              if (qpot(l1,l2)='qpot'(l1,l2)) then qpot(l1,l2):=-qpot(l2,l1); fi; 
+              if (qpot(l2,l1)='qpot'(l2,l1)) then qpot(l2,l1):=-qpot(l1,l2); fi; 
+              if (qpot(l2,l1)<>-qpot(l1,l2)) then 
+                 herwarning:="warning: program for nonantysymmetric potential qpot is not tested"; 
+              fi;   
+              qq(l1,l2,0,1):=qpot(l1,l2);qq(l2,l1,0,1):=qpot(l2,l1); 
+         fi;
+       od;od; 
+    fi;  
+    if (ngrid='ngrid') 
+      then print("error: ngrid is not set"); hererrors:=1;  
+      else ngrid1(1):=ngrid; 
+    fi;
+    if (zmin='zmin') 
+      then print("error: zmin is not set"); hererrors:=1;  
+      else zmesh(0):=zmin; 
+    fi;
+    if (zmax='zmax') 
+      then print("error: zmax is not set"); hererrors:=1;  
+      else zmesh(1):=zmax; 
+    fi;
+  else
+    nmesh1:=nmesh;
+    for r1 from 0 to nmesh1 do
+      if (zmesh(r1)='zmesh'(r1)) then
+        print("error: zmesh(",r1,") is not set"); hererrors:=1;  
+      fi;
+    od;    
+    
+    for r1 from 1 to nmesh1 do
+      if (eqs=0) 
+        then 
+          if (vpot(r1)='vpot'(r1)) 
+            then print("error: vpot(",r1,") is not set"); hererrors:=1;  
+            else vv(1,1,0,r1):=vpot(r1); 
+          fi;
+        else
+         herwarning:=" ";
+         for l1 from 1 to eq do
+         for l2 from 1 to eq do
+           if ((vpot(l1,l2,r1)='vpot'(l1,l2,r1)) and (vpot(l2,l1,r1)='vpot'(l2,l1,r1))) 
+             then print("error: vpot(",l1,",",l2,",",r1,") is not set"); hererrors:=1;  
+             else 
+               if (vpot(l1,l2,r1)='vpot'(l1,l2,r1)) then vpot(l1,l2,r1):=vpot(l2,l1,r1); fi; 
+               if (vpot(l2,l1,r1)='vpot'(l2,l1,r1)) then vpot(l2,l1,r1):=vpot(l1,l2,r1); fi; 
+               if (vpot(l2,l1,r1)<>vpot(l1,l2,r1)) then 
+                 herwarning:="warning: program for nonsymmetric potential vpot is not tested"; 
+               fi;
+               vv(l1,l2,0,r1):=vpot(l1,l2,r1);vv(l2,l1,0,r1):=vpot(l2,l1,r1); 
+           fi;
+         od;od;
+         if (herwarning<>" ") then print(herwarning);herwarning:=" "; fi;
+
+         for l1 from 1 to eq do
+         for l2 from 1 to eq do
+           if ((qpot(l1,l2,r1)='qpot'(l1,l2,r1)) and (qpot(l2,l1,r1)='qpot'(l2,l1,r1))) 
+            then if(Qap=1) then print("error: qpot(",l1,",",l2,",",r1,") is not set at Qap=1.");hererrors:=1; fi;    
+            elif(Qap=0) 
+              then print("warning: qpot(",l1,",",l2,",",r1,") is ignored at Qap=0.");
+              else
+                if (qpot(l1,l2,r1)='qpot'(l1,l2,r1)) then qpot(l1,l2,r1):=-qpot(l2,l1,r1); fi; 
+                if (qpot(l2,l1,r1)='qpot'(l2,l1,r1)) then qpot(l2,l1,r1):=-qpot(l1,l2,r1); fi; 
+                if (qpot(l2,l1,r1)<>-qpot(l1,l2,r1)) then 
+                   herwarning:="warning: program for nonantysymmetric potential qpot is not tested"; 
+                fi;   
+                qq(l1,l2,0,r1):=qpot(l1,l2,r1);qq(l2,l1,0,r1):=qpot(l2,l1,r1); 
+           fi;
+         od;od;
+         if (herwarning<>" ") then print(herwarning);herwarning:=" "; fi;
+      fi;
+      
+      if (ngrid(r1)='ngrid'(r1)) 
+        then print("error: ngrid(",r1,") is not set"); hererrors:=1;  
+        else ngrid1(r1):=ngrid(r1); 
+      fi;
+    od;
+fi;      
+
+if (keypot=3) then
+  if (Eh='Eh') then 
+    print("error: initial approximation Eh is not set"); hererrors:=1;
+  fi;   
+  if (EEh<>'EEh') then 
+    print("error: EEh is set"); hererrors:=1;
+  fi;   
+  if (eqs=0) 
+   then  
+     if (Phink='Phink') then 
+       print("error: initial approximation Phink is not set"); hererrors:=1;
+     fi;   
+   else
+     for l1 from 1 to eq do
+       if (Phink(l1)='Phink'(l1)) then 
+         print("error: initial approximation Phink(",l1,") is not set"); hererrors:=1;
+       fi;   
+     od;
+  fi; 
+fi;
+if (hererrors=1) then RETURN() fi;
+
+if (FFAD<>0) then
+  for r1 from 1 to nmesh1 do
+    vvfa(0,r1):=`if`(FFAD=1,FFA,FFA(r1));
+    for r2 from 1 to kappamax-1 do
+      vvfa(r2,r1):=diff(vvfa(r2-1,r1),z);
+    od;
+    if Qap=1 then
+      for l1 from 1 to eq do
+      for l2 from 1 to eq do
+        qq(l1,l2,0,r1):=qq(l1,l2,0,r1)*vvfa(0,r1);
+      od;od;
+    fi;
+  od;
+fi;
+
+if (FFBD<>0) then
+  for r1 from 1 to nmesh1 do
+    vvfb(0,r1):=`if`(FFBD=1,FFB,FFB(r1));
+    for l1 from 1 to eq do
+    for l2 from 1 to eq do
+      vv(l1,l2,0,r1):=vv(l1,l2,0,r1)*vvfb(0,r1);
+    od;od;
+    for r2 from 1 to kappamax-1 do
+      vvfb(r2,r1):=diff(vvfb(r2-1,r1),z);
+    od;
+  od;
+fi;
+
+if Qap=1 then
+  for r2 from 1 to kappamax-1 do
+    for r1 from 1 to nmesh1 do
+      for l1 from 1 to eq do
+        for l2 from 1 to eq do
+          qq(l1,l2,r2,r1):=diff(qq(l1,l2,r2-1,r1),z);
+od;od;od;od;fi;
+
+for r2 from 1 to kappamax-1 do
+  for r1 from 1 to nmesh1 do
+    for l1 from 1 to eq do
+      for l2 from 1 to eq do
+        vv(l1,l2,r2,r1):=diff(vv(l1,l2,r2-1,r1),z);
+od;od;od;od;
+
+#calculation of finite element grid
+for r1 from 1 to nmesh1 do
+  r2:=add(ngrid1(rr2),rr2=1..r1-1);
+  for r0 from 0 to ngrid1(r1) do
+    vmesh(r0+r2):=`if`(r0=0,r1-1,r1);
+    zjmax(r0  +r2):=(zmesh(r1-1)*(ngrid1(r1)-r0)+zmesh(r1)*r0)/ngrid1(r1);
+    zjmin(r0+1+r2):=zjmax(r0  +r2);
+od;od;
+
+#renumbering of polynomials
+for kappa from 0 to kappamax-1 do
+  NN(kappa):=phijrp(0,kappa):
+  RR(kappa):=zjrp(0);
+  pr(kappa):=kappa;
+  for r0 from 1 to psubint-1 do
+    NN(kappamax*(r0)+kappa):=phijrp(r0,kappa);
+    RR(kappamax*(r0)+kappa):=zjrp(r0);
+    pr(kappamax*(r0)+kappa):=kappa;
+  od;
+  NN(kappamax*(psubint)+kappa):=phijrp(psubint,kappa):
+  RR(kappamax*(psubint)+kappa):=zjrp(psubint);
+  pr(kappamax*(psubint)+kappa):=kappa;
+od;
+iLmax:=kappamax*(psubint+1);
+iNmin:=0;
+ilmax:=(kappamax)*(psubint+1)-1;
+ngrid0:=add(ngrid1(i),i=1..nmesh1);
+nel:=((psubint*(ngrid0)+1)*kappamax);
+
+if keypot=2 
+  then
+    for l1 from 1 to nel do
+      indp(l1):=l1;
+    od;  
+  else 
+    indp(1):=`if`(DirL=1,0,1);
+    for l1 from 2 to nel do
+      indp(l1):=l1-1+indp(1);
+    od;
+    if (DirR=1) then 
+      indp(nel-kappamax+1):=0;
+      for l1 from 0 to kappamax-2 do
+        indp(nel-l1):=indp(nel-l1)-1;
+      od;
+    fi;
+    if (DirL=1) then nel:=nel-1; fi;
+    if (DirR=1) then nel:=nel-1; fi;
+fi;
+nel:=nel*eq;
+
+if(infopr=1)then
+  print("Order of Finite Element Scheme = ",ilmax);
+  print("Dimension of algebraic eigenvalue problem = ",nel);
+  print("Maximum half bandwidth = ",iLmax*eq);
+fi;
+
+#calculation of integrals A, B and V
+if not(intprep=0)  then
+
+  for l1 from 0 to ilmax do
+    dNN(l1):=diff(NN(l1),z);
+  od;
+  
+  fda:=open(filenamei,WRITE);
+  if (FFBD=0) then FFBB:=FFB; else FFBB:=1; fi;
+  
+  for l1 from 0 to (3*ilmax) do
+   tmpvint(l1):=int(FFBB*z^l1,z=zmin0..zmax0);
+  od;  
+  if (FFBD=0) then  
+    for l1 from iNmin to ilmax do
+    for l2 from l1    to ilmax do
+      tmpv:=expand(NN(l1)*NN(l2));
+      tmpv:=factor(add(coeff(tmpv,z,rr)*tmpvint(rr),rr=0..2*ilmax));
+      fprintf(fda,cat("intB("
+        ,convert(l1,string),",",convert(l2,string)
+        ,"):=",convert(tmpv,string),";\n"));
+    od;od:
+  fi;  
+    
+  for l1 from iNmin to ilmax do
+  for l2 from l1    to ilmax do
+  for l3 from l2    to ilmax do
+    tmpv:=expand(NN(l1)*NN(l2)*NN(l3));
+    tmpv:=factor(add(coeff(tmpv,z,rr)*tmpvint(rr),rr=0..3*ilmax));
+    fprintf(fda,cat("intV("
+      ,convert(l1,string),",",convert(l2,string),",",convert(l3,string)
+      ,"):=",convert(tmpv,string),";\n"));
+  od;od;od:
+
+  if (FFAD=0) then FFAA:=FFA; else FFAA:=1; fi;
+  if (FFAA<>FFBB) then
+    tmpv:=`if`(Qap=1,3*ilmax-1,`if`(FFAD=0,2*ilmax-2,3*ilmax-2));
+    for l1 from 0 to tmpv do
+      tmpvint(l1):=int(FFAA*z^l1,z=zmin0..zmax0);
+    od;  
+  fi; 
+
+  if (FFAD=0) 
+    then
+      for l1 from iNmin to ilmax do
+      for l2 from l1    to ilmax do
+        tmpv:=expand(dNN(l1)*dNN(l2));
+        tmpv:=factor(add(coeff(tmpv,z,rr)*tmpvint(rr),rr=0..2*ilmax-2));
+        fprintf(fda,cat("intA("
+          ,convert(l1,string),",",convert(l2,string)
+          ,"):=",convert(tmpv,string),";\n"));
+      od;od:
+    else
+      for l1 from iNmin to ilmax do
+      for l2 from l1    to ilmax do
+      for l3 from iNmin    to ilmax do
+        tmpv:=expand(dNN(l1)*dNN(l2)*NN(l3));
+        tmpv:=factor(add(coeff(tmpv,z,rr)*tmpvint(rr),rr=0..3*ilmax-2));
+        fprintf(fda,cat("intAA("
+           ,convert(l1,string),",",convert(l2,string),",",convert(l3,string)
+         ,"):=",convert(tmpv,string),";\n"));
+      od;od;od:
+  fi; 
+  
+  if Qap=1 then
+    for l1 from iNmin to ilmax do
+    for l2 from iNmin to ilmax do
+    for l3 from l2 to ilmax do        
+      tmpv:=expand(dNN(l1)*NN(l2)*NN(l3));
+      tmpv:=factor(add(coeff(tmpv,z,rr)*tmpvint(rr),rr=0..3*ilmax-1));
+      fprintf(fda,cat("intQQ("
+        ,convert(l1,string),",",convert(l2,string),",",convert(l3,string)
+        ,"):=",convert(tmpv,string),";\n"));
+    od;od;od:
+  fi;
+
+  
+  close(fda);
+  print("integration time =",time()-timestart);
+  intprep:=0;
+fi;
+read filenamei:
+
+#calculation of grid points
+zz(0):=zjmin(1);
+for l1 from 1 to ngrid0 do
+  for l2 from 1 to psubint-1 do
+    zz(psubint*(l1-1)+l2):=(zjmin(l1)*(1-grid11(l2))/2+(grid11(l2)+1)*zjmax(l1)/2);
+  od;
+  zz(psubint*l1):=zjmax(l1);
+od;
+
+#calculation of piesewise polynomials
+for kappa from 0 to kappamax-1 do
+  NNN(indp(kappa+1)):=piecewise(z<zjmin(1),0
+    ,z<zjmax(1),subs(zmin0=zjmin(1),zmax0=zjmax(1),NN(kappa))
+    ,0);
+  for r1 from 1 to ngrid0 do
+    for r0 from 1 to psubint-1 do
+      NNN(indp((psubint*(r1-1)+r0)*kappamax+kappa+1)):=piecewise(z<zjmin(r1),0
+        ,z<zjmax(r1),subs(zmin0=zjmin(r1),zmax0=zjmax(r1),NN(kappamax*(r0)+kappa))
+        ,0);
+    od;
+    if(r1=ngrid0)
+     then 
+       NNN(indp(psubint*r1*kappamax+kappa+1)):=piecewise(z<zjmin(r1),0
+         ,z<=zjmax(r1),subs(zmin0=zjmin(r1),zmax0=zjmax(r1),NN(kappamax*(psubint)+kappa))
+         ,0)
+     else 
+       NNN(indp(psubint*r1*kappamax+kappa+1)):=piecewise(z<zjmin(r1),0
+         ,z<zjmax(r1),subs(zmin0=zjmin(r1),zmax0=zjmax(r1),NN(kappamax*(psubint)+kappa))
+         ,z<zjmax(r1+1),subs(zmin0=zjmin(r1+1),zmax0=zjmax(r1+1),NN(kappa))
+         ,0);
+    fi;
+od;od;
+
+#calculation of derivatives of piesewise polynomials
+for kappa1 from 1 to kappamax-1 do
+for kappa from 0 to kappamax-1 do
+  NNN(indp(kappa+1),kappa1):=piecewise(z<zjmin(1),0
+    ,z<zjmax(1),diff(subs(zmin0=zjmin(1),zmax0=zjmax(1),NN(kappa)),z$kappa1)
+    ,0);
+  for r1 from 1 to ngrid0 do
+    for r0 from 1 to psubint-1 do
+      NNN(indp((psubint*(r1-1)+r0)*kappamax+kappa+1),kappa1):=piecewise(z<zjmin(r1),0
+        ,z<zjmax(r1),diff(subs(zmin0=zjmin(r1),zmax0=zjmax(r1),NN(kappamax*(r0)+kappa)),z$kappa1)
+        ,0);
+    od;
+    if(r1=ngrid0)
+     then 
+       NNN(indp(psubint*r1*kappamax+kappa+1),kappa1):=piecewise(z<zjmin(r1),0
+         ,z<=zjmax(r1),diff(subs(zmin0=zjmin(r1),zmax0=zjmax(r1),NN(kappamax*(psubint)+kappa)),z$kappa1)
+         ,0)
+     else 
+       NNN(indp(psubint*r1*kappamax+kappa+1),kappa1):=piecewise(z<zjmin(r1),0
+         ,z<zjmax(r1),diff(subs(zmin0=zjmin(r1),zmax0=zjmax(r1),NN(kappamax*(psubint)+kappa)),z$kappa1)
+         ,z<zjmax(r1+1),diff(subs(zmin0=zjmin(r1+1),zmax0=zjmax(r1+1),NN(kappa)),z$kappa1)
+         ,0);
+    fi;
+od;od;od;
+
+#calculation of mass and stifness matrices 
+AFEM:=Matrix(nel,nel):BFEM:=Matrix(nel,nel): 
+if (femmatcal=-1)
+  then
+    read filenamea:     
+  else
+    for l0 from 1 to ngrid0 do
+    for l1 from 0 to iLmax-1 do
+      ll1:=indp(psubint*kappamax*(l0-1)+l1+1);
+      if (ll1>0) then 
+      for l2 from 0 to iLmax-1 do
+        ll2:=indp(psubint*kappamax*(l0-1)+l2+1);
+        if (ll2>0) then 
+          lk1:=min(l1,l2);lk2:=max(l1,l2);
+          if (FFAD=0)
+            then  
+              tmpv:=evalf(subs(zmin0=zjmin(l0),zmax0=zjmax(l0),intA(lk1,lk2)));
+              for l3 from 1 to eq do
+                AFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l3]:=AFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l3]+tmpv;
+              od;
+            else
+              for kappa from 0 to kappamax-1 do
+              for r0 from 0 to psubint do
+                lk3:=kappamax*(r0)+kappa;
+                tmpv:=evalf(subs(z=zz(psubint*(l0-1)+r0),vvfa(kappa,vmesh(l0)))
+                    *subs(zmin0=zjmin(l0),zmax0=zjmax(l0),intAA(lk1,lk2,lk3)));
+                for l3 from 1 to eq do
+                  AFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l3]:=AFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l3]+tmpv;
+              od;od;od;
+          fi; 
+           
+          if Qap=1 then
+            for kappa from 0 to kappamax-1 do
+            for r0 from 0 to psubint do
+              lk3:=kappamax*(r0)+kappa;
+              lk1:=min(l1,lk3);lk4:=max(l1,lk3);
+              lk2:=min(l2,lk3);lk3:=max(l2,lk3);
+              for l3 from 1 to eq do
+              for l4 from 1 to eq do
+                AFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l4]:=AFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l4]
+                  +evalf(subs(z=zz(psubint*(l0-1)+r0),qq(l3,l4,kappa,vmesh(l0)))
+                    *subs(zmin0=zjmin(l0),zmax0=zjmax(l0),intQQ(l2,lk1,lk4))) 
+                  -evalf(subs(z=zz(psubint*(l0-1)+r0),qq(l3,l4,kappa,vmesh(l0)))
+                    *subs(zmin0=zjmin(l0),zmax0=zjmax(l0),intQQ(l1,lk2,lk3)));
+            od;od;od;od;
+          fi; 
+          
+          if (FFBD=0)
+            then  
+              tmpv:=evalf(subs(zmin0=zjmin(l0),zmax0=zjmax(l0),intB(min(l1,l2),max(l1,l2))));
+              for l3 from 1 to eq do
+                BFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l3]:=BFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l3]+tmpv;
+              od;  
+            else
+              for kappa from 0 to kappamax-1 do
+              for r0 from 0 to psubint do
+                lk2:=kappamax*(r0)+kappa;
+                lk1:=min(l1,l2,lk2);lk3:=max(l1,l2,lk2);
+                lk2:=l1+l2+lk2-lk1-lk3;
+                tmpv:=evalf(subs(z=zz(psubint*(l0-1)+r0),vvfb(kappa,vmesh(l0)))
+                    *subs(zmin0=zjmin(l0),zmax0=zjmax(l0),intV(lk1,lk2,lk3)));
+                for l3 from 1 to eq do
+                  BFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l3]:=BFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l3]+tmpv;
+              od;od;od;
+          fi;  
+
+          for kappa from 0 to kappamax-1 do
+          for r0 from 0 to psubint do
+            lk2:=kappamax*(r0)+kappa;
+            lk1:=min(l1,l2,lk2);lk3:=max(l1,l2,lk2);
+            lk2:=l1+l2+lk2-lk1-lk3;
+            for l3 from 1 to eq do
+            for l4 from 1 to eq do
+              AFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l4]:=AFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l4]
+                +evalf(subs(z=zz(psubint*(l0-1)+r0),vv(l3,l4,kappa,vmesh(l0)))
+                  *subs(zmin0=zjmin(l0),zmax0=zjmax(l0),intV(lk1,lk2,lk3)));
+          od;od;od;od;
+    fi;od;fi;od;od;
+    
+    if (femmatcal=1)  then    
+      fda:=open(filenamea,WRITE);
+      for l0 from 1 to ngrid0 do
+      for l1 from 0 to iLmax-1 do
+        ll1:=indp(psubint*kappamax*(l0-1)+l1+1);
+        if (ll1>0) then 
+        for l2 from 0 to iLmax-1 do
+          ll2:=indp(psubint*kappamax*(l0-1)+l2+1);
+          if (ll2>0) then 
+          for l3 from 1 to eq do
+            for l4 from 1 to eq do
+              fprintf(fda,cat("AFEM",convert([(ll1-1)*eq+l3,(ll2-1)*eq+l4],string),":="
+               ,convert(AFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l4],string),";\n"));
+            od;  
+            fprintf(fda,cat("BFEM",convert([(ll1-1)*eq+l3,(ll2-1)*eq+l3],string),":="
+             ,convert(BFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l3],string),";\n"));
+    od;fi;od;fi;od;od;      
+      close(fda);
+      femmatcal:=-1;
+fi;fi;
+
+if (eqs>1 and Qap=1) then
+  if (DirL=3) then 
+    for l3 from 1 to eq do
+    for l4 from 1 to eq do
+      AFEM[l3,l4]:=AFEM[l3,l4]-subs(z=zmesh(0),`if`(FFAD=0,FFA,1)*qq(l3,l4,0,1));
+    od;od;
+  fi;
+  if (DirR=3) then 
+    tmpv:=(nel-kappamax*eq);
+    for l3 from 1 to eq do
+    for l4 from 1 to eq do
+      AFEM[tmpv+l3,tmpv+l4]:=AFEM[tmpv+l3,tmpv+l4]+subs(z=zmesh(nmesh1),`if`(FFAD=0,FFA,1)*qq(l3,l4,0,nmesh1));
+    od;od;
+  fi;
+fi;
+
+if (keypot=4) then
+  fda:=open("afem.dat",WRITE);  fdb:=open("bfem.dat",WRITE);  
+     for l0 from 1 to ngrid0 do
+      for l1 from 0 to iLmax-1 do
+        ll1:=indp(psubint*kappamax*(l0-1)+l1+1);
+        if (ll1>0) then 
+        for l2 from 0 to iLmax-1 do
+          ll2:=indp(psubint*kappamax*(l0-1)+l2+1);
+          if (ll2>0) then 
+          for l3 from 1 to eq do
+            for l4 from 1 to eq do
+              fprintf(fda,cat(convert((ll1-1)*eq+l3,string),"   "
+               ,convert((ll2-1)*eq+l4,string),"    "
+               ,convert(AFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l4],string),"\n"));
+            od;  
+            fprintf(fdb,cat(convert((ll1-1)*eq+l3,string),"   "
+               ,convert((ll2-1)*eq+l3,string),"    "
+               ,convert(BFEM[(ll1-1)*eq+l3,(ll2-1)*eq+l3],string),"\n"));
+  od;fi;od;fi;od;od;      
+  close(fda);  close(fdb);
+fi;
+
+nexec:=nexec+1;
+
+if  (keypot=1) then
+  if (DirL=3) then 
+    if eqs=0 
+      then
+        AFEM[1,1]:=AFEM[1,1]+subs(z=zmesh(0),`if`(FFAD=-1,FFA(1),FFA))*RBoundL; 
+      else  
+        for l3 from 1 to eq do
+        for l4 from 1 to eq do
+          AFEM[l3,l4]:=AFEM[l3,l4]+subs(z=zmesh(0),`if`(FFAD=-1,FFA(1),FFA))*RBoundL(l3,l4);
+        od;od;
+    fi;   
+  fi;
+  if (DirR=3) then 
+    if eqs=0 
+      then
+        AFEM[nel-kappamax+1,nel-kappamax+1]:=AFEM[nel-kappamax+1,nel-kappamax+1]
+          -subs(z=zmesh(nmesh1),`if`(FFAD=-1,FFA(nmesh1),FFA))*RBoundR;
+      else
+        tmpv:=(nel-kappamax*eq);
+        for l3 from 1 to eq do
+        for l4 from 1 to eq do
+          AFEM[tmpv+l3,tmpv+l4]:=AFEM[tmpv+l3,tmpv+l4]
+            -subs(z=zmesh(nmesh1),`if`(FFAD=-1,FFA(nmesh1),FFA))*RBoundR(l3,l4);
+        od;od;
+    fi;   
+  fi;
+fi;
+
+if (keypot=1) then
+  #solution of eigenvalue problem 
+  Eigenvalues(AFEM,BFEM,output='list'):
+  l0:=(sort([seq( (op(rr,%)),rr=1..nops(%))]))[1..numberf];
+  print(eigenvalues=l0);
+  if (grprint>-1) then
+    #calculation of set of "numberf" eigenfunctions 
+    vects:=Eigenvectors(AFEM,BFEM,output='list'):
+    fdb:=open(filenamew1,WRITE);
+    for r0 from 1 to nel do 
+      wst(r0):=(op(1,op(r0,vects)));wst(-r0):=r0;
+    od;
+    for l0 from 1 to numberf do 
+      for l1 from l0+1 to nel do
+        if (Re(wst(l0))>Re(wst(l1))) then
+          wst(0):=wst(l0);wst(l0):=wst(l1);wst(l1):=wst(0);
+          wst(0):=wst(-l0);wst(-l0):=wst(-l1);wst(-l1):=wst(0);
+        fi;
+    od;od;
+    for l0 from 1 to numberf do
+      r0:=wst(-l0);
+      r1:=(op(1,op(r0,vects)));
+      func1:=op(1,op(3,op(r0,vects)));
+      fprintf(fdb,cat("eigv",convert(l0,string),":=",convert(r1,string),";\n"));
+      nel1:=nel/eq;
+      for l1 from 1 to eq do
+       func1r(l1):=(add(Re(func1[(rr-1)*eq+l1])*NNN(rr),rr=1..nel1)):
+       func1i(l1):=(add(Im(func1[(rr-1)*eq+l1])*NNN(rr),rr=1..nel1)):
+      od;
+      tmpv:=0;
+      if normtp=0 
+        then
+          for l1 from 1 to eq do
+            tmpv:=tmpv
+              +evalf(int(simplify(func1r(l1)^2+func1i(l1)^2)
+                *`if`(FFBD=-1,add(piecewise(z<zmesh(rr-1),0,z<zmesh(rr),FFB(rr),0),rr=1..nmesh1),FFB)
+               ,z=zmesh(0)..zmesh(nmesh1)),Digits)
+              +2*I*evalf(int(simplify(func1r(l1)*func1i(l1))
+                *`if`(FFBD=-1,add(piecewise(z<zmesh(rr-1),0,z<zmesh(rr),FFB(rr),0),rr=1..nmesh1),FFB)
+               ,z=zmesh(0)..zmesh(nmesh1)),Digits)
+              :
+          od;
+        else
+          for l1 from 1 to eq do
+            tmpv:=tmpv+evalf(int(simplify(func1r(l1)^2+func1i(l1)^2)
+                *`if`(FFBD=-1,add(piecewise(z<zmesh(rr-1),0,z<zmesh(rr),FFB(rr),0),rr=1..nmesh1),FFB)
+               ,z=zmesh(0)..zmesh(nmesh1)),Digits):
+          od;
+      fi;
+      tmpv:=1/sqrt(tmpv);
+      for l1 from 1 to eq do
+        if normtp=0 
+          then
+            wst(0):=(func1i(l1)*Re(tmpv)+func1r(l1)*Im(tmpv));
+            func1r(l1):=(func1r(l1)*Re(tmpv)-func1i(l1)*Im(tmpv));
+            func1i(l1):=wst(0);
+          else
+            func1i(l1):=(func1i(l1)*tmpv);
+            func1r(l1):=(func1r(l1)*tmpv);
+        fi;
+      fprintf(fdb,cat("eigf",convert(l0,string)
+         ,`if`(eqs=0," ",cat("(",convert(l1,string),")"))
+         ,":=",convert(func1r(l1),string),";\n"));
+      fprintf(fdb,cat("eigfi",convert(l0,string)
+         ,`if`(eqs=0," ",cat("(",convert(l1,string),")"))
+         ,":=",convert(func1i(l1),string),";\n"));
+      od;
+      if (grprint>0) then
+        plot([seq(func1r(lll1),lll1=1..eq),seq(func1i(lll1),lll1=1..eq)],z=zmesh(0)..zmesh(nmesh1)
+          ,groptss
+          ,title=cat("eigv",convert(l0,string),"=",convert(r1,string)));
+        print(%);
+      fi; 
+    od: 
+    close(fdb);
+  fi;
+  print("full time=",time()-timestart);
+  infopr:=0;
+  RETURN();
+fi;
+
+lenww:=iLmax*eq-1;
+
+if (keypot=3) then
+  AFEM1:=Matrix(nel,nel):
+  Gba:=Matrix(nel,1,datatype=complex):
+  Phinkm:=Matrix(nel,1,datatype=complex);
+  temp:=Matrix(nel,1,datatype=complex);
+  temp1:=Matrix(nel,1,datatype=complex);
+  if eqs=0 
+    then
+      for kappa from 0 to kappamax-1 do
+        for r0 from 0 to psubint*ngrid0 do
+          l2:=indp((r0*kappamax+kappa)+1);
+          if l2>0 then 
+            tmpvint:=eval(subs(z=zz(r0),Phink));
+            if not(type(Re(tmpvint),numeric)
+                 and type(Im(tmpvint),numeric)) then 
+              tmpvint:=eval(subs(z=zz(r0)+0.2^Digits,Phink));
+              if not(type(Re(tmpvint),numeric)
+                 and type(Im(tmpvint),numeric)) then 
+                tmpvint:=0;
+            fi;fi;
+            Phinkm[l2,1]:=tmpvint;
+          fi;
+        od;
+        if (kappa<>kappamax-1) then Phink:=diff(Phink,z); fi;
+      od;
+    else
+      for l1 from 1 to eq do
+        for kappa from 0 to kappamax-1 do
+          for r0 from 0 to psubint*ngrid0 do
+            l2:=indp((r0*kappamax+kappa)+1)*eq-eq+l1;
+            if l2>0 then 
+              tmpvint:=eval(subs(z=zz(r0),Phink(l1)));
+              if not(type(Re(tmpvint),numeric)
+                 and type(Im(tmpvint),numeric)) then 
+                tmpvint:=eval(subs(z=zz(r0)+0.2^Digits,Phink(l1)));
+                if not(type(Re(tmpvint),numeric)
+                    and type(Im(tmpvint),numeric)) then 
+                  tmpvint:=0;
+              fi;fi;
+              Phinkm[l2,1]:=tmpvint;
+            fi;
+          od;
+          if (kappa<>kappamax-1) then Phink(l1):=diff(Phink(l1),z); fi;
+        od;
+     od;
+  fi;
+
+  muk:=1;
+  if (DirL=3) then 
+    if eqs=0 
+      then
+        DRBoundL(1,1):=diff(RBoundL,EEh); 
+      else  
+        for l3 from 1 to eq do
+        for l4 from 1 to eq do
+          DRBoundL(l3,l4):=diff(RBoundL(l3,l4),EEh);  
+        od;od;
+    fi;   
+  fi;
+  if (DirR=3) then 
+    if eqs=0 
+      then
+        DRBoundR(1,1):=diff(RBoundR,EEh); 
+      else  
+        for l3 from 1 to eq do
+        for l4 from 1 to eq do
+          DRBoundR(l3,l4):=diff(RBoundR(l3,l4),EEh);  
+        od;od;
+    fi;   
+  fi;
+  prodband(BFEM,Phinkm,Gba,nel,lenww);
+  if normtp=0 
+  then
+    mukd:=Transpose(Phinkm).Gba;
+  else
+    mukd:=HermitianTranspose(Phinkm).Gba;
+  fi; 
+  Phinkm:=Phinkm/sqrt(mukd[1,1]);  
+  prodband(BFEM,Phinkm,Gba,nel,lenww);
+  if normtp=0 
+  then
+    mukd:=Transpose(Phinkm).Gba;
+  else
+    mukd:=HermitianTranspose(Phinkm).Gba;
+  fi; 
+ 
+  absmuk:=1;itern:=0;
+  while (absmuk>10^(3-Digits) and itermax1>0) do
+    tauk:=1;itern:=itern+1;
+    itermax1:=itermax1-1;
+    prodband(BFEM,Phinkm,Gba,nel,lenww):
+    tmpv:=(nel-kappamax*eq);
+    for l3 from 1 to eq do
+    for l4 from 1 to eq do
+      if (DirL=3) then     
+        Gba[l3,1]:=Gba[l3,1]
+          -subs(z=zmesh(0),`if`(FFAD=-1,FFA(1),FFA))
+            *subs(EEh=Eh,DRBoundL(l3,l4))*Phinkm[l4,1]; 
+      fi;
+      if (DirR=3) then
+        Gba[tmpv+l3,1]:=Gba[tmpv+l3,1]
+          +subs(z=zmesh(nmesh1),`if`(FFAD=-1,FFA(nmesh1),FFA))
+            *subs(EEh=Eh,DRBoundR(l3,l4))*Phinkm[tmpv+l4,1]; 
+      fi; 
+    od;od;
+
+    for l1 from 1 to nel do
+      l2min:=max(1,l1-lenww);
+      l2max:=min(nel,l1+lenww);
+      for l2 from l2min to l2max do
+        AFEM1[l1,l2]:=AFEM[l1,l2]-Eh*BFEM[l1,l2];  
+      od;
+    od;
+
+    if (DirL=3) then 
+        if eqs=0 
+          then
+            AFEM1[1,1]:=AFEM1[1,1]+subs(z=zmesh(0),`if`(FFAD=-1,FFA(1),FFA))*subs(EEh=Eh,RBoundL); 
+          else  
+            for l3 from 1 to eq do
+            for l4 from 1 to eq do
+              AFEM1[l3,l4]:=AFEM1[l3,l4]+subs(z=zmesh(0),FFA)*subs(EEh=Eh,RBoundL(l3,l4));
+            od;od;
+       fi;   
+    fi;
+
+    if (DirR=3) then 
+      if eqs=0 
+        then
+          AFEM1[nel-kappamax+1,nel-kappamax+1]:=AFEM1[nel-kappamax+1,nel-kappamax+1]
+          -subs(z=zmesh(nmesh1),`if`(FFAD=-1,FFA(nmesh1),FFA))*subs(EEh=Eh,RBoundR);
+        else
+          tmpv:=(nel-kappamax*eq);
+          for l3 from 1 to eq do
+          for l4 from 1 to eq do
+            AFEM1[tmpv+l3,tmpv+l4]:=AFEM1[tmpv+l3,tmpv+l4]
+              -subs(z=zmesh(nmesh1),`if`(FFAD=-1,FFA(nmesh1),FFA))*subs(EEh=Eh,RBoundR(l3,l4));
+          od;od;
+      fi;   
+    fi;
+
+    linearsolverband(AFEM1,Gba,nel,lenww);
+    Vnew1:=-Phinkm;
+   
+    if (mukc=1)   
+      then
+        if normtp=0 
+          then
+            prodband(AFEM1,Phinkm,temp,nel,lenww):
+            prodband(BFEM,Phinkm,temp1,nel,lenww):
+            mukn:=Transpose(Phinkm).temp; 
+            mukd:=Transpose(Phinkm).temp1; 
+          else
+            prodband(AFEM1,Phinkm,temp,nel,lenww):
+            prodband(BFEM,Phinkm,temp1,nel,lenww):
+            mukn:=HermitianTranspose(Phinkm).temp; 
+            mukd:=HermitianTranspose(Phinkm).temp1; 
+        fi; 
+        muk:=mukn[1,1]/mukd[1,1];
+        rk2old:=Re(HermitianTranspose(temp).temp); 
+        Phinkm1:=Gba*muk;                
+        prodband(BFEM,Phinkm1,temp1,nel,lenww):
+        if normtp=0 
+        then
+          mukd:=Transpose(Phinkm1).temp1;
+        else
+          mukd:=HermitianTranspose(Phinkm1).temp1;
+        fi; 
+        Phinkm1:=Phinkm1/sqrt(mukd[1,1]); 
+        Eh1:=Eh+ muk;
+        for l1 from 1 to nel do
+          l2min:=max(1,l1-lenww);
+          l2max:=min(nel,l1+lenww);
+          for l2 from l2min to l2max do
+            AFEM1[l1,l2]:=AFEM[l1,l2]-Eh1*BFEM[l1,l2];  
+          od;
+        od;
+        
+        if (DirL=3) then 
+            if eqs=0 
+              then
+                AFEM1[1,1]:=AFEM1[1,1]+subs(z=zmesh(0),`if`(FFAD=-1,FFA(1),FFA))*subs(EEh=Eh1,RBoundL); 
+              else  
+                for l3 from 1 to eq do
+                for l4 from 1 to eq do
+                  AFEM1[l3,l4]:=AFEM1[l3,l4]+subs(z=zmesh(0),`if`(FFAD=-1,FFA(1),FFA))*subs(EEh=Eh1,RBoundL(l3,l4));
+                od;od;
+           fi;   
+        fi;
+        
+        if (DirR=3) then 
+          if eqs=0 
+            then
+              AFEM1[nel-kappamax+1,nel-kappamax+1]:=AFEM1[nel-kappamax+1,nel-kappamax+1]
+              -subs(z=zmesh(nmesh1),`if`(FFAD=-1,FFA(nmesh1),FFA))*subs(EEh=Eh1,RBoundR);
+            else
+              tmpv:=(nel-kappamax*eq);
+              for l3 from 1 to eq do
+              for l4 from 1 to eq do
+                AFEM1[tmpv+l3,tmpv+l4]:=AFEM1[tmpv+l3,tmpv+l4]
+                  -subs(z=zmesh(nmesh1),`if`(FFAD=-1,FFA(nmesh1),FFA))*subs(EEh=Eh1,RBoundR(l3,l4));
+              od;od;
+          fi;   
+        fi;        
+        if mukopt=1 then 
+          prodband(AFEM1,Phinkm1,temp1,nel,lenww):
+          rk2new:=Re(HermitianTranspose(temp1).temp1);
+          tauk:=rk2old[1,1]/(rk2old[1,1]+rk2new[1,1]);
+        fi;
+        Eh:=Eh+ muk*tauk;
+        if(infoerr=1) then
+          print("V: iteration=",itern," E=",Eh," muk=",muk," tauk=",tauk);
+        fi;  
+        Phinkm:=Phinkm+(Gba*muk+Vnew1)*tauk;                
+        prodband(BFEM,Phinkm,temp1,nel,lenww):
+        if normtp=0 
+        then
+          mukd:=Transpose(Phinkm).temp1;
+        else
+          mukd:=HermitianTranspose(Phinkm).temp1;
+        fi; 
+        Phinkm:=Phinkm/sqrt(mukd[1,1]);   
+      else
+        if normtp=0 
+          then
+            prodband(BFEM,Phinkm,temp,nel,lenww):
+            mukn:=Transpose(Phinkm).temp; 
+            mukd:=Transpose(Gba).temp; 
+            muk:=(1+mukn[1,1])/2/mukd[1,1];
+          else
+            prodband(BFEM,Phinkm,temp,nel,lenww):
+            mukn:=HermitianTranspose(Phinkm).temp; 
+            mukd:=HermitianTranspose(Gba).temp;
+            muk:=(1+mukn[1,1])/2/conjugate(mukd[1,1]);
+        fi; 
+        if mukopt=1 then 
+          prodband(AFEM1,Phinkm,temp,nel,lenww):
+          prodband(BFEM,Vnew1+muk*Gba,temp1,nel,lenww):
+          rk2:=HermitianTranspose(temp).temp; 
+          bvk:=HermitianTranspose(temp1).temp1;         
+          rkvk:=HermitianTranspose(temp).temp1;
+          feq:=(1-tt)^2*Re(rk2[1,1])-2*(1-tt)*tt^2*Re(rkvk[1,1]*muk)+tt^4*abs(muk)^2*Re(bvk[1,1]);
+          tauk:=fsolve(evalf(diff(feq,tt)),tt,0..2);
+        fi;  
+        Eh:=Eh+ muk*tauk;   
+        Phinkm:=Phinkm+(Vnew1+muk*Gba)*tauk;
+        prodband(BFEM,Phinkm,temp,nel,lenww):   
+        if normtp=0 
+          then
+            mukd:=Transpose(Phinkm).temp;
+          else
+            mukd:=HermitianTranspose(Phinkm).temp;
+        fi;
+        if(infoerr=1) then
+          print("N: iteration=",itern," E=",Eh," muk=",muk," tauk=",tauk);
+        fi;  
+    fi; 
+     
+    absmuk:=abs(muk);
+
+    nel1:=nel/eq;
+    if eqs=0 
+      then
+        Phink:=simplify(add( (Phinkm[rr,1])*NNN(rr),rr=1..nel1)):
+      else
+        for l1 from 1 to eq do
+          Phink(l1):=simplify(add( (Phinkm[(rr-1)*eq+l1,1])*NNN(rr),rr=1..nel1)):
+        od;
+    fi;
+    
+    if (grprint=2) then
+      if eqs=0 
+        then
+          plot([Re(Phink),Im(Phink)]
+            ,z=zmesh(0)..zmesh(nmesh1)
+            ,groptss
+            ,title=convert(Eh,string));
+          print(%);
+        else
+          plot([seq(Re(Phink(lll1)),lll1=1..eq),seq(Im(Phink(lll1)),lll1=1..eq)]
+            ,z=zmesh(0)..zmesh(nmesh1)
+            ,groptss
+            ,title=convert(Eh,string));
+          print(%);
+      fi;    
+    fi; 
+  od;
+  
+  if (grprint>-1) then
+    fdb:=open(filenamew1,WRITE);
+    nel1:=nel/eq;
+    fprintf(fdb,cat("eigv:=",convert(Eh,string),";\n"));
+    for l1 from 1 to eq do
+      fprintf(fdb,cat("eigf(",convert(l1,string),"):="
+        ,convert(simplify(add( evalc(Re(Phinkm[(rr-1)*eq+l1,1]))*NNN(rr),rr=1..nel1)),string),";\n"));
+      fprintf(fdb,cat("eigfi(",convert(l1,string),"):="
+        ,convert(simplify(add( evalc(Im(Phinkm[(rr-1)*eq+l1,1]))*NNN(rr),rr=1..nel1)),string),";\n"));
+    od;
+    if (grprint>0) then
+      if eqs=0 
+        then
+          plot([Re(Phink),Im(Phink)]
+            ,z=zmesh(0)..zmesh(nmesh1)
+            ,groptss
+            ,title=convert(Eh,string));
+          print(%);
+        else
+          plot([seq(Re(Phink(lll1)),lll1=1..eq),seq(Im(Phink(lll1)),lll1=1..eq)]
+            ,z=zmesh(0)..zmesh(nmesh1)
+            ,groptss
+            ,title=convert(Eh,string));
+          print(%);
+      fi;    
+    fi; 
+    close(fdb);
+  fi;
+  print("full time=",time()-timestart);
+  infopr:=0;
+  RETURN();
+fi;
+
+if (keypot=2) then
+  Gaa:=Matrix(eq,eq):
+  Gab:=Matrix(eq,nel-2*eq):
+  Gba:=Matrix(nel-2*eq,eq):
+  Gbb:=Matrix(nel-2*eq,nel-2*eq):
+  Gbc:=Matrix(nel-2*eq,eq):
+  Gcb:=Matrix(eq,nel-2*eq):
+  Gcc:=Matrix(eq,eq):
+  Phiascat:=Matrix(eq,1);
+  Phibscat:=Matrix(nel-2*eq,1);
+  Phicscat:=Matrix(eq,1);
+  DPhiascat:=Matrix(eq,1);
+  DPhicscat:=Matrix(eq,1);
+  tmpv:=(nel-kappamax*eq);
+  #indp is destroyed
+  for l1 from 1 to eq do
+    indp(l1):=0;
+    indp(tmpv+l1):=0;
+  od; 
+  for l1 from eq+1 to tmpv do
+    indp(l1):=l1-eq;
+  od;
+  for l1 from tmpv+eq+1 to nel do
+    indp(l1):=l1-2*eq;
+  od; 
+
+  for l1 from 1 to eq do
+    for l2 from 1 to eq do
+      Gaa[l1,l2]:=AFEM[l1,l2]-Eh*BFEM[l1,l2];
+      Gcc[l1,l2]:=AFEM[tmpv+l1,tmpv+l2]-Eh*BFEM[tmpv+l1,tmpv+l2];
+  od;od;
+
+  for l1 from 1 to nel do
+    if indp(l1)>0 then
+      for l2 from 1 to nel do
+        if indp(l2)>0 then
+          Gbb[indp(l1),indp(l2)]:=AFEM[l1,l2]-Eh*BFEM[l1,l2]; 
+      fi;od;
+      for l2 from 1 to eq do
+        Gba[indp(l1),l2]:=AFEM[l1,l2]-Eh*BFEM[l1,l2]; 
+        Gbc[indp(l1),l2]:=AFEM[l1,tmpv+l2]-Eh*BFEM[l1,tmpv+l2]; 
+        Gab[l2,indp(l1)]:=AFEM[l2,l1]-Eh*BFEM[l2,l1]; 
+        Gcb[l2,indp(l1)]:=AFEM[tmpv+l2,l1]-Eh*BFEM[tmpv+l2,l1]; 
+      od;
+  fi;od;
+   
+  linearsolverband(Gbb,Gba,nel-2*eq,lenww);
+  linearsolverband(Gbb,Gbc,nel-2*eq,lenww);
+
+  Yaa:=Gaa-Gab.Gba;
+  Yac:=-Gab.Gbc;
+  Yca:=-Gcb.Gba;
+  Ycc:=Gcc-Gcb.Gbc;
+  
+#p2OC is a cond >0 Open <0 closed 0 threshold 
+  if(DirL=0 and asymexp=0)then 
+    FFAL:=subs(z=zmesh(0),`if`(FFAD=-1,FFA(1),FFA));
+    FFBL:=subs(z=zmesh(0),`if`(FFBD=-1,FFB(1),FFB));
+    for l1 from 1 to eq do
+      Lp2OC(l1):=FFAL/FFBL*subs(z=zmesh(0     ),(Eh-vv(l1,l1,0,1)));
+    od;
+    for l1 from 1 to eq do
+      for l2 from 1 to eq do
+        LBoundLR(l1,l2) :=`if`(l1=l2,evalf(   exp( I*sqrt(Lp2OC(l1))*zmesh(0     ))/sqrt(FFBL*sqrt(Lp2OC(l1)))),0);
+        LBoundRL(l1,l2) :=`if`(l1=l2,evalf(   exp(-I*sqrt(Lp2OC(l1))*zmesh(0     ))/sqrt(FFBL*sqrt(Lp2OC(l1)))),0);
+        DLBoundLR(l1,l2):=`if`(l1=l2,evalf( I*exp( I*sqrt(Lp2OC(l1))*zmesh(0     ))*sqrt(FFAL*sqrt(Lp2OC(l1)))),0);
+        DLBoundRL(l1,l2):=`if`(l1=l2,evalf(-I*exp(-I*sqrt(Lp2OC(l1))*zmesh(0     ))*sqrt(FFAL*sqrt(Lp2OC(l1)))),0);
+        LBoundC(l1,l2)  :=`if`(l1=l2,evalf(   exp(  sqrt(-Lp2OC(l1))*zmesh(0     ))),0);
+        DLBoundC(l1,l2) :=`if`(l1=l2,evalf(   exp(  sqrt(-Lp2OC(l1))*zmesh(0     ))*sqrt(-Lp2OC(l1))),0);
+  od;od;fi;  
+  if(DirR=0 and asymexp=0) then
+    FFAR:=subs(z=zmesh(nmesh1),`if`(FFAD=-1,FFA(nmesh1),FFA));
+    FFBR:=subs(z=zmesh(nmesh1),`if`(FFBD=-1,FFB(nmesh1),FFB));
+    for l1 from 1 to eq do
+      Rp2OC(l1):=FFAR/FFBR*subs(z=zmesh(nmesh1),(Eh-vv(l1,l1,0,nmesh1)));
+    od;
+    for l1 from 1 to eq do
+      for l2 from 1 to eq do
+        RBoundLR(l1,l2) :=`if`(l1=l2,evalf(   exp( I*sqrt(Rp2OC(l1))*zmesh(nmesh1))/sqrt(FFBR*sqrt(Rp2OC(l1)))),0);
+        RBoundRL(l1,l2) :=`if`(l1=l2,evalf(   exp(-I*sqrt(Rp2OC(l1))*zmesh(nmesh1))/sqrt(FFBR*sqrt(Rp2OC(l1)))),0);
+        DRBoundLR(l1,l2):=`if`(l1=l2,evalf( I*exp( I*sqrt(Rp2OC(l1))*zmesh(nmesh1))*sqrt(FFAR*sqrt(Rp2OC(l1)))),0);
+        DRBoundRL(l1,l2):=`if`(l1=l2,evalf(-I*exp(-I*sqrt(Rp2OC(l1))*zmesh(nmesh1))*sqrt(FFAR*sqrt(Rp2OC(l1)))),0);
+        RBoundC(l1,l2)  :=`if`(l1=l2,evalf(   exp( -sqrt(-Rp2OC(l1))*zmesh(nmesh1))),0);
+        DRBoundC(l1,l2) :=`if`(l1=l2,evalf(  -exp( -sqrt(-Rp2OC(l1))*zmesh(nmesh1))*sqrt(-Rp2OC(l1))),0);
+  od;od;fi;  
+  NOpenL:=0;NOpenR:=0;  NCloseL:=0;NCloseR:=0;
+  if(DirL<1)
+    then
+      for l1 from 1 to eq do
+        if(evalf(Re(Lp2OC(l1)))>0) 
+         then
+           NOpenL:=NOpenL+1;
+           COpenL(NOpenL):=l1;
+         else  
+           NCloseL:=NCloseL+1;
+           CCloseL(NCloseL):=l1;
+        fi;
+      od;    
+    else    
+      NCloseL:=eq;
+  fi;
+  if(DirR<1)
+    then
+      for l1 from 1 to eq do
+       if(evalf(Re(Rp2OC(l1)))>0) 
+        then
+          NOpenR:=NOpenR+1;
+          COpenR(NOpenR):=l1;
+         else  
+           NCloseR:=NCloseR+1;
+           CCloseR(NCloseR):=l1;
+       fi;
+      od;
+    else
+      NCloseR:=eq;
+  fi;
+  
+  if(NOpenL+NOpenR=0) then print("No open channels");RETURN();fi; 
+  print('NOpenL'=NOpenL,'NOpenR'=NOpenR);
+  if (grprint>-1) then   fdb:=open(filenamew1,WRITE); fi;
+  
+  if(NOpenL>0) then
+    RLRscat :=Matrix(NOpenL,NOpenL,symbol=RLR):
+    if(NCloseL>0) then RLRscatc:=Matrix(NCloseL,NOpenL,symbol=RLRc):fi;
+    if(NOpenR>0) then TLRscat :=Matrix(NOpenR,NOpenL,symbol=TLR):fi;
+    if(NCloseR>0) then TLRscatc:=Matrix(NCloseR,NOpenL,symbol=TLRc):fi;
+  fi;
+  if(NOpenR>0) then
+    RRLscat :=Matrix(NOpenR,NOpenR,symbol=RRL):
+    if(NCloseR>0) then   RRLscatc:=Matrix(NCloseR,NOpenR,symbol=RRLc):fi;
+    if(NOpenL>0) then   TRLscat :=Matrix(NOpenL,NOpenR,symbol=TRL):fi;
+    if(NCloseL>0) then   TRLscatc:=Matrix(NCloseL,NOpenR,symbol=TRLc):fi;
+  fi;
+
+  for l2 from 1 to NOpenL do
+   for l1 from 1 to eq do
+     Phiascat[l1,1] := LBoundLR(l1,COpenL(l2));
+     DPhiascat[l1,1]:=DLBoundLR(l1,COpenL(l2));
+     for l3 from 1 to NOpenL do 
+       Phiascat[l1,1] := Phiascat[l1,1]+ LBoundRL(l1,COpenL(l3))*RLRscat[l3,l2];
+       DPhiascat[l1,1]:=DPhiascat[l1,1]+DLBoundRL(l1,COpenL(l3))*RLRscat[l3,l2];
+     od;  
+     for l3 from 1 to NCloseL do 
+       Phiascat[l1,1] := Phiascat[l1,1]+ LBoundC(l1,CCloseL(l3))*RLRscatc[l3,l2];
+       DPhiascat[l1,1]:=DPhiascat[l1,1]+DLBoundC(l1,CCloseL(l3))*RLRscatc[l3,l2];
+     od;
+
+     Phicscat[l1,1]:=0;
+     DPhicscat[l1,1]:=0;
+     for l3 from 1 to NOpenR do 
+       Phicscat[l1,1] :=Phicscat[l1,1] + RBoundLR(l1,COpenR(l3))*TLRscat[l3,l2];
+       DPhicscat[l1,1]:=DPhicscat[l1,1]+DRBoundLR(l1,COpenR(l3))*TLRscat[l3,l2];
+     od;  
+    if(DirR<1)then
+       for l3 from 1 to NCloseR do 
+         Phicscat[l1,1] :=Phicscat[l1,1] + RBoundC(l1,CCloseR(l3))*TLRscatc[l3,l2];
+         DPhicscat[l1,1]:=DPhicscat[l1,1]+DRBoundC(l1,CCloseR(l3))*TLRscatc[l3,l2];
+       od;
+      elif(DirR>1)then
+       Phicscat[l1,1]:=TLRscatc[l1,l2];
+       if(DirR=3)then
+         for l3 from 1 to NCloseR do 
+           DPhicscat[l1,1]:=DPhicscat[l1,1]+RBoundR(l1,l3)*TLRscatc[l3,l2];
+       od;fi;
+    fi;
+   od;
+   if(DirR=1)then
+     eqsscat1:=evalf(Yaa.Phiascat+DPhiascat,Digits);
+     solscat:=fsolve({seq(eqsscat1[lll1,1],lll1=1..eq)});
+    else
+     eqsscat1:=evalf(Yaa.Phiascat+Yac.Phicscat+DPhiascat,Digits);   
+     eqsscat2:=evalf(Yca.Phiascat+Ycc.Phicscat-DPhicscat,Digits);
+     solscat:=fsolve({seq(eqsscat1[lll1,1],lll1=1..eq),seq(eqsscat2[lll1,1],lll1=1..eq)});    
+   fi;  
+    RLRscat :=subs(solscat,RLRscat): 
+    if(NCloseL>0) then RLRscatc:=subs(solscat,RLRscatc):fi;
+    if(NOpenR>0) then TLRscat :=subs(solscat,TLRscat):fi;
+    if(NCloseR>0) then TLRscatc:=subs(solscat,TLRscatc):fi;
+    
+    if (grprint>-1) then
+      Phiascat:=evalf(subs(solscat,Phiascat),Digits): 
+      Phicscat:=evalf(subs(solscat,Phicscat),Digits): 
+      Phibscat:=evalf(-Gba.Phiascat-Gbc.Phicscat,Digits):
+      nel1:=nel/eq;
+      for l4 from 1 to eq do
+        func1LRr(l4,l2):=Re(Phiascat[l4,1])*NNN(1)+Re(Phicscat[l4,1])*NNN(nel1-kappamax+1)
+         +add(Re(Phibscat[(rr-2)*eq+l4,1])*NNN(rr),rr=2..nel1-kappamax) 
+         +add(Re(Phibscat[(rr-3)*eq+l4,1])*NNN(rr),rr=nel1-kappamax+2..nel1);
+        func1LRi(l4,l2):=Im(Phiascat[l4,1])*NNN(1)+Im(Phicscat[l4,1])*NNN(nel1-kappamax+1)
+         +add(Im(Phibscat[(rr-2)*eq+l4,1])*NNN(rr),rr=2..nel1-kappamax) 
+         +add(Im(Phibscat[(rr-3)*eq+l4,1])*NNN(rr),rr=nel1-kappamax+2..nel1):
+        fprintf(fdb,cat("eigfLRr(",convert(l4,string),",",convert(l2,string),"):="
+         ,convert(func1LRr(l4,l2),string),";\n"));
+        fprintf(fdb,cat("eigfLRi(",convert(l4,string),",",convert(l2,string),"):="
+         ,convert(func1LRi(l4,l2),string),";\n"));
+      od;
+      if (grprint=1) then
+        plot([seq(func1LRr(lll1,l2),lll1=1..eq),seq(func1LRi(lll1,l2),lll1=1..eq)]
+          ,z=zmesh(0)..zmesh(nmesh1)
+          ,groptss
+          ,title=cat(convert(LR(l2),string),": E=",convert(Eh,string)));
+        print(%);
+      fi;
+    fi;
+  od;    
+ 
+  for l2 from 1 to NOpenR do
+   for l1 from 1 to eq do
+     Phicscat[l1,1]:=RBoundRL(l1,COpenR(l2));
+     DPhicscat[l1,1]:=DRBoundRL(l1,COpenR(l2));
+     for l3 from 1 to NOpenR do 
+       Phicscat[l1,1]:=Phicscat[l1,1]+RBoundLR(l1,COpenR(l3))*RRLscat[l3,l2];
+       DPhicscat[l1,1]:=DPhicscat[l1,1]+DRBoundLR(l1,COpenR(l3))*RRLscat[l3,l2];
+     od;  
+     for l3 from 1 to NCloseR do 
+       Phicscat[l1,1]:=Phicscat[l1,1]+RBoundC(l1,CCloseR(l3))*RRLscatc[l3,l2];
+       DPhicscat[l1,1]:=DPhicscat[l1,1]+DRBoundC(l1,CCloseR(l3))*RRLscatc[l3,l2];
+     od;
+     
+     Phiascat[l1,1]:=0;
+     DPhiascat[l1,1]:=0;
+     for l3 from 1 to NOpenL do 
+       Phiascat[l1,1]:=Phiascat[l1,1]+LBoundRL(l1,COpenL(l3))*TRLscat[l3,l2];
+       DPhiascat[l1,1]:=DPhiascat[l1,1]+DLBoundRL(l1,COpenL(l3))*TRLscat[l3,l2];
+     od;  
+     if(DirL<1)then
+       for l3 from 1 to NCloseL do 
+         Phiascat[l1,1]:=Phiascat[l1,1]+LBoundC(l1,CCloseL(l3))*TRLscatc[l3,l2];
+         DPhiascat[l1,1]:=DPhiascat[l1,1]+DLBoundC(l1,CCloseL(l3))*TRLscatc[l3,l2];
+       od;
+      elif(DirL>1)then
+       Phiascat[l1,1]:=TRLscatc[l1,l2];
+       if(DirL=3)then
+         for l3 from 1 to NCloseL do 
+           DPhiascat[l1,1]:=DPhiascat[l1,1]+RBoundL(l1,l3)*TRLscatc[l3,l2];
+       od;fi;
+     fi;
+   od;
+
+   if(DirL=1)then
+     eqsscat1:=evalf(Ycc.Phicscat-DPhicscat,Digits);
+     solscat:=fsolve({seq(eqsscat1[lll1,1],lll1=1..eq)});
+    else
+     eqsscat1:=evalf(Yaa.Phiascat+Yac.Phicscat+DPhiascat,Digits);   
+     eqsscat2:=evalf(Yca.Phiascat+Ycc.Phicscat-DPhicscat,Digits);
+     solscat:=fsolve({seq(eqsscat1[lll1,1],lll1=1..eq),seq(eqsscat2[lll1,1],lll1=1..eq)});
+   fi;  
+
+   RRLscat :=subs(solscat,RRLscat):
+   if(NCloseR>0) then RRLscatc:=subs(solscat,RRLscatc):fi;
+   if(NOpenL>0) then  TRLscat :=subs(solscat,TRLscat):fi;
+   if(NCloseL>0) then TRLscatc:=subs(solscat,TRLscatc):fi;
+   
+   if (grprint>-1) then
+     Phiascat:=evalf(subs(solscat,Phiascat),Digits): 
+     Phicscat:=evalf(subs(solscat,Phicscat),Digits): 
+     Phibscat:=evalf(-Gba.Phiascat-Gbc.Phicscat,Digits):
+     nel1:=nel/eq;
+     for l4 from 1 to eq do
+       func1RLr(l4,l2):=Re(Phiascat[l4,1])*NNN(1)+Re(Phicscat[l4,1])*NNN(nel1-kappamax+1)
+        +add(Re(Phibscat[(rr-2)*eq+l4,1])*NNN(rr),rr=2..nel1-kappamax) 
+        +add(Re(Phibscat[(rr-3)*eq+l4,1])*NNN(rr),rr=nel1-kappamax+2..nel1):
+       func1RLi(l4,l2):=Im(Phiascat[l4,1])*NNN(1)+Im(Phicscat[l4,1])*NNN(nel1-kappamax+1)
+        +add(Im(Phibscat[(rr-2)*eq+l4,1])*NNN(rr),rr=2..nel1-kappamax) 
+        +add(Im(Phibscat[(rr-3)*eq+l4,1])*NNN(rr),rr=nel1-kappamax+2..nel1):
+       fprintf(fdb,cat("eigfRLr(",convert(l4,string),",",convert(l2,string),"):="
+        ,convert(func1RLr(l4,l2),string),";\n"));
+       fprintf(fdb,cat("eigfRLi(",convert(l4,string),",",convert(l2,string),"):="
+        ,convert(func1RLi(l4,l2),string),";\n"));
+     od;
+     if (grprint>0) then
+       plot([seq(func1RLr(lll1,l2),lll1=1..eq),seq(func1RLi(lll1,l2),lll1=1..eq)]
+         ,z=zmesh(0)..zmesh(nmesh1)
+         ,groptss
+         ,title=cat(convert(RL(l2),string),": E=",convert(Eh,string)));
+       print(%);
+     fi;
+   fi;
+  od;    
+ 
+  Smatr:=Matrix(NOpenL+NOpenR,NOpenL+NOpenR):
+  if(infopr=1)then
+    for l2 from 1 to NOpenL do     
+      for l1 from 1 to NOpenL do 
+        Smatr[l1,l2]:=RLR[l1,l2];
+      od;
+      for l1 from 1 to NOpenR do 
+        Smatr[l1+NOpenL,l2]:=TLR[l1,l2];
+      od;  
+    od;
+    for l2 from 1 to NOpenR do     
+      for l1 from 1 to NOpenL do 
+        Smatr[l1,l2+NOpenL]:=TRL[l1,l2];
+      od;  
+      for l1 from 1 to NOpenR do 
+        Smatr[l1+NOpenL,l2+NOpenL]:=RRL[l1,l2];
+      od;
+    od;
+    print('Smatr'=Smatr);
+  fi;
+  
+  for l2 from 1 to NOpenL do     
+    for l1 from 1 to NOpenL do 
+      Smatr[l1,l2]:=RLRscat[l1,l2];
+    od;
+    for l1 from 1 to NOpenR do 
+      Smatr[l1+NOpenL,l2]:=TLRscat[l1,l2];
+    od;  
+  od;
+  for l2 from 1 to NOpenR do     
+    for l1 from 1 to NOpenL do 
+      Smatr[l1,l2+NOpenL]:=TRLscat[l1,l2];
+    od;  
+    for l1 from 1 to NOpenR do 
+      Smatr[l1+NOpenL,l2+NOpenL]:=RRLscat[l1,l2];
+    od;
+  od;
+  print('Smatr'=Smatr);
+  if (grprint>-1) then
+    if(NOpenL>0) then
+      fprintf(fdb,cat("RLRscat:=",convert(RLRscat,string),";\n"));
+      if(NCloseL>0) then fprintf(fdb,cat("RLRscatc:=",convert(RLRscatc,string),";\n"));fi;
+      if(NOpenR>0) then fprintf(fdb,cat("TLRscat:=",convert(TLRscat,string),";\n"));fi;
+      if(NCloseR>0) then fprintf(fdb,cat("TLRscatc:=",convert(TLRscatc,string),";\n"));fi;
+    fi;
+    if(NOpenR>0) then
+      fprintf(fdb,cat("RRLscat:=",convert(RRLscat,string),";\n"));
+      if(NCloseR>0) then   fprintf(fdb,cat("RRLscatc:=",convert(RRLscatc,string),";\n"));fi;
+      if(NOpenL>0) then   fprintf(fdb,cat("TRLscat:=",convert(TRLscat,string),";\n"));fi;
+      if(NCloseL>0) then   fprintf(fdb,cat("TRLscatc:=",convert(TRLscatc,string),";\n"));fi;
+    fi;
+    fprintf(fdb,cat("Smatr:=",convert(Smatr,string),";\n"));
+    close(fdb); 
+  fi;
+  print("full time=",time()-timestart);
+  RETURN();
+fi;
+end:
+
+
+linearsolverband:=proc(AA,bb,n,lenw)
+  local j, i, vv, DD, k, LL;
+  for j from 1 to n do
+    for i from max(1,j-lenw) to j-1 do
+      vv[i]:=LL[j,i]*DD[i]
+    od;
+    vv[j]:=AA[j,j]-add(LL[j,k]*vv[k],k=max(1,j-lenw)..j-1):
+    DD[j]:=vv[j];
+    for k from j+1 to min(j+lenw,n) do
+      LL[k,j]:=(AA[k,j]-add(LL[k,m]*vv[m],m=max(1,k-lenw)..j-1))/vv[j];
+    od;
+  od:
+  for j from 1 to n do
+    for i from j+1 to min(j+lenw,n) do
+      bb[i]:=bb[i]-LL[i,j]*bb[j]
+    od;
+  od;
+  for i from 1 to n do
+    bb[i]:=bb[i]/DD[i]
+  od:
+  for j from n to 1 by -1 do
+    for i from max(1,j-lenw) to j-1 do
+      bb[i]:=bb[i]-LL[j,i]*bb[j]
+    od;
+  od:
+  return
+end proc:
+
+prodband:=proc(AA,bb,gg,n,lenw)
+   local l2min, l2max, l1, l2;
+   for l1 from 1 to n do
+     l2min:=max(1,l1-lenw);
+     l2max:=min(n,l1+lenw);
+     gg[l1]:=0;
+     for l2 from l2min to l2max do
+       gg[l1]:=gg[l1]+AA[l1,l2]*bb[l2];  
+     od;
+   od;
+end proc: 
