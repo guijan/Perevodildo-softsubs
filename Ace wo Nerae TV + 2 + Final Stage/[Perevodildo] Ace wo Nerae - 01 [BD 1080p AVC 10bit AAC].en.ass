@@ -12,14 +12,14 @@ YCbCr Matrix: TV.601
 
 [Aegisub Project Garbage]
 Last Style Storage: Ace wo Nerae
-Audio File: [Acebuster] Ace o Nerae - 01 [BD 1080p AAC].en.mkv
-Video File: [Acebuster] Ace o Nerae - 01 [BD 1080p AAC].en.mkv
+Audio File: [Perevodildo] Ace wo Nerae - 01 [BD 1080p AVC 10bit AAC].mkv
+Video File: [Perevodildo] Ace wo Nerae - 01 [BD 1080p AVC 10bit AAC].mkv
 Video AR Mode: 4
 Video AR Value: 1.333333
-Video Zoom Percent: 0.375000
-Scroll Position: 3395
-Active Line: 3405
-Video Position: 35029
+Video Zoom Percent: 0.250000
+Scroll Position: 3416
+Active Line: 3418
+Video Position: 3214
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -3453,7 +3453,7 @@ Dialogue: 0,0:01:52.83,0:01:57.20,Main,,0,0,0,,And at the risk of embarrassing m
 Dialogue: 0,0:02:04.44,0:02:07.20,Main,,0,0,0,,It was in! Her lethal smash!
 Dialogue: 0,0:02:07.20,0:02:09.86,Main,,0,0,0,,Eh? Did you think that was me?
 Dialogue: 0,0:02:11.98,0:02:14.03,Main,,0,0,0,,I'm not her, unfortunately!
-Dialogue: 0,0:02:14.03,0:02:16.91,Main,,0,0,0,,This is 11th grader, Ryuzaki Reika.
+Dialogue: 0,0:02:14.03,0:02:16.91,Main,,0,0,0,,This is 2nd grader, Ryuzaki Reika.
 Dialogue: 0,0:02:16.91,0:02:19.77,Main,,0,0,0,,All the students adore her.
 Dialogue: 0,0:02:20.25,0:02:23.45,Main,,0,0,0,,Madame Butterfly, \Nthat's what everyone calls her.
 Dialogue: 0,0:02:23.45,0:02:24.89,Main,,0,0,0,,Not only is she beautiful,
@@ -3480,7 +3480,7 @@ Dialogue: 0,0:03:36.57,0:03:39.36,Main,,0,0,0,,Your racket isn't properly facing
 Dialogue: 0,0:03:40.16,0:03:41.71,Main,,0,0,0,,Yes, I'll be careful.
 Dialogue: 0,0:03:47.74,0:03:50.02,Main,,0,0,0,,Even the hardest parts of the training are fun.
 Dialogue: 0,0:03:50.91,0:03:51.87,Main,,0,0,0,,Ah, yes!
-Dialogue: 0,0:03:51.87,0:03:55.12,Main,,0,0,0,,She's our captain, 12th grader Hoshino Miho.
+Dialogue: 0,0:03:51.87,0:03:55.12,Main,,0,0,0,,She's our captain, 3rd grader Hoshino Miho.
 Dialogue: 0,0:03:55.12,0:04:00.23,Main,,0,0,0,,In addition to Madame Butterfly, we have three more mentors, advising the new players.
 Dialogue: 0,0:04:00.23,0:04:03.63,Main,,0,0,0,,2nd year students Miya Mariko, Wakatsuki Aoi,
 Dialogue: 0,0:04:03.88,0:04:05.47,Main,,0,0,0,,and Otowa Kyoko.
