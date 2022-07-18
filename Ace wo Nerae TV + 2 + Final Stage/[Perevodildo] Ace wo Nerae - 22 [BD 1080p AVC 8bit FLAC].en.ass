@@ -13,14 +13,14 @@ YCbCr Matrix: TV.709
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: [Moozzi2] Ace o Nerae - 22 (BD 1440x1080 x.264 Flac).mkv
-Video File: [Moozzi2] Ace o Nerae - 22 (BD 1440x1080 x.264 Flac).mkv
+Audio File: [Perevodildo] Ace wo Nerae - 22 [BD 1080p AVC 10bit AAC].mkv
+Video File: [Perevodildo] Ace wo Nerae - 22 [BD 1080p AVC 10bit AAC].mkv
 Video AR Mode: 4
 Video AR Value: 1.333333
-Video Zoom Percent: 0.250000
-Scroll Position: 411
-Active Line: 419
-Video Position: 21847
+Video Zoom Percent: 0.500000
+Scroll Position: 500
+Active Line: 501
+Video Position: 32411
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -535,7 +535,7 @@ Dialogue: 0,0:22:01.55,0:22:03.06,Default,,0,0,0,,Ryuzaki, Oka, is that all righ
 Dialogue: 0,0:22:03.06,0:22:03.82,Default,,0,0,0,,- Yes.\N- Yes.
 Dialogue: 0,0:22:05.93,0:22:09.10,Default,,0,0,0,,I'll try my hardest too! \NEven more so than before!
 Dialogue: 0,0:22:09.43,0:22:15.40,Default,,0,0,0,,Because... Because now I'm obliged to play tennis \Nboth for myself and for Otowa!
-Dialogue: 0,0:22:27.17,0:22:31.33,to be continued,,0,0,0,,{\fade(2500,0)\fs90\blur1\pos(960,1000)\c&H252682&}To Be Continued
+Dialogue: 0,0:22:27.17,0:22:31.33,to be continued,,0,0,0,,{\fade(2500,0)\bord0\fs90\blur1\pos(930,1000)\c&H071C83&}To Be Continued
 Dialogue: 0,0:22:34.47,0:22:38.63,Default,,0,0,0,,A joint training camp is held for the southern Kanto region to select the junior team members.
 Dialogue: 0,0:22:38.63,0:22:42.05,Default,,0,0,0,,Seventeen players, including Hiromi, are in attendance.
 Dialogue: 0,0:22:42.05,0:22:45.55,Default,,0,0,0,,As well as Midorikawa Ranko of Kaga High, \NKawamura Yumi of Ohara High,
