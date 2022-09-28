@@ -18,9 +18,9 @@ Video File: [Perevodildo] Ace wo Nerae! 2 - 05 [DVD 480p AVC 8bit AAC].mkv
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.750000
-Scroll Position: 15
-Active Line: 20
-Video Position: 1195
+Scroll Position: 298
+Active Line: 312
+Video Position: 28005
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -336,8 +336,8 @@ Dialogue: 0,0:19:12.56,0:19:19.51,Default,,0,0,0,,Oka, when I first wrote him a 
 Dialogue: 0,0:19:19.51,0:19:22.28,Default,,0,0,0,,It was only later that his error surfaced \Nwhen he found out you're a woman.{Needless to say, Munakata's talk is still a gibberish, so here it's the latter "eera ga wateteita" part that I half-guessed; johnny's version suggests "he was utterly ashamed" which may work too though I can't subscribe to it}
 Dialogue: 0,0:19:22.28,0:19:25.16,Default,,0,0,0,,But as of now, from your predispositions and habits \Nto your body rhythm -
 Dialogue: 0,0:19:25.16,0:19:26.79,Default,,0,0,0,,he knows you like the back of his hand.
-Dialogue: 0,0:19:27.19,0:19:32.49,Default,,0,0,0,,From 16 till 22{funnily enough, this may be both [years old] and [hours pm]; upd: nevermind, it's y.o.}, we fought others{Lit is just "formed" but I want a contrast with the other part of the sentence} in a pair, or chased the same yellow ball{he says explicitly "白球" - white ball, though the tennis one is yellow one, but I don't think it has artistical value or is important to the wiever}, with net squeezed{he uses the same confusing verb as Daigo used for bookmark earlier} between us{this doesn't sound a bit gay, does it?}.
-Dialogue: 0,0:19:32.49,0:19:36.17,Default,,0,0,0,,And as for the next 5 years, \Nwe envisioned{I didn't really figure what 見つめる means here, reckon it's some kind of "plan \ intend" but has something to do with eyes, so "envisioned" or "looked forward" should do} us spending them the exact same way.
+Dialogue: 0,0:19:27.19,0:19:32.49,Default,,0,0,0,,From 16 till 22{funnily enough, this may be both [years old] and [hours pm]; upd: nevermind, it's y.o.}, we fought others{Lit is just "formed" but I want a contrast with the other part of the sentence} in a pair, or chased the same yellow ball{he says explicitly "白球" - white ball, though the tennis one is yellow one, but I don't think it has artistical value or is important to the viewer, so yellow it is}, with net squeezed{he uses the same confusing verb as Daigo used for bookmark earlier} in between{this doesn't sound a bit gay, does it?}.
+Dialogue: 0,0:19:32.49,0:19:36.17,Default,,0,0,0,,And as for the next 5 years, \Nwe envisioned{I didn't really figure what 見つめる means here, reckon it's some kind of "plan / intend" but has something to do with eyes, so "envisioned" or "looked forward" should do} us spending them the exact same way.
 Dialogue: 0,0:19:36.53,0:19:40.03,Default,,0,0,0,,First death, then hope...\NI allude to you.
 Dialogue: 0,0:19:42.29,0:19:44.40,Default,,0,0,0,,December 26th - hospitalized.
 Dialogue: 0,0:19:44.89,0:19:48.17,Default,,0,0,0,,I was given 3 years at best, \Nyet I endured it all the way until today.
@@ -347,7 +347,7 @@ Dialogue: 0,0:19:54.91,0:19:58.23,Default,,0,0,0,,Just greeting you all \Non you
 Dialogue: 0,0:19:58.23,0:20:00.71,Default,,0,0,0,,This way, I'd send you all off \Nwithout ever giving you any idea.{/ This way, the issue would have never came to light until you're all off to USA.}
 Dialogue: 0,0:20:00.71,0:20:04.56,Default,,0,0,0,,Because Oka, I know Katsura Daigo \Nwill relieve me as your pillar of support afterwards.{/Lit: And then, Oka, after that, Katsura Daigo will prop / support you wholeheartedly.}
 Dialogue: 0,0:20:05.49,0:20:08.45,Default,,0,0,0,,Oka, I will be by your side \Nuntil the end of times.
-Dialogue: 0,0:20:08.45,0:20:12.57,Default,,0,0,0,,Thy play is my own play! \NThy successes are my delight.{Lit would be "I'm happy to have met you. / Meeting you was the biggest blessing of my life." but I'm going for a deliberate mistranslation here because I think it's more artistic and better fits such a high moment, so I'm turning this whole line into a hymnal}
+Dialogue: 0,0:20:08.45,0:20:12.57,Default,,0,0,0,,Your play is my play! \NMeeting you was the grandest blessing of my life. {Lit would be "I'm happy to have met you"; was going for a deliberate mistranslation here because I think it's more artistic and better fits such a high moment to turn this whole line into a hymnal with smt like "Thy successes are my delight." but this phrase is flashbacked in next ep unfortunately so had to scrap it altogether; also, I wanted those 2 lines to be constructed alike}
 Dialogue: 0,0:20:16.74,0:20:19.45,Default,,0,0,0,,January 15th.\NPlane{/ Departure} to US.
 Dialogue: 0,0:20:20.57,0:20:22.95,Default,,0,0,0,,Oka, aim for the ace!
 Dialogue: 0,0:20:28.64,0:20:29.46,Default,,0,0,0,,Blank page?

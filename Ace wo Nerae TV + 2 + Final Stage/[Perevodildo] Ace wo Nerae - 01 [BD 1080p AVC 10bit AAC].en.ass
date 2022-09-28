@@ -16,10 +16,8 @@ Audio File: [Perevodildo] Ace wo Nerae - 01 [BD 1080p AVC 10bit AAC].mkv
 Video File: [Perevodildo] Ace wo Nerae - 01 [BD 1080p AVC 10bit AAC].mkv
 Video AR Mode: 4
 Video AR Value: 1.333333
-Video Zoom Percent: 0.250000
-Scroll Position: 3416
-Active Line: 3418
-Video Position: 3214
+Video Zoom Percent: 0.375000
+Video Position: 78
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -35,6 +33,7 @@ Style: ED niea v2,Disney Simple,71,&H0880282A,&H00FFFFFF,&H00FFFFFF,&H00000000,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:01.27,Main,,0,0,0,,{here is my naming guide for this series, though it lacks many entries because I'm a dumdum and only bothered to compile one towards the end of OVA: \Nishi Medical University (Supplementary) Hospital\NMaria Young\NBelle Mackenzie (Brown?) \NAngie Reynolds  \NPower Tennis \NMarrow leukemia \NIshijima \NChairman Ryuzaki \NMadame Butterfly\NJapanese Tennis Association\Nbullet serve (would be better capitalized)\NAll-Japan's Open \Nace \NKaga's Lady Orchid}
 Dialogue: 1,0:00:14.99,0:00:19.20,OP niea v2,,0,28,0,,{\blur0.6\fax-0.18\c&H0C0093&}On the court, everyone…
 Dialogue: 2,0:00:14.99,0:00:19.20,OP niea v2,,0,28,0,,{\bord0\blur0.6\fax-0.18\4a&HFF&}On the court, everyone…
 Dialogue: 0,0:00:15.16,0:00:15.20,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx204\fscy168\pos(880,20)\alpha&H92&}Aim for the Ace!
@@ -3744,3 +3743,4 @@ Dialogue: 0,0:22:44.03,0:22:46.24,Main,,0,0,0,,When Hiromi tries to decline the 
 Dialogue: 0,0:22:46.24,0:22:49.03,Main,,0,0,0,,Coach Munakata refuses to listen to her.
 Dialogue: 0,0:22:49.03,0:22:52.35,Main,,0,0,0,,Next time on Aim for the Ace!\N"You're the One!"
 Dialogue: 0,0:22:52.36,0:22:58.01,Main,,0,0,0,,Hiromi's little heart rolls like a raft \Non a frightfully swirling dark current.
+Dialogue: 0,0:24:14.93,0:24:21.40,Main,,0,0,290,,{\fs50\i1\b1\bord0\blur1.6\c&H68271E&}\h                          Original English script   {\i0}ILA-BlueFixer     \h\N{\i1}Checking/Editing/Typesetting/Encoding   {\i0}Acebuster                \h\N\h                                         {\i1}TLC/QC   {\i0}Perevodildo

@@ -18,8 +18,6 @@ Video File: [Moozzi2] Ace o Nerae - 24 (BD 1440x1080 x.264 Flac).mkv
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.500000
-Scroll Position: 201
-Active Line: 205
 Video Position: 2905
 
 [V4+ Styles]
@@ -43,6 +41,7 @@ Style: Sign,Tahoma,50,&H00FFFFFF,&H000000FF,&H00101616,&HC8000000,0,0,0,0,100,10
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:24:14.93,0:24:21.40,Main,,0,0,290,,{\fs50\i1\b1\bord0\blur1.6\q2\c&H8A181E&}Original English script   {\i0}ILA-BlueFixer    \h\N{\i1}\h      Encoding   {\i0}Moozzi2\N\h              {\i1}TLC/QC   {\i0}Perevodildo
 Dialogue: 0,0:00:15.16,0:00:15.20,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx204\fscy168\pos(880,20)\alpha&H92&}Aim for the Ace!
 Dialogue: 0,0:00:15.20,0:00:15.24,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx204\fscy168\pos(860,40)\alpha&H92&}Aim for the Ace!
 Dialogue: 0,0:00:15.24,0:00:15.28,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx204\fscy168\pos(849,60)\alpha&H92&}Aim for the Ace!

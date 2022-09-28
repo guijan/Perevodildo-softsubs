@@ -15,14 +15,14 @@ Audio File: [Perevodildo] Ace wo Nerae! 2 - 02 [DVD 480p AVC 8bit AAC].mkv
 Video File: [Perevodildo] Ace wo Nerae! 2 - 02 [DVD 480p AVC 8bit AAC].mkv
 Video AR Mode: 4
 Video AR Value: 1.333333
-Video Zoom Percent: 0.875000
-Scroll Position: 353
-Active Line: 366
-Video Position: 2055
+Video Zoom Percent: 0.750000
+Scroll Position: 235
+Active Line: 259
+Video Position: 4523
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Tahoma,25,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.8,0,2,6,6,50,1
+Style: Default,Tahoma,25,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.3,0,2,6,6,50,1
 Style: TITLE,Arial,32,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
 Style: Notes,Arial Black,28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
 Style: J-subs,Renaiss-Italic,32,&H009D9DA3,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
@@ -94,7 +94,7 @@ Dialogue: 0,0:23:25.30,0:23:31.72,ROMAJI,,0,0,0,,{\fade(0,6000)}Miteite ne
 Dialogue: 0,0:23:25.30,0:23:31.72,Default,,0,0,0,,{\fade(0,6000)}Keep looking after me
 Dialogue: 1,0:23:27.89,0:23:32.39,Default,,0,0,0,,{\fnArial\pos(318.86,389.72)\b1\bord0\blur0.6\c&HFEFEFD&}Original English script/Encoding   JohnnyEnglish-subs \h\N\h                                       TLC/QC   Perevodildo                 \h
 Dialogue: 0,0:01:38.22,0:01:38.93,Default,,0,0,0,,Jin...
-Dialogue: 0,0:01:39.22,0:01:40.68,Sign,,0,0,0,,Medical University {Supplementary }Hospital
+Dialogue: 0,0:01:39.22,0:01:40.68,Sign,,0,0,0,,Nishi Medical University {Supplementary }Hospital
 Dialogue: 0,0:01:45.53,0:01:46.17,Default,,0,0,0,,Jin!
 Dialogue: 0,0:01:47.10,0:01:49.25,Default,,0,0,0,,Munakata is asleep on drugs now.
 Dialogue: 0,0:01:49.25,0:01:52.23,Default,,0,0,0,,It's all right, the sharp pain \Nseems to have been soothed already.
@@ -179,7 +179,7 @@ Dialogue: 0,0:06:50.57,0:06:53.53,Default,,0,0,0,,I'm sorry, but tonight Jin \Nw
 Dialogue: 0,0:06:53.90,0:06:55.33,Default,,0,0,0,,Yes, all alone{/ by yourself}.
 Dialogue: 0,0:07:00.42,0:07:01.25,Default,,0,0,0,,Come in!
 Dialogue: 0,0:07:06.09,0:07:08.82,Default,,0,0,0,,Get closer, I got something for your ears only.
-Dialogue: 0,0:07:11.76,0:07:14.60,Default,,0,0,0,,My diagnosis is myeloid{/ marrow} leukemia.
+Dialogue: 0,0:07:11.76,0:07:14.60,Default,,0,0,0,,My diagnosis is marrow{/ myeloid - this is scientific term he uses, but we're doing tennis drama anime here, not a physician's handbook} leukemia.
 Dialogue: 0,0:07:14.60,0:07:17.89,Default,,0,0,0,,It began five years ago, \Nwith no hope for remission.
 Dialogue: 0,0:07:17.89,0:07:20.27,Default,,0,0,0,,At that time, I was only given 3 years to live.
 Dialogue: 0,0:07:20.27,0:07:24.16,Default,,0,0,0,,This body managed to hold on for 5 years instead. \NBut it's finally caving in{/ crumbling}.
@@ -292,7 +292,7 @@ Dialogue: 0,0:14:18.79,0:14:21.62,Default,,0,0,0,,Therefore, colleagues, \Ngo to
 Dialogue: 0,0:14:21.62,0:14:23.13,Default,,0,0,0,,As proud descendants of the strong!
 Dialogue: 0,0:14:27.36,0:14:28.76,Default,,0,0,0,,Just one week left.
 Dialogue: 0,0:14:29.16,0:14:32.99,Default,,0,0,0,,Why then, Coach, they won't discharge you \Nfrom the hospital even now?
-Dialogue: 0,0:14:41.94,0:14:42.96,Sign,,0,0,0,,Medical University Hospital
+Dialogue: 0,0:14:41.94,0:14:42.96,Sign,,0,0,0,,Nishi{/Western} Medical University {Supplementary }Hospital{trust me, this sign will be fully shown in ep 9}
 Dialogue: 0,0:14:46.45,0:14:48.97,Sign,,0,0,0,,Closed until tomorrow
 Dialogue: 0,0:15:02.96,0:15:04.36,Default,,0,0,0,,Do you need something?
 Dialogue: 0,0:15:05.44,0:15:06.19,Default,,0,0,0,,A visit...

@@ -19,8 +19,6 @@ Video File: Acebuster_Aim_for_the_Ace!_08_BD_1080p_AAC_AC82ED3D.mkv
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.250000
-Scroll Position: 1737
-Active Line: 1752
 Video Position: 32659
 
 [V4+ Styles]
@@ -38,6 +36,7 @@ Style: to be continued,Maiandra GD,81,&H0C746457,&H000000FF,&H1477786F,&H0000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:24:14.93,0:24:21.40,Main,,0,0,290,,{\fs50\i1\b1\bord0\blur1.6\c&HA42222&}\h                          Original English script   {\i0}ILA-BlueFixer     \h\N{\i1}Checking/Editing/Typesetting/Encoding   {\i0}Acebuster                \h\N\h                                         {\i1}TLC/QC   {\i0}Perevodildo
 Dialogue: 0,0:08:31.11,0:08:31.15,Club Meeting,,0,0,0,,{=15}{\blur1.001\fry6\fax0.23\bord1.4\pos(729.81,347.37)\3c&H1B1F2D&\c&H1D1D21&\3a&H25&\frz347\fscx84\fscy112}TENNIS CLUB
 Dialogue: 1,0:08:31.11,0:08:31.15,Club Meeting,,0,0,0,,{=15}{\blur0.9\fry6\fax0.23\bord0\pos(729.81,347.37)\c&H222125&\3a&H14&\frz347\fscx84\fscy112\4a&HFF&\1a&H05&}TENNIS CLUB
 Dialogue: 0,0:08:31.11,0:08:31.15,Club Meeting,,0,0,0,,{=13}{\blur0.9\fry6\fax0.12\bord1.4\3c&H1B1F2D&\c&H1D1D21&\3a&H25&\pos(821.899,739.37)\frz352.6\fscx108\fscy117}SPECIAL

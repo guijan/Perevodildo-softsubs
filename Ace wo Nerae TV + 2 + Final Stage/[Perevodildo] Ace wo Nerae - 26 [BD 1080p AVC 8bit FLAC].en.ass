@@ -13,14 +13,14 @@ YCbCr Matrix: TV.709
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: [Moozzi2] Ace o Nerae - 26 END (BD 1440x1080 x.264 Flac).mkv
-Video File: [Moozzi2] Ace o Nerae - 26 END (BD 1440x1080 x.264 Flac).mkv
+Audio File: [Perevodildo] Ace wo Nerae - 26 [BD 1080p AVC 8bit FLAC].mkv
+Video File: [Perevodildo] Ace wo Nerae - 26 [BD 1080p AVC 8bit FLAC].mkv
 Video AR Mode: 4
 Video AR Value: 1.333333
-Video Zoom Percent: 0.625000
-Scroll Position: 214
-Active Line: 216
-Video Position: 2943
+Video Zoom Percent: 0.375000
+Scroll Position: 383
+Active Line: 387
+Video Position: 34172
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -430,3 +430,4 @@ Dialogue: 1,0:23:35.14,0:23:38.65,ED niea v2,Karaoke,0,0,0,,{\blur1\4a&HFF&\c&HF
 Dialogue: 2,0:23:35.14,0:23:38.65,ED niea v2,Karaoke,0,0,0,,{\bord0\blur1\4a&HFF&\4a&HFF&}On the white tennis court.
 Dialogue: 1,0:23:38.65,0:23:46.15,ED niea v2,Karaoke,0,20,0,,{\blur1\4a&HFF&\c&HFFFFFF&}Ah, on the tennis court.
 Dialogue: 2,0:23:38.65,0:23:46.15,ED niea v2,Karaoke,0,20,0,,{\bord0\blur1\4a&HFF&\4a&HFF&}Ah, on the tennis court.
+Dialogue: 0,0:23:44.90,0:23:51.41,Main,,0,0,280,,{\fs50\i1\b1\bord0\blur1.6\q2\c&H8A181E&}Thank you for tuning in to this series with us! \NWe'll be waiting for you in Ace wo Nerae 2 🎾\N\N\N\N\N\N\N\N\N\N\N\N\NOriginal English script   {\i0}ILA-BlueFixer    \h\N{\i1}\h      Encoding   {\i0}Moozzi2\N\h              {\i1}TLC/QC   {\i0}Perevodildo

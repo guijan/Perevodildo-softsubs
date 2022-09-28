@@ -14,14 +14,14 @@ YCbCr Matrix: TV.601
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: Aim for the Ace! - 02 [BD 1080p AAC] [B8D5A58D].mkv
-Video File: Aim for the Ace! - 02 [BD 1080p AAC] [B8D5A58D].mkv
+Audio File: [Perevodildo] Ace wo Nerae - 02 [BD 1080p AVC 10bit AAC].mkv
+Video File: [Perevodildo] Ace wo Nerae - 02 [BD 1080p AVC 10bit AAC].mkv
 Video AR Mode: 4
 Video AR Value: 1.333333
-Video Zoom Percent: 0.250000
-Scroll Position: 1772
-Active Line: 1774
-Video Position: 32673
+Video Zoom Percent: 0.375000
+Scroll Position: 1776
+Active Line: 1778
+Video Position: 35038
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -1813,3 +1813,4 @@ Dialogue: 0,0:22:40.47,0:22:44.28,Main,,0,0,0,,Then, Madame Butterfly gives her 
 Dialogue: 0,0:22:44.28,0:22:47.81,Main,,0,0,0,,Go Hiromi! The ball is your opponent!
 Dialogue: 0,0:22:47.81,0:22:51.37,Main,,0,0,0,,Next time on Aim for the Ace! \N"Tears at the District Qualifiers!"
 Dialogue: 0,0:22:51.37,0:22:55.43,Main,,0,0,0,,Hiromi's heart is dashed upon the bright white tennis court.
+Dialogue: 0,0:24:14.93,0:24:21.40,Main,,0,0,290,,{\fs50\i1\b1\bord0\blur1.6\c&H87160F&}\h                          Original English script   {\i0}ILA-BlueFixer     \h\N{\i1}Checking/Editing/Typesetting/Encoding   {\i0}Acebuster                \h\N\h                                         {\i1}TLC/QC   {\i0}Perevodildo

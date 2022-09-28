@@ -13,14 +13,12 @@ YCbCr Matrix: TV.709
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: [Moozzi2] Ace o Nerae - 25 (BD 1440x1080 x.264 Flac).mkv
-Video File: [Moozzi2] Ace o Nerae - 25 (BD 1440x1080 x.264 Flac).mkv
+Audio File: [Perevodildo] Ace wo Nerae - 25 [BD 1080p AVC 8bit FLAC].mkv
+Video File: [Perevodildo] Ace wo Nerae - 25 [BD 1080p AVC 8bit FLAC].mkv
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.375000
-Scroll Position: 213
-Active Line: 218
-Video Position: 2879
+Video Position: 35052
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -43,6 +41,7 @@ Style: EpisodeTitle - Niea,Maiandra GD,81,&H0C2327AA,&H000000FF,&H002C2BA5,&H000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:24:14.93,0:24:21.40,Main,,0,0,290,,{\fs50\i1\b1\bord0\blur1.6\q2\c&H8A181E&}Original English script   {\i0}ILA-BlueFixer    \h\N{\i1}\h      Encoding   {\i0}Moozzi2\N\h              {\i1}TLC/QC   {\i0}Perevodildo
 Dialogue: 0,0:00:15.16,0:00:15.20,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx204\fscy168\pos(880,20)\alpha&H92&}Aim for the Ace!
 Dialogue: 0,0:00:15.20,0:00:15.24,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx204\fscy168\pos(860,40)\alpha&H92&}Aim for the Ace!
 Dialogue: 0,0:00:15.24,0:00:15.28,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx204\fscy168\pos(849,60)\alpha&H92&}Aim for the Ace!
@@ -51,7 +50,7 @@ Dialogue: 0,0:00:15.32,0:00:15.36,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04
 Dialogue: 0,0:00:15.36,0:00:15.41,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx204\fscy166\pos(771,120)\alpha&H92&}Aim for the Ace!
 Dialogue: 0,0:00:15.41,0:00:15.45,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx204\fscy164\pos(741,145)\alpha&H92&}Aim for the Ace!
 Dialogue: 0,0:00:15.45,0:00:15.49,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx198.5\fscy163.5\pos(721.5,170)\alpha&H92&}Aim for the Ace!
-Dialogue: 0,0:00:15.49,0:00:15.53,Title,,0,0,0,,{{\bord0\blur29\c&H193E98&\1a&H04&\fscx192.5\fscy165.5\pos(699.5,190)\alpha&H92&}Aim for the Ace!
+Dialogue: 0,0:00:15.49,0:00:15.53,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx192.5\fscy165.5\pos(699.5,190)\alpha&H92&}Aim for the Ace!
 Dialogue: 0,0:00:15.53,0:00:15.57,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx189.5\fscy164.5\pos(679.5,205)\alpha&H92&}Aim for the Ace!
 Dialogue: 0,0:00:15.57,0:00:15.61,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx184.5\fscy161.5\pos(662.5,215)\alpha&H92&}Aim for the Ace!
 Dialogue: 0,0:00:15.61,0:00:15.66,Title,,0,0,0,,{\bord0\blur29\c&H193E98&\1a&H04&\fscx178.5\fscy160.5\pos(639.5,228)\alpha&H92&}Aim for the Ace!
