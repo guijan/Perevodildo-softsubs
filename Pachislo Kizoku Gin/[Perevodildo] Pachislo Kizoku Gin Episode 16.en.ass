@@ -15,9 +15,9 @@ Video File: [Perevodildo] Pachislo Kizoku Gin Episode 16.mp4
 Video AR Mode: 4
 Video AR Value: 1.325864
 Video Zoom Percent: 0.750000
-Scroll Position: 261
-Active Line: 265
-Video Position: 40712
+Scroll Position: 256
+Active Line: 262
+Video Position: 37503
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -75,10 +75,10 @@ Dialogue: 0,0:01:54.60,0:01:55.67,Default,,0,0,0,,As a doctor...
 Dialogue: 0,0:01:56.20,0:01:57.33,Default,,0,0,0,,As a man...
 Dialogue: 0,0:01:58.90,0:02:00.54,Default,,0,0,0,,What should I do about it?
 Dialogue: 0,0:02:01.87,0:02:02.97,Default,,0,0,0,,Daiba Ryo,
-Dialogue: 0,0:02:03.64,0:02:05.94,Default,,0,0,0,,have you really came to terms with such fate?
+Dialogue: 0,0:02:03.64,0:02:05.94,Default,,0,0,0,,have you really come to terms with such fate?
 Dialogue: 0,0:02:07.08,0:02:08.08,Default,,0,0,0,,Ginya,
 Dialogue: 0,0:02:08.48,0:02:12.48,Default,,0,0,0,,are you really the man \NDaiba Ryo would put his life on the line for?
-Dialogue: 0,0:02:20.19,0:02:24.93,Default,,0,0,0,,{\fade(900,900)\an8\c&HFBFDFE&\bord0\shad3\blur0.5\4c&H696256&\b1\fnHitch Hike\fs45\4a&H00&}Episode 16\N {\fs100}\N\N\N\NSworn  Friend
+Dialogue: 0,0:02:20.19,0:02:24.93,Default,,0,0,0,,{\fade(900,900)\an8\c&HFBFDFE&\bord0\shad3\blur0.5\4c&H696256&\b1\fnHitch Hike\fs45\4a&H00&}Episode 16\N {\fs100}\N\N\N\N\N\N\N\NSworn  Friend 
 Dialogue: 0,0:02:33.40,0:02:34.60,Default,,0,0,0,,Good heavens.
 Dialogue: 0,0:02:34.60,0:02:37.57,Default,,0,0,0,,Aside from mayonnaise, \Nthere's nothing but some sprouted onion.
 Dialogue: 0,0:02:38.21,0:02:40.17,Default,,0,0,0,,Mayonnaise it is then.{unsure, maybe it's "should I eat onion that gave shoots in mayonnaise or just mayonnaise?"}
@@ -133,8 +133,8 @@ Dialogue: 0,0:05:00.95,0:05:03.42,Default,,0,0,0,,Just as I thought, \Nit's a lo
 Dialogue: 0,0:05:03.82,0:05:07.52,Default,,0,0,0,,How many times do I have to say it's not!?
 Dialogue: 0,0:05:36.59,0:05:41.02,Default,,0,0,0,,Ginya's path{/aim} lies towards the world \Nfar beyond my scope{/the reach of my hand}.
 Dialogue: 0,0:05:41.72,0:05:44.56,Default,,0,0,0,,You keep on growing{/maturing} \Nat the most unimaginable rate, Ginya.
-Dialogue: 0,0:05:45.40,0:05:49.23,Default,,0,0,0,,So much so actually, \Nit even spurred Daiba to put his own life on the line.
-Dialogue: 0,0:05:49.23,0:05:52.57,Default,,0,0,0,,I'd go as far as saying \Nhe made fighting Ginya his raison d'être.{/Lit: I wonder if he has the desire to fight ...}
+Dialogue: 0,0:05:45.40,0:05:49.23,Default,,0,0,0,,So much, it even spurred Daiba \Nto put his own life on the line.
+Dialogue: 0,0:05:49.23,0:05:52.57,Default,,0,0,0,,I daresay he made fighting Ginya \Nhis raison d'être.{/Lit: I wonder if he has the desire to fight ...}
 Dialogue: 0,0:05:53.40,0:05:57.57,Default,,0,0,0,,They gravitate to each other, \Nthough each one only attracts another in order to fight him.
 Dialogue: 0,0:05:58.87,0:06:02.11,Default,,0,0,0,,It's like they pull one another{added} { manually}\Nby reeling in{half-guess} the {red }thread{/string} of fate.
 Dialogue: 0,0:06:03.11,0:06:07.11,Default,,0,0,0,,Ginya is like a carp trying to climb up a waterfall, \Nbeyond which is the promised land.{absolutely hate this line, it's a very convoluted proverb that means roughly "he is a carp/love/dragon(if I got that hinative explanation right) aiming to breach through the gates to success(also has word for dragon inside it)" and with an underlying parable of said carp evolving into a dragon at some point; because it's a rather serious moment I can't even wrap this into a pun damnit}
@@ -163,7 +163,7 @@ Dialogue: 0,0:08:27.06,0:08:31.49,Default,,0,0,0,,For me, getting even close to{
 Dialogue: 0,0:08:32.22,0:08:33.06,Default,,0,0,0,,Still,
 Dialogue: 0,0:08:33.56,0:08:36.59,Default,,0,0,0,,if I manage to show him \Neven a fraction of Daiba Ryo's soul,
 Dialogue: 0,0:08:36.59,0:08:40.44,Default,,0,0,0,,he'll learn to detach from everything{guess: https://jisho.org/word/%E5%89%8A%E3%81%8E%E8%90%BD%E3%81%A8%E3%81%99}, \Nhe'll learn to fight with everything on the line.
-Dialogue: 0,0:08:44.70,0:08:46.91,Default,,0,0,0,,That little, I should be able to pass to{/convey to/propagate/teach} him.
+Dialogue: 0,0:08:44.70,0:08:46.91,Default,,0,0,0,,I should be able to teach{/pass to/convey to/propagate} him that much.
 Dialogue: 0,0:10:36.05,0:10:37.12,Default,,0,0,0,,I'm ready.
 Dialogue: 0,0:10:51.80,0:10:52.80,Default,,0,0,0,,Thanks.
 Dialogue: 0,0:10:52.80,0:10:54.74,Default,,0,0,0,,It's nothing, customer is king.{/you're welcome}
@@ -223,7 +223,7 @@ Dialogue: 0,0:14:43.50,0:14:44.57,Default,,0,0,0,,Start.
 Dialogue: 0,0:14:53.94,0:14:58.15,Default,,0,0,0,,Forgive me. Even if you'll think of me as a brute,{/even if it's too harsh/sever} \NI intend to push you to the edge.{/stomp you; it's https://jisho.org/search/muri but I dunno how to handle it, maybe "I go all out on you"}{ today}
 Dialogue: 0,0:15:14.66,0:15:15.49,Default,,0,0,0,,That's it!{/THere!}
 Dialogue: 0,0:15:20.57,0:15:24.57,Default,,0,0,0,,What? Though we're just getting started, \Nyou nailed jackpot already?
-Dialogue: 0,0:15:55.81,0:16:00.54,Default,,0,0,0,,Oumi is not being his usual self. \NHe only introduced himself and used palpation on the onset.
+Dialogue: 0,0:15:55.81,0:16:00.54,Default,,0,0,0,,Oumi is not being his usual self. \NHe dropped any foreplay, proceeding straight to palpation.{/He barely introduced himself and started palpating on the onset}
 Dialogue: 0,0:16:01.31,0:16:05.64,Default,,0,0,0,,Also, his threat{guess - daito} earlier \Nand this self-exhausting manner of pressing the buttons.
 Dialogue: 0,0:16:05.64,0:16:07.42,Default,,0,0,0,,Yes, it's almost like...
 Dialogue: 0,0:16:08.12,0:16:10.59,Default,,0,0,0,,he is fighting the God of Death{/death} himself!{I guess it's just a terribly stupid line, but it very much sounds like a reference or another folklore story}
@@ -266,11 +266,11 @@ Dialogue: 0,0:18:46.31,0:18:47.47,Default,,0,0,0,,Exactly.
 Dialogue: 0,0:18:48.21,0:18:51.11,Default,,0,0,0,,Everything I have, I will throw it at Oumi.
 Dialogue: 0,0:18:59.69,0:19:04.82,Default,,0,0,0,,That's what Ginya ought to do. \NThat's what Daiba Ryo's rival ought to do!{/Lit: that's why ginya... that's why he is daiba ryo's rival}
 Dialogue: 0,0:19:24.98,0:19:26.61,Default,,0,0,0,,Thank you, Ginya.
-Dialogue: 0,0:19:26.61,0:19:29.88,Default,,0,0,0,,No, it was rather me who learned{gained} the most from this.
+Dialogue: 0,0:19:26.61,0:19:29.88,Default,,0,0,0,,No, it was me \Nwho learned{/gained} the most from this.
 Dialogue: 0,0:19:29.88,0:19:30.95,Default,,0,0,0,,Really?
-Dialogue: 0,0:19:32.42,0:19:35.45,Default,,0,0,0,,Well, then I'm secured from bearing any regrets later.{I don't have any regrets about this}
+Dialogue: 0,0:19:32.42,0:19:35.45,Default,,0,0,0,,Then I'm free of any afterthoughts and regrets.{/I don't have any regrets about this}
 Dialogue: 0,0:19:36.42,0:19:38.62,Default,,0,0,0,,I will file in the resignation from Slothium.
-Dialogue: 0,0:19:38.62,0:19:39.89,Default,,0,0,0,,But how can you...
+Dialogue: 0,0:19:38.62,0:19:39.89,Default,,0,0,0,,But why...
 Dialogue: 0,0:19:39.89,0:19:42.89,Default,,0,0,0,,Maybe when you rise to a Knight... \NNo, to a General!
 Dialogue: 0,0:19:42.89,0:19:45.30,Default,,0,0,0,,No need to. \NIt's settled already.
 Dialogue: 0,0:19:45.70,0:19:46.50,Default,,0,0,0,,Oumi...
@@ -285,10 +285,10 @@ Dialogue: 0,0:20:15.69,0:20:17.53,Default,,0,0,0,,That sounds so much like you.{
 Dialogue: 0,0:20:18.30,0:20:20.03,Default,,0,0,0,,Hurry up, Ginya.
 Dialogue: 0,0:20:20.50,0:20:22.80,Default,,0,0,0,,There is no longer any time to loiter{/you cannot allow yourself to stay still idly/leasurely/resting anymore}.
 Dialogue: 0,0:20:24.24,0:20:26.50,Default,,0,0,0,,I hope I conveyed to you all that I intended to.{PURE FUCKING GUESS, what the fuck is even this "koko no namae/kokoro ga mae" - nothing makes sense, not even the clear part of "*something* wo up to telling *affirmating da*"}
-Dialogue: 0,0:20:27.97,0:20:32.41,Default,,0,0,0,,Well, one way or another, do your best from now on. \NOn my part too.
+Dialogue: 0,0:20:27.97,0:20:32.41,Default,,0,0,0,,Well, one way or another, do your best from now on. \NIn my stead too.
 Dialogue: 0,0:20:32.98,0:20:33.48,Default,,0,0,0,,Okay.
 Dialogue: 0,0:20:46.69,0:20:48.66,Default,,0,0,0,,Please take it seriously{do it for me}, Ginya.
-Dialogue: 0,0:20:49.46,0:20:52.90,Default,,0,0,0,,The time left \Nis considerably less than what you'd like.{The time left for you is shrinking to a measly span.}
+Dialogue: 0,0:20:49.46,0:20:52.90,Default,,0,0,0,,The time left \Nis considerably less than what you'd like to have.{The time left for you is shrinking to a measly span.}
 Dialogue: 0,0:22:32.06,0:22:33.10,Default,,0,0,0,,To come.
 Dialogue: 0,0:22:34.80,0:22:35.57,Default,,0,0,0,,To not come.
 Dialogue: 0,0:22:37.67,0:22:38.77,Default,,0,0,0,,Phone.{guess, no one watches jikai anyway}

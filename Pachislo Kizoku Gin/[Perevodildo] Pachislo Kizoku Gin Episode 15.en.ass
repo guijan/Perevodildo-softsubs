@@ -14,10 +14,10 @@ Audio File: [Perevodildo] Pachislo Kizoku Gin Episode 15.mp4
 Video File: [Perevodildo] Pachislo Kizoku Gin Episode 15.mp4
 Video AR Mode: 4
 Video AR Value: 1.325864
-Video Zoom Percent: 0.625000
-Scroll Position: 273
-Active Line: 275
-Video Position: 10392
+Video Zoom Percent: 0.750000
+Scroll Position: 275
+Active Line: 286
+Video Position: 36664
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -73,7 +73,7 @@ Dialogue: 1,0:22:08.21,0:22:15.68,Song,,0,0,75,,{\an2\fade(0,800)}So do we, the 
 Dialogue: 0,0:22:08.22,0:22:15.68,Song,,0,0,5,,{\fade(0,800)}Kimi to konomama zutto konomama de īkai
 Dialogue: 0,0:01:47.32,0:01:48.76,Default,,0,0,0,,Game is concluded.
 Dialogue: 0,0:01:48.76,0:01:51.71,Default,,0,0,0,,Tell me, as a slotter,
-Dialogue: 0,0:01:49.47,0:01:51.71,Default,,0,0,10,,{\an8}Winner - Otonashi Ginya.
+Dialogue: 0,0:01:49.47,0:01:51.71,Song,,0,0,0,,Winner - Otonashi Ginya.
 Dialogue: 0,0:01:51.71,0:01:55.10,Default,,0,0,0,,how did you manage to pull that 180{ degrees} turn{/comeback}?{it wasn't really any acute turn in previous episode so I dunno what he means here, especially since he probs asks about the game and Ginya starts a rant about life in general}
 Dialogue: 0,0:01:55.67,0:01:57.43,Default,,0,0,0,,I'm still the same person.
 Dialogue: 0,0:01:57.43,0:01:58.64,Default,,0,0,0,,It's just that...
@@ -82,8 +82,8 @@ Dialogue: 0,0:02:12.18,0:02:13.32,Default,,0,0,0,,No more than that.
 Dialogue: 0,0:02:13.65,0:02:15.65,Default,,0,0,0,,Truth of your heart?
 Dialogue: 0,0:02:16.19,0:02:17.63,Default,,0,0,0,,Yes, exactly.
 Dialogue: 0,0:02:18.43,0:02:22.73,Default,,0,0,0,,From now on, as Daiba Ryo's recognized adversary{/official challenger}, \NI'm going full steam ahead!
-Dialogue: 0,0:02:23.27,0:02:28.01,Song,,0,0,0,,{\fade(900,1100)\an8\c&HFBFDFE&\bord0\shad2\blur0.5\4c&H696256&\b1\fnHitch Hike\fs45\4a&H00&}Episode 15\N {\fs130}{[Medical] }Chart
-Dialogue: 0,0:02:26.11,0:02:28.13,Default,,0,0,0,,I know I should respect one's privacy{/of an individual}!{it sounds rather like "konojin" (this person) and not "kojin" (individual)}
+Dialogue: 0,0:02:23.27,0:02:28.01,Song,,0,0,100,,{\fade(900,1100)\an8\c&HFBFDFE&\bord0\shad2\blur0.5\4c&H696256&\b1\fnHitch Hike\fs45\4a&H00&}Episode 15\N \N\N\N\N\N\N\N{\fs130}{[Medical] }Chart
+Dialogue: 1,0:02:26.11,0:02:28.13,Default,,0,0,0,,I know I should respect one's privacy{/of an individual}!{it sounds rather like "konojin" (this person) and not "kojin" (individual)}
 Dialogue: 0,0:02:28.13,0:02:29.83,Default,,0,0,0,,But I can't stress this urgency enough!{/But the matter is of utter emergency!}
 Dialogue: 0,0:02:29.83,0:02:32.00,Default,,0,0,0,,Just tell me where to find{/how to contact/the address of} Daiba Ryo!
 Dialogue: 0,0:02:32.00,0:02:33.37,Default,,0,0,0,,Ma{/i}ster Oumi...
@@ -138,8 +138,8 @@ Dialogue: 0,0:05:33.78,0:05:36.75,Default,,0,0,0,,Is that so? \NDr. Oumi is stil
 Dialogue: 0,0:05:36.75,0:05:39.46,Default,,0,0,0,,Well, that's fine too. Thanks.
 Dialogue: 0,0:05:45.10,0:05:46.40,Default,,0,0,0,,He can be diligent too.{guess, no clue what this "daiyouna" is, maybe "It must be important"}
 Dialogue: 0,0:05:46.74,0:05:49.63,Default,,0,0,0,,No wonder, since Oumi is a heir to this hospital.
-Dialogue: 0,0:05:49.63,0:05:51.37,Default,,0,0,0,,He must place the work above all{/prioritize ... }.
-Dialogue: 0,0:05:51.37,0:05:55.44,Default,,0,0,0,,Well, I must then also get a good grip \Non my pachislot work{/work and ...}!
+Dialogue: 0,0:05:49.63,0:05:51.37,Default,,0,0,0,,He must learn how to run it well.{/place/prioritize the work above all}.
+Dialogue: 0,0:05:51.37,0:05:55.44,Default,,0,0,0,,Well, I too, must get a good grip \Non my pachislot work{/work and ...}!
 Dialogue: 0,0:06:47.29,0:06:49.53,Default,,0,0,0,,You've finally passed through that long tunnel.{/got out of ...}
 Dialogue: 0,0:07:10.88,0:07:12.32,Default,,0,0,0,,Good morning, Ryo.
 Dialogue: 0,0:07:13.88,0:07:16.75,Default,,0,0,0,,Maybe you should try sleeping in a bed for once.{Lit is "Wouldn't it be better if you lie down?" but I'm not sure why would she say that - maybe implying "You're sick so you should be lying"? but I chose a more neutral though less faithul interpretation "you didn't sleep again didn't you?"}
@@ -157,7 +157,7 @@ Dialogue: 0,0:08:12.18,0:08:12.64,Default,,0,0,0,,Owner.
 Dialogue: 0,0:08:13.48,0:08:19.22,Default,,0,0,0,,I'm sorry, but the only thing I keep in my head for now, \Nis the two characters for "Game{maybe "victory"}."
 Dialogue: 0,0:08:43.07,0:08:43.91,Default,,0,0,0,,Ryo...
 Dialogue: 0,0:08:49.61,0:08:50.55,Default,,0,0,0,,Owner.
-Dialogue: 0,0:08:50.95,0:08:55.92,Default,,0,0,0,,I'm sorry, but the only thing I keep inside my head for now, \Nis the two characters for "Game."
+Dialogue: 0,0:08:50.95,0:08:55.92,Default,,0,0,0,,{\i1}I'm sorry, but the only thing I keep inside my head for now, \Nis the two characters for "Game."
 Dialogue: 0,0:09:15.61,0:09:16.77,Default,,0,0,0,,It's me.
 Dialogue: 0,0:09:17.45,0:09:22.05,Default,,0,0,0,,Please ask the R&D department chief to hasten up \Nthe completion of new machine by all means necessary.
 Dialogue: 0,0:09:23.29,0:09:26.15,Default,,0,0,0,,Owner's decree. \NI'm no longer asking.{/I don't need you to say yes or no.}
@@ -168,7 +168,7 @@ Dialogue: 0,0:09:36.53,0:09:39.46,Default,,0,0,0,,I know, right? \NI stumbled up
 Dialogue: 0,0:09:39.46,0:09:42.80,Default,,0,0,0,,Who was it? Can you bring him here?{/introduce us?} \NI need to know him too!
 Dialogue: 0,0:09:42.80,0:09:45.78,Default,,0,0,0,,I'm sorry, I've not yet \Nbeen introduced to him myself.{/I cannot introduce someone like that.}
 Dialogue: 0,0:09:45.78,0:09:48.97,Default,,0,0,0,,Only condition of our cooperation \Nis that his name remains undisclosed{ at all times}.
-Dialogue: 0,0:09:48.97,0:09:52.81,Default,,0,0,0,,Interesting. However, for what he can contribute, \Nwe should award him with {[appropriate] }tribute.{/Lit: As a person involved / expert, [professional ethics says,] we cannot go on without rewarding him appropriately. - take it with a grain of salt as I'm generally unsure about this whole line}{maybe I'm overthinking, but his way of saying this sounds like an oblique wordplay with words "expert" and "reward" similar in pronounciation}
+Dialogue: 0,0:09:48.97,0:09:52.81,Default,,0,0,0,,Interesting. However, as far as his contribution goes, \NI feel obliged to reward him.{ with [appropriate] tribute}{/Lit: As a person involved / expert, [professional ethics says,] we cannot go on without rewarding him appropriately. - take it with a grain of salt as I'm generally unsure about this whole line}{maybe I'm overthinking, but his way of saying this sounds like an oblique wordplay with words "expert" and "reward" similar in pronounciation}
 Dialogue: 0,0:09:52.81,0:09:55.51,Default,,0,0,0,,Please rest assured \NI'll take care of this.
 Dialogue: 0,0:09:55.51,0:09:56.68,Default,,0,0,0,,Here, coffee.
 Dialogue: 0,0:09:56.99,0:09:57.35,Default,,0,0,0,,Tx.
@@ -232,7 +232,7 @@ Dialogue: 0,0:13:54.85,0:13:59.76,Default,,0,0,0,,Today's battle of Knights: \NO
 Dialogue: 0,0:13:59.76,0:14:01.86,Default,,0,0,0,,Time limit: 2 hours.
 Dialogue: 0,0:14:01.86,0:14:05.09,Default,,0,0,0,,The participants will compete \Nfor who acquires the most coins.
 Dialogue: 0,0:14:05.09,0:14:07.80,Default,,0,0,0,,Now, both sides \Nare invited to pick a machine.
-Dialogue: 0,0:14:42.10,0:14:43.90,Default,,0,0,0,,What's the deal with her?
+Dialogue: 0,0:14:42.10,0:14:43.90,Default,,0,0,0,,What's the deal with him?
 Dialogue: 0,0:14:43.90,0:14:46.78,Default,,0,0,0,,And here I was thinking \Nthe previous occult jerk was a pansy{/transvestite}{guess, never got that "hikkunjin" - later Ginya makes it clear he didn't realize Annie is a girl yet so this seems fit}.
 Dialogue: 0,0:14:46.78,0:14:49.71,Default,,0,0,0,,I guess straight guys \Nnever get promoted to the Knight here.{/It seems they don't allow normies into Knights. - would be more literal but I'm fortifying my guess from prev line}
 Dialogue: 0,0:14:54.88,0:14:58.28,Default,,0,0,0,,The victory is not decided \Nby how well you can wield{/handle} coins.
@@ -312,7 +312,7 @@ Dialogue: 0,0:20:06.42,0:20:08.80,Default,,0,0,0,,as a lady, you are much more f
 Dialogue: 0,0:20:08.80,0:20:10.07,Default,,0,0,0,,That is my opinion.
 Dialogue: 0,0:20:10.73,0:20:14.03,Default,,0,0,0,,And I would go as far as saying, \Nsuch is the opinion of everyone here.
 Dialogue: 0,0:20:22.14,0:20:23.34,Default,,0,0,0,,Ms. Kisaragi,
-Dialogue: 0,0:20:23.34,0:20:26.78,Default,,0,0,0,,The next time you get to fight here, \Ndo it in your true{/real} form.
+Dialogue: 0,0:20:23.34,0:20:26.78,Default,,0,0,0,,next time you get to fight here, \Ndo it in your true{/real} form.
 Dialogue: 0,0:20:26.78,0:20:28.79,Default,,0,0,0,,In your woman form, if you would.{/please.}
 Dialogue: 0,0:20:29.12,0:20:32.53,Default,,0,0,0,,Naturally, just because you're woman \Ndoesn't mean others would make allowance{/go easy on you}.
 Dialogue: 0,0:20:32.88,0:20:34.35,Default,,0,0,0,,I could ask for nothing better.{https://jisho.org/word/%E6%9C%9B%E3%82%80%E3%81%A8%E3%81%93%E3%82%8D}
