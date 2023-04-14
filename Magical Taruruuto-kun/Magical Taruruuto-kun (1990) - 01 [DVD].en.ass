@@ -10,18 +10,18 @@ PlayResY: 480
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: [Perevodildo] Magical Taruruuto-kun (1990) - 01 [DVD].mkv
-Video File: [Perevodildo] Magical Taruruuto-kun (1990) - 01 [DVD].mkv
+Audio File: Magical Taruruuto-kun (1990) - 01 [DVD].mkv
+Video File: Magical Taruruuto-kun (1990) - 01 [DVD].mkv
 Video AR Mode: 4
 Video AR Value: 1.367377
-Video Zoom Percent: 0.625000
-Scroll Position: 32
-Active Line: 36
-Video Position: 2505
+Video Zoom Percent: 0.875000
+Scroll Position: 269
+Active Line: 270
+Video Position: 27104
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Tahoma,26,&H00FFFFFF,&H000000FF,&H00370924,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,20,20,45,1
+Style: Default,Tahoma,26,&H00FFFFFF,&H000000FF,&H006A0029,&H00000000,-1,0,0,0,100,100,0,0,1,2.7,0,2,20,20,45,1
 Style: Sign,Arial,24,&H00FFFFFF,&H000000FF,&H000E2E2D,&H00000000,0,0,0,0,100,100,0,0,1,1.8,0,8,10,10,10,1
 
 [Events]
@@ -134,7 +134,7 @@ Dialogue: 0,0:05:19.31,0:05:19.94,Default,,0,0,0,,Sorry...
 Dialogue: 0,0:05:19.94,0:05:22.94,Default,,0,0,0,,I'm sorry, Honmaru. \NIt was my fault that you got beaten...{/because of my fault, so much...}
 Dialogue: 0,0:05:23.46,0:05:25.59,Default,,0,0,0,,It was not your fault in the slightest.
 Dialogue: 0,0:05:25.59,0:05:27.70,Default,,0,0,0,,Instead, look at the wreck that is Jabao.{Instead, look at Jabao making a mess out of himself}
-Dialogue: 0,0:05:27.70,0:05:30.45,Default,,0,0,0,,His butt is swelling \Nlike a gas tank about to explode!{honestly, only sure about gas tank, the rest is veiled, shiri may be buttocks, and the end is kinda sorta like "kaette yaru no" which is "returs" but the gas tank has the most major role so I built the translation around it, though I've no clue what analogy with gas tank it was originally}
+Dialogue: 0,0:05:27.70,0:05:30.45,Default,,0,0,0,,His butt is tattered and he's about to cry! {/His butt is swelling like a gas tank about to explode!} {honestly, only sure about gas tank, the rest is veiled, shiri may be buttocks, and the end is kinda sorta like "kaette yaru no" which is "returs" but the gas tank has the most major role so I built the translation around it, though I've no clue what analogy with gas tank it was originally} {yume: "His butt got wrecked and he's about to cry!"\N      from べそをかく / "being on the verge of tears". The current take feels too stiff/wordy as is, let alone with the "he's about to cry" part stuck on top of it.}
 Dialogue: 0,0:05:32.09,0:05:33.10,Default,,0,0,0,,Teacher!
 Dialogue: 0,0:05:33.39,0:05:35.83,Default,,0,0,0,,I believe both parties are at fault for the fight!{/both sides are to blame for the fight, I think}
 Dialogue: 0,0:05:36.77,0:05:37.86,Default,,0,0,0,,Ijigawa...
@@ -266,7 +266,7 @@ Dialogue: 0,0:16:25.44,0:16:26.11,Default,,0,0,0,,Taru.
 Dialogue: 0,0:16:27.22,0:16:30.55,Default,,0,0,0,,The hell? Look at that bizarre kid!
 Dialogue: 0,0:16:30.55,0:16:32.70,Default,,0,0,0,,This is friend Taruruuto-kun!
 Dialogue: 0,0:16:32.70,0:16:33.52,Default,,0,0,0,,Taruru!
-Dialogue: 0,0:16:36.64,0:16:38.33,Default,,0,0,0,,Taru-chan, impressive!{no clue, may be "[he is making] enemy/opponent [of you]" or "taru, this is dangerous", may be "it's so much like you/fits you" may be (it actually cant) shortening of "suteki" which I ultimately went with, may be "applying/summary/selection"(bullshit)}
+Dialogue: 0,0:16:36.64,0:16:38.33,Default,,0,0,0,,Taru-chan, impressive!{no clue, may be "[he is making] enemy/opponent [of you]" or "taru, this is dangerous", may be "it's so much like you/fits you" may be (it actually cant) shortening of "suteki" which I ultimately went with, may be "applying/summary/selection"(bullshit)} {yume: "Taru-chan, you're so agile!" / lib. "Taru-chan, you're great at this!"}
 Dialogue: 0,0:16:41.77,0:16:43.33,Default,,0,0,0,,Stop it, Jabao!
 Dialogue: 0,0:16:46.53,0:16:49.20,Default,,0,0,0,,Honmaru, got something to say to me?
 Dialogue: 0,0:17:01.72,0:17:02.68,Default,,0,0,0,,That's the way!
@@ -281,7 +281,7 @@ Dialogue: 0,0:17:45.27,0:17:46.69,Default,,0,0,0,,You gotta be kidding.
 Dialogue: 0,0:17:46.69,0:17:49.65,Default,,0,0,0,,There's no way we can confront them \Neven if we stick together!{/lit: even if we become a bunch, the matching opponent wins - unsure about "kanau" supposed to be "matching/fitting the opponent" but why then he says "win" if they'd lose? or maybe "this won't come true" but then again, there's no denial/rejection/-nai or some negative verb in that sentence}
 Dialogue: 0,0:17:49.65,0:17:53.32,Default,,0,0,0,,Let sleeping dogs lie, lest you get bitten,{/the spirit you do not approach will not curse you} \Nisn't that what they say?
 Dialogue: 0,0:18:00.59,0:18:01.73,Default,,0,0,0,,Iyona-chan...
-Dialogue: 0,0:18:04.62,0:18:07.76,Default,,0,0,0,,Alright, time to restore my honor.{/redeem my reputation} \NLet's go, Taruru!
+Dialogue: 0,0:18:04.62,0:18:07.76,Default,,0,0,0,,Alright, time to restore my honor.{/redeem my reputation} \NLet's go, Taru!
 Dialogue: 0,0:18:11.92,0:18:12.81,Default,,0,0,0,,Hey, Honmaru!
 Dialogue: 0,0:18:12.81,0:18:14.05,Default,,0,0,0,,What are you up to?
 Dialogue: 0,0:18:16.51,0:18:17.59,Default,,0,0,0,,Honmaru-kun...
@@ -311,13 +311,13 @@ Dialogue: 0,0:19:18.37,0:19:21.35,Default,,0,0,0,,Yeah! Making friends{/getting 
 Dialogue: 0,0:19:22.32,0:19:23.87,Default,,0,0,0,,Watch your tongue, Taruruuto!{/Stop making it worse, Taruruuto!}{its his usual yose - for god's sake from manga}
 Dialogue: 0,0:19:23.87,0:19:24.95,Default,,0,0,0,,A lick?{/a tongue}{guess, sounds like "namatte" which is mispronounce/hide/falter}
 Dialogue: 0,0:19:27.70,0:19:30.73,Default,,0,0,0,,If you have a problem, put it frankly, \Nyou cheeky midget!{*exhales* okay, here we go, lit: "if you have complaint, pronounce it clearly, this jumping/rebounding/retalitating youngster"}
-Dialogue: 0,0:19:30.73,0:19:34.03,Default,,0,0,0,,Honmaru, watch out!{/it's dangerous} \NEmbedding Punch!{sounds close to tatareru, deepl suggests "be forced to bed (by illness, etc.)/be forced to stand" so I'm going with "sending to bed punch" though "sending to moon" would work too I guess, I don't remember him using it a lot later on; in manga it's just "taruru panchi"}
+Dialogue: 0,0:19:30.73,0:19:34.03,Default,,0,0,0,,Honmaru, watch out!{/it's dangerous} \NTataruru Punch!{sounds close to tatareru, deepl suggests "be forced to bed (by illness, etc.)/be forced to stand" so I'm going with "sending to bed punch" though "sending to moon" would work too I guess, I don't remember him using it a lot later on; in manga it's just "taruru panchi"}
 Dialogue: 0,0:19:37.99,0:19:39.51,Default,,0,0,0,,Shit'd just hit the fan!{/if you haven't done it, it wouldn't have been interesting/exciting}
 Dialogue: 0,0:19:39.51,0:19:42.02,Default,,0,0,0,,If you want it badly, \Nwe can play together as friends!{/it's as you said, we'll get along and play together, won't we}
 Dialogue: 0,0:19:42.02,0:19:44.10,Default,,0,0,0,,Ain't that what we're all about, people!?{/it's what we do best, right, everyone?}
 Dialogue: 0,0:19:45.66,0:19:48.33,Default,,0,0,0,,Hey, now this spells real danger.{/this is seriously dangerous}
 Dialogue: 0,0:19:49.01,0:19:50.31,Default,,0,0,0,,What do we do?
-Dialogue: 0,0:19:50.63,0:19:51.13,Default,,0,0,0,,Pero.
+Comment: 0,0:19:50.63,0:19:51.13,Default,,0,0,0,,Pero.
 Dialogue: 0,0:19:53.63,0:19:55.15,Default,,0,0,0,,I'm sorry, Honmaru.
 Dialogue: 0,0:19:55.15,0:19:57.40,Default,,0,0,0,,Cretin! The time for apologies was about yesterday!{/it's too late to apologize now}
 Dialogue: 0,0:20:02.33,0:20:02.99,Default,,0,0,0,,Taru...
@@ -331,7 +331,7 @@ Dialogue: 0,0:20:31.98,0:20:34.80,Default,,0,0,0,,Taruruuto's meddling \Nturned 
 Dialogue: 0,0:20:34.80,0:20:35.96,Default,,0,0,0,,Honmaru, don't give up!{I hope its shikkari}
 Dialogue: 0,0:20:40.54,0:20:42.88,Default,,0,0,0,,Honmaru, show them your magic, too.
 Dialogue: 0,0:20:42.88,0:20:45.61,Default,,0,0,0,,You picked the worst time ever \Nto play with an RC helicopter!{/what's the point of playing with ... at such a time?}
-Dialogue: 0,0:20:45.61,0:20:49.84,Default,,0,0,0,,Grow like mushroo-roo-roo-roo-rooms!{absolute guess, just picked the only word that means "grow/expand" and has "ru" in it}
+Dialogue: 0,0:20:45.61,0:20:49.84,Default,,0,0,0,,Throw and gro-ro-row! {I made it into Throw and gro-row! in later eps but here it doesn't work I think, alt: Grow like mushroo-roo-roo-roo-rooms}
 Dialogue: 0,0:20:55.86,0:20:56.86,Default,,0,0,0,,No way!{/bullshit}
 Dialogue: 0,0:21:02.32,0:21:06.83,Default,,0,0,0,,Honmaru, with magic, I made your Arsie{/RC} big!
 Dialogue: 0,0:21:10.56,0:21:13.58,Default,,0,0,0,,Just... Where did it come from?{/what's going on}
@@ -357,16 +357,16 @@ Dialogue: 0,0:22:41.92,0:22:43.34,Default,,0,0,0,,It's a dream after all!
 Dialogue: 0,0:22:43.34,0:22:45.43,Default,,0,0,0,,I'm just seeing a dream, that must be it!
 Dialogue: 0,0:22:45.43,0:22:49.07,Default,,0,0,0,,Me - Honmaru's friend!
 Dialogue: 0,0:22:49.07,0:22:51.66,Default,,0,0,0,,Happy to be hanging out\Nwith you from now on, too!{/from now on too, nice to meet you!}
-Dialogue: 0,0:22:51.66,0:22:52.53,Default,,0,0,0,,Pero.
-Dialogue: 0,0:23:02.90,0:23:03.57,Default,,0,0,0,,Pero...
-Dialogue: 0,0:23:12.30,0:23:13.91,Default,,0,0,0,,Taruru!
+Comment: 0,0:22:51.66,0:22:52.53,Default,,0,0,0,,Pero.
+Comment: 0,0:23:02.90,0:23:03.57,Default,,0,0,0,,Pero...
+Comment: 0,0:23:12.30,0:23:13.91,Default,,0,0,0,,Taruru!
 Dialogue: 0,0:23:14.66,0:23:17.43,Default,,0,0,0,,I can't take it anymore! \NNo way I keep this feeling in check!
 Dialogue: 0,0:23:18.00,0:23:19.81,Default,,0,0,0,,I made up my mind, Taruruuto!{sounds rather like "kimidazo" but it's preview so idc}
 Dialogue: 0,0:23:19.81,0:23:22.12,Default,,0,0,0,,I'll give Iyona-chan a love letter!
 Dialogue: 0,0:23:22.12,0:23:24.65,Default,,0,0,0,,You'll help me, won't you? \NCause you're my friend!
 Dialogue: 0,0:23:24.65,0:23:27.53,Default,,0,0,0,,Taru!\NWe're friends, so it stands!
 Dialogue: 0,0:23:29.67,0:23:31.18,Default,,0,0,0,,Magical Taruruuto-kun:
-Dialogue: 0,0:23:31.18,0:23:32.80,Default,,0,0,0,,Reaching out to Iyona{/Stonewalled by Yona. - dokkin seems to be the sound of hitting on metal, but idk how to put it and in the next ep he is just getting unlucky hitting on yona all the way so I guess this fits}
+Dialogue: 0,0:23:31.18,0:23:32.80,Default,,0,0,0,,Reaching out to Iyona.{/Stonewalled by Yona. - dokkin seems to be the sound of hitting on metal, but idk how to put it and in the next ep he is just getting unlucky hitting on yona all the way so I guess this fits}
 Dialogue: 0,0:23:32.80,0:23:34.53,Default,,0,0,0,,Watch it, okay?
 Dialogue: 0,0:23:34.53,0:23:37.40,Sign,,0,0,0,,Episode 2\NReaching out to Yona{/Stonewalled by Yona}
 Comment: 0,0:23:37.40,0:23:37.44,Sign,,0,0,0,,{OP/ED border}
@@ -388,4 +388,4 @@ Dialogue: 0,0:24:42.48,0:24:44.65,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c
 Dialogue: 0,0:24:44.65,0:24:47.30,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c&HE2E2E2&\1a&H20&\3c&HB9AD88&\3a&H3F&\4c&HA82DBF&\4a&H49&\fs30}{本気さマジだぜ}If I'm honest,
 Dialogue: 0,0:24:47.30,0:24:49.47,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c&HE2E2E2&\1a&H20&\3c&HB9AD88&\3a&H3F&\4c&HA82DBF&\4a&H49&\fs30}I speak my mind:
 Dialogue: 0,0:24:49.47,0:24:52.68,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c&HE2E2E2&\1a&H20&\3c&HB9AD88&\3a&H3F&\4c&HA82DBF&\4a&H49&\fs30}{素直な自分になれ!!}Being frank with yourself is paramount!
-Dialogue: 1,0:24:50.64,0:24:55.06,Sign,,10,10,10,,{\shad1\fs23\b0\fsp1\bord0.1\blur1\c&HE0E6EF&\1a&H1F&\4c&H14329B&\4a&H61&\3c&H1179AC&\3a&H38&\pos(440,335)}A study in .srt by Perevodildo \NRAW by Renascent
+Dialogue: 1,0:24:50.64,0:24:55.06,Sign,,10,10,10,,{\shad1\fs23\b0\fsp1\bord0.1\blur1\c&HE0E6EF&\1a&H1F&\4c&H14329B&\4a&H61&\3c&H1179AC&\3a&H38&\pos(440,200)}A study in .srt by Perevodildo \NRAW by Renascent \N QC by MartyMcflies (LonelyChaser) \N Translation checking by Yume

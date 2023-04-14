@@ -10,18 +10,18 @@ YCbCr Matrix: TV.601
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: [Perevodildo] Magical Taruruuto-kun (1990) - 03 [DVD].mkv
-Video File: [Perevodildo] Magical Taruruuto-kun (1990) - 03 [DVD].mkv
+Audio File: Magical Taruruuto-kun (1990) - 03 [DVD].mkv
+Video File: Magical Taruruuto-kun (1990) - 03 [DVD].mkv
 Video AR Mode: 4
 Video AR Value: 1.367377
 Video Zoom Percent: 0.750000
-Scroll Position: 341
-Active Line: 353
-Video Position: 33139
+Scroll Position: 68
+Active Line: 74
+Video Position: 4810
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Tahoma,26,&H00FFFFFF,&H000000FF,&H00370924,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,20,20,45,1
+Style: Default,Tahoma,26,&H00FFFFFF,&H000000FF,&H006A0029,&H00000000,-1,0,0,0,100,100,0,0,1,2.7,0,2,20,20,45,1
 Style: Sign,Arial,24,&H00FFFFFF,&H000000FF,&H00161C3C,&H00000000,0,0,0,0,100,100,0,0,1,1.8,0,8,10,10,10,1
 
 [Events]
@@ -66,7 +66,7 @@ Dialogue: 0,0:24:10.39,0:24:12.56,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c
 Dialogue: 0,0:24:12.56,0:24:15.23,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c&HE2E2E2&\1a&H20&\3c&HB9AD88&\3a&H3F&\4c&HA82DBF&\4a&H49&\fs30}{本気さマジだぜ}If I'm honest,
 Dialogue: 0,0:24:15.23,0:24:17.39,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c&HE2E2E2&\1a&H20&\3c&HB9AD88&\3a&H3F&\4c&HA82DBF&\4a&H49&\fs30}I speak my mind:
 Dialogue: 0,0:24:17.39,0:24:20.61,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c&HE2E2E2&\1a&H20&\3c&HB9AD88&\3a&H3F&\4c&HA82DBF&\4a&H49&\fs30}{素直な自分になれ!!}Being frank with yourself is paramount!
-Dialogue: 1,0:24:18.56,0:24:22.98,Sign,,10,10,10,,{\shad1\fs23\b0\fsp1\bord0.1\blur1\c&HE0E6EF&\1a&H1F&\4c&H14329B&\4a&H61&\3c&H1179AC&\3a&H38&\pos(445,345)}A study in .srt by Perevodildo \NRAW by Renascent
+Dialogue: 1,0:24:18.56,0:24:22.98,Sign,,10,10,10,,{\shad1\fs23\b0\fsp1\bord0.1\blur1\c&HE0E6EF&\1a&H1F&\4c&H14329B&\4a&H61&\3c&H1179AC&\3a&H38&\pos(445,195)}A study in .srt by Perevodildo \NRAW by Renascent \N QC by MartyMcflies (LonelyChaser) \N Translation checking by Yume
 Dialogue: 0,0:01:20.41,0:01:28.88,Sign,,0,0,130,,{\fad(1000,0)\b1\bord0\blur0.7\fs20\c&HDEE5F3&\1a&H2C&}Episode 3 \N{\fs40}Dangerous Transfer Student{fading looks like shit but I can't be bothered to gradient}
 Dialogue: 0,0:01:31.67,0:01:33.86,Default,,0,0,0,,This should be here, I think...
 Dialogue: 0,0:01:34.30,0:01:36.63,Default,,0,0,0,,Honmaru, let's go play around together.
@@ -75,7 +75,7 @@ Dialogue: 0,0:01:38.16,0:01:39.85,Default,,0,0,0,,Hey, Honmaru!
 Dialogue: 0,0:01:39.85,0:01:40.55,Default,,0,0,0,,Let's go.
 Dialogue: 0,0:01:41.05,0:01:43.07,Default,,0,0,0,,You're distracting me, Taruruuto.
 Dialogue: 0,0:01:43.07,0:01:45.84,Default,,0,0,0,,My plan for today was to finish building this fellow.
-Dialogue: 0,0:01:45.84,0:01:48.02,Default,,0,0,0,,I don't have the time to faff around with you.{/I'm not free to be your playing partner}
+Dialogue: 0,0:01:45.84,0:01:48.02,Default,,0,0,0,,I don't have the time to play around with you.{/I'm not free to be your playing partner}
 Dialogue: 0,0:01:49.48,0:01:50.19,Default,,0,0,0,,That so?{/I see}
 Dialogue: 0,0:01:50.53,0:01:51.44,Default,,0,0,0,,So, so.
 Dialogue: 0,0:01:53.18,0:01:54.61,Default,,0,0,0,,You'll have to excuse me{ for this}.
@@ -85,7 +85,7 @@ Dialogue: 0,0:02:00.95,0:02:03.49,Default,,0,0,0,,What do you say, Taruruuto? \N
 Dialogue: 0,0:02:16.42,0:02:17.56,Default,,0,0,0,,Honmaru?
 Dialogue: 0,0:02:19.43,0:02:22.05,Default,,0,0,0,,Honmaru? Honmaru, is that you?
 Dialogue: 0,0:02:22.39,0:02:23.64,Default,,0,0,0,,How odd.
-Dialogue: 0,0:02:31.86,0:02:32.73,Default,,0,0,0,,Pero.
+Comment: 0,0:02:31.86,0:02:32.73,Default,,0,0,0,,Pero.
 Dialogue: 0,0:02:35.19,0:02:36.32,Default,,0,0,0,,Is it just my imagination?
 Dialogue: 0,0:02:37.79,0:02:39.19,Default,,0,0,0,,Taruruuto?
 Dialogue: 0,0:02:44.70,0:02:47.50,Default,,0,0,0,,Honmaru, I knew it was you all this time!{/so it was you after all}
@@ -97,19 +97,19 @@ Dialogue: 0,0:02:59.43,0:03:01.47,Default,,0,0,0,,You can't be doing that, Tarur
 Dialogue: 0,0:03:01.47,0:03:03.43,Default,,0,0,0,,How am I to explain it{/talk my way out} \Nif mom finds out about you?{/if it leaks to mom that you're here, what are you going to do?}
 Dialogue: 0,0:03:03.43,0:03:04.55,Default,,0,0,0,,You'll get driven out.{/evicted/expelled; I hope it's ondasare}
 Dialogue: 0,0:03:04.92,0:03:06.58,Default,,0,0,0,,Sorry, Honmaru.
-Dialogue: 0,0:03:06.58,0:03:10.67,Default,,0,0,0,,Can't have even a minute for myself.{I hope it's たく, しょうがないなぁ which is some general colloquialism for irritation like "can't help it" or "what a pain", but with a slight chance might be "takusho" - exile for crime} \NAt least, don't vex me now, when I took you for a walk.{/I took you out for a walk so be quiet}
+Dialogue: 0,0:03:06.58,0:03:10.67,Default,,0,0,0,,Can't have even a minute for myself.{I hope it's たく, しょうがないなぁ which is some general colloquialism for irritation like "can't help it" or "what a pain", but with a slight chance might be "takusho" - exile for crime} \NAt least, don't vex me now while I'm taking you out for a walk.{/I took you out for a walk so be quiet}
 Dialogue: 0,0:03:16.26,0:03:19.28,Sign,,0,0,0,,{\c&H40372D&\3c&HA9B3BB&\blur1}Takoyaki
 Dialogue: 0,0:03:18.11,0:03:19.28,Default,,0,0,0,,Hey there!
 Dialogue: 0,0:03:20.60,0:03:21.86,Default,,0,0,0,,What's this thing?
 Dialogue: 0,0:03:23.03,0:03:25.27,Default,,0,0,0,,Never heard of Takoyaki?{/you don't know what takoyaki is}
 Dialogue: 0,0:03:25.75,0:03:28.28,Default,,0,0,0,,Takoyaki? Are they good?{/is that thing tasty}
 Dialogue: 0,0:03:28.66,0:03:30.04,Default,,0,0,0,,Putting it mildly!{/naturally}
-Dialogue: 0,0:03:30.04,0:03:32.71,Default,,0,0,0,,They are so good, you just keep eating until you burst.{very unstable as lit is "too tasty, don't know to lose/remove your loins/waist" but I can only find the usage of koshinukasu in the meaning "can't stand due to spine/vertibrae trauma" and not "eat so much you can't stand" or "your waist explodes due to how much you've eaten" or anything else that can be slightly related and also this "shiranaizo" in the end that probably means "you don't know as well [the pleasure of] koshinukasu" but still had to omit this for cps's sake}
+Dialogue: 0,0:03:30.04,0:03:32.71,Default,,0,0,0,,They're so good, \Nyou just keep eating until you burst.{very unstable as lit is "too tasty, don't know to lose/remove your loins/waist" but I can only find the usage of koshinukasu in the meaning "can't stand due to spine/vertibrae trauma" and not "eat so much you can't stand" or "your waist explodes due to how much you've eaten" or anything else that can be slightly related and also this "shiranaizo" in the end that probably means "you don't know as well [the pleasure of] koshinukasu" but still had to omit this for cps's sake} {Yume: "They're tasty enough to make you faint from pleasure. I warned you."\N      Plenty of examples in culinary context, like "米なんてうますぎて腰抜かすぜ".}
 Dialogue: 0,0:03:32.71,0:03:33.83,Default,,0,0,0,,Here.
 Dialogue: 0,0:03:33.83,0:03:35.29,Default,,0,0,0,,Yeah, bring it, bring it!
 Dialogue: 0,0:03:35.29,0:03:36.88,Default,,0,0,0,,Are you listening, Taru...
 Dialogue: 0,0:03:38.84,0:03:39.91,Default,,0,0,0,,Taruruuto!
-Dialogue: 0,0:03:44.14,0:03:46.25,Default,,0,0,0,,You seem to be taking it{/my aphorism} too close to heart.{rather, he says "what a magnificent pi/kippuri/ru," but I don't seem to know exactly what is kippuri, tho most likely appetite/stomach/etc/capacity until bursting}
+Dialogue: 0,0:03:44.14,0:03:46.25,Default,,0,0,0,,You sure have some iron stomach there...{/You seem to be taking my aphorism too close to heart.} {rather, he says "what a magnificent pi/kippuri/ru," but I don't seem to know exactly what is kippuri, tho most likely appetite/stomach/etc/capacity until bursting} {気っ風 -> "You've got an impressive appetite"}
 Dialogue: 0,0:03:46.63,0:03:47.93,Default,,0,0,0,,Told you it's good!{/tasty, isn't it? - no clue, he seems to have an accent of some kind or whatever, it may be "mae dare ii" or "umai da to ii" or smt else, maybe even mandarin/my darling}
 Dialogue: 0,0:03:48.89,0:03:51.54,Default,,0,0,0,,Taruruuto! You need money to eat this!{/you have money, don't you?}
 Dialogue: 0,0:03:51.54,0:03:53.05,Default,,0,0,0,,What{ is} money?
@@ -118,17 +118,18 @@ Comment: 0,0:04:04.39,0:04:06.70,Sign,,0,0,0,,{\fade(800,800)}{Banana Beer}{actu
 Dialogue: 0,0:04:25.39,0:04:27.78,Default,,0,0,0,,Honmaru, that looks like fun.{/interesting}
 Dialogue: 0,0:04:27.78,0:04:29.39,Default,,0,0,0,,What's this about? \NSome festival{/carnival/festival/parade - will be used later so no}?
 Dialogue: 0,0:04:30.08,0:04:33.04,Default,,0,0,0,,They say the heir{/scion/influential younger member of the family} to the Harako Conglomerate \Nis visiting the city!{/is moving into the city! - hikoushi is precisely "move from one dwelling to another" and I'm not sure why this wording is chosen, and regardless I changed to more consequential "visiting" because if he wants he can just move into later after meeting yona, not before for no reason}
-Dialogue: 0,0:04:33.04,0:04:35.14,Default,,0,0,0,,No wonder a welcoming parade is arranged.{again, the more literal would be "I guess it's a parade to commemorate the moving in"}
-Dialogue: 0,0:04:36.39,0:04:42.28,Default,,0,0,0,,Ladies and gentlemen, in lieu of empty salutations, \Nplease accept those modest{/humble} souvenirs from Young Master!{/as a substitute for greeting from bocchan, those small things are for you - no clue what is soshita}
+Dialogue: 0,0:04:33.04,0:04:35.14,Default,,0,0,0,,No wonder they arranged a welcoming parade.{again, the more literal would be "I guess it's a parade to commemorate the moving in"}
+Dialogue: 0,0:04:36.39,0:04:42.28,Default,,0,0,0,,Ladies and gentlemen, in lieu of empty salutations, \Nplease accept these modest{/humble} souvenirs from Young Master!{/as a substitute for greeting from bocchan, those small things are for you - no clue what is soshita}
 Dialogue: 0,0:04:42.28,0:04:43.89,Sign,,0,0,0,,{\c&H352F91&\3c&HA3B4C7&\blur0.5}Present{祝 - celebration/congratulation}
 Dialogue: 0,0:04:44.36,0:04:45.95,Default,,0,0,0,,What is it, just a plaid?{/furoshiki/wrapping cloth/handkerchief}
 Dialogue: 0,0:04:50.54,0:04:51.93,Default,,0,0,0,,It has an embroidery of gold!{unsure about paku in kinpaku, but if I assume it's thread, lit is "it's sewn in with a golden thread"}
-Dialogue: 0,0:05:04.22,0:05:07.43,Default,,0,0,0,,Phew! Just some indifferent snob \Nbragging his deep pockets.{i hear "tantan ga ikkou shi gurai de ooban ga yatsu da" which approximates to "a guy trying to pull off a lavish banquet is bored/dispassionate to a degree of about completely" - unsure about nearly every part of it}
+Dialogue: 0,0:05:04.22,0:05:07.43,Default,,0,0,0,,Phew! Just some indifferent snob \Nbragging about his deep pockets.{i hear "tantan ga ikkou shi gurai de ooban ga yatsu da" which approximates to "a guy trying to pull off a lavish banquet is bored/dispassionate to a degree of about completely" - unsure about nearly every part of it}
 Dialogue: 0,0:05:07.43,0:05:08.93,Default,,0,0,0,,Let's go, Taruruuto!
 Dialogue: 0,0:05:11.87,0:05:14.22,Default,,0,0,0,,Honmaru, Iyona also came.{/is over there}
 Dialogue: 0,0:05:15.01,0:05:15.57,Default,,0,0,0,,She really did!
 Dialogue: 0,0:05:17.63,0:05:21.56,Default,,0,0,0,,To think I'd meet such a cutie girl in a city this mucky{/dirty}...
 Dialogue: 0,0:05:21.95,0:05:23.55,Default,,0,0,0,,Pick her up.{/Stop beside her./usher/call/summon her in/greet her}
+Dialogue: 0,0:05:24.01,0:05:24.47,Default,,0,0,0,,As you wish!
 Dialogue: 0,0:05:27.22,0:05:28.99,Default,,0,0,0,,You there, pretty girl.{/the beautiful girl over there}
 Dialogue: 0,0:05:29.35,0:05:32.58,Default,,0,0,0,,To commemorate our fruitful meeting, \Nwon't you join me for a drive?{/as a sign of us getting closer/becoming acquainted ...}
 Dialogue: 0,0:05:32.91,0:05:34.04,Default,,0,0,0,,Now, get aboard.{/here, please}
@@ -165,7 +166,7 @@ Dialogue: 0,0:07:00.62,0:07:03.21,Default,,0,0,0,,If you need to ask someone out
 Dialogue: 0,0:07:03.21,0:07:05.10,Default,,0,0,0,,That would be a win-win for everyone!{/this way, no one would complain}
 Dialogue: 0,0:07:05.10,0:07:07.09,Default,,0,0,0,,I'm privileged enough to choose!{/I have the right to choose - methinks he implies "I'm entitled to choose because I can afford it"}
 Dialogue: 0,0:07:07.40,0:07:08.95,Default,,0,0,0,,Wait a moment there, you two!{/haven't you forgot to ask me?}
-Dialogue: 0,0:07:15.22,0:07:18.06,Default,,0,0,0,,After young master, this way!{/o botchan! continue!}
+Dialogue: 0,0:07:15.22,0:07:18.06,Default,,0,0,0,,After Young Master, this way!{/o botchan! continue!}
 Dialogue: 0,0:07:20.35,0:07:22.27,Default,,0,0,0,,Can't you steer with some more sense?{/you should drive more seriously}
 Dialogue: 0,0:07:22.77,0:07:23.84,Default,,0,0,0,,Taruruuto!?
 Dialogue: 0,0:07:23.84,0:07:25.48,Default,,0,0,0,,Me the driver.
@@ -180,7 +181,7 @@ Dialogue: 0,0:08:30.76,0:08:32.16,Default,,0,0,0,,Can't reach.
 Dialogue: 0,0:08:32.72,0:08:34.38,Default,,0,0,0,,Forget it! It's too late now!{/there's no time}
 Dialogue: 0,0:08:35.18,0:08:37.18,Default,,0,0,0,,Taruruuto...
 Dialogue: 0,0:08:41.73,0:08:44.96,Default,,0,0,0,,The art of squeezing thru-ru-ru-rough!{no clue. whatsoever. might as well be "hey, shalom to my magical hat counterpart" though sounds close enough to "でっしゃろ" which can't be the case since it's supposed to be on the end of the sentence, neither can "ぴっしゃり" or "densha" because none of them have anything to do with shrinking/getting smaller, hell I can't even tell wtf is horuru part, don't see it being carve/engrave/dig/delve into/have gay sex; I made it "go through" because bissha at least resembles it and they don't exactly become smaller, but rather just fit right into under the truck}
-Dialogue: 0,0:08:54.65,0:08:57.66,Default,,0,0,0,,What did just happen?{/how did he do it?}\NAt least we're safe, I guess.{/either way, we're saved}
+Dialogue: 0,0:08:54.65,0:08:57.66,Default,,0,0,0,,What just happened?{/how did he do it?}\NAt least we're safe, I guess.{/either way, we're saved}
 Dialogue: 0,0:08:58.12,0:09:00.12,Default,,0,0,0,,Good job with that one,{/you managed it,} Taruruuto.
 Dialogue: 0,0:09:00.12,0:09:02.95,Default,,0,0,0,,When driving with magic, have nothing to worry!{/I drive with magic so everything is alright}
 Dialogue: 0,0:09:02.95,0:09:04.23,Default,,0,0,0,,Well said, too!{/that's right}
@@ -191,6 +192,8 @@ Dialogue: 0,0:09:16.55,0:09:19.33,Default,,0,0,0,,Board Pen Magic!
 Dialogue: 0,0:09:19.35,0:09:21.18,Default,,0,0,0,,Taruru, Taruru.
 Dialogue: 0,0:09:21.18,0:09:22.92,Default,,0,0,0,,Taruru!
 Dialogue: 0,0:09:24.28,0:09:25.75,Default,,0,0,0,,Just let me handle this!{/you should leave this to me}{he says oira which is rather "us" for whatever reason}
+Dialogue: 0,0:09:25.75,0:09:26.75,Default,,0,0,0,,Like this!
+Dialogue: 0,0:09:26.75,0:09:27.59,Default,,0,0,0,,Let's do it!
 Dialogue: 0,0:09:29.97,0:09:31.25,Default,,0,0,0,,Soaring!
 Dialogue: 0,0:09:32.44,0:09:33.57,Default,,0,0,0,,Perfect landing.{guess, hear "ta" so it's "I did something"}
 Dialogue: 0,0:09:38.24,0:09:40.28,Default,,0,0,0,,Iyona, have no worries.
@@ -198,11 +201,11 @@ Dialogue: 0,0:09:40.28,0:09:42.12,Default,,0,0,0,,You really saved us all!
 Dialogue: 0,0:09:42.12,0:09:43.70,Default,,0,0,0,,Great job, Taru-chan!{/I'm so glad}
 Dialogue: 0,0:09:43.70,0:09:46.12,Default,,0,0,0,,When I'm around, you're safe and sound.{/If you have me, you're trouble-free.}{this sounds like "I follow/included/in luck/attached - all right" methinks implying "you'll be daijobu as long as you're with me" but also sounds a bit like "oitsuiteru" and correspondingly "I catch up/chase, daijobu" but it's in present tense}
 Dialogue: 0,0:09:46.12,0:09:46.95,Default,,0,0,0,,That tickles!
-Dialogue: 0,0:09:46.95,0:09:51.93,Default,,0,0,0,,You there! Only looking to stick yourself into under \Nsomeone's butt, as usual, you perverted thing!{/lit: before one knows, you slip under one's ass, you sicko}
+Dialogue: 0,0:09:46.95,0:09:51.93,Default,,0,0,0,,You there! Only looking to stick yourself under \Nsomeone's butt, as usual, you perverted thing!{/lit: before one knows, you slip under one's ass, you sicko}
 Dialogue: 0,0:09:51.93,0:09:53.36,Default,,0,0,0,,Ijigawa... Let me...{/you [bitch]...}
 Dialogue: 0,0:09:59.91,0:10:04.72,Default,,0,0,0,,Meeting Iyona-san was no accident, \Nbut instead, a fate's great device!{no clue why he added toittane, may mean "with someone like yona" but also sounds close to "as yona said" or "to go with yona"; second part is "this was indeed a fateful meeting"}
 Dialogue: 0,0:10:04.72,0:10:07.89,Default,,0,0,0,,The history will remember our love \Nthat is only starting now!{lit: history of love with you is merely starting now - unsure why he used "history" and not "story" maybe he implied "the tale of our love will be etched into the annals of history"}
-Dialogue: 0,0:10:12.23,0:10:13.43,Default,,0,0,0,,What the hell! Let me go!
+Dialogue: 0,0:10:12.23,0:10:13.43,Default,,0,0,0,,What the hell? Let me go!
 Dialogue: 0,0:10:13.78,0:10:16.86,Default,,0,0,0,,You can just hang there until the end of times,{for the rest of your life!}\Nfor all history cares!{The history will remember what love?/what is that history of love crap? would take you a lifetime to earn it}{sounds like "一生そうやってろ" or "do that [hang on the power line] for the rest of your life" but issho may mean all sorts of things}
 Dialogue: 0,0:10:16.86,0:10:20.86,Default,,0,0,0,,Hey, sicko,{no clue what is choppo} can't get enough of feeling \Nsomeone's butt on you, do you?{lit: for how long are you going to feel the pleasure of feeling one's ass?}
 Dialogue: 0,0:10:20.86,0:10:22.41,Default,,0,0,0,,Why don't you get up yourself?{unsure, I hear "you also move out of the way" so maybe he means "I can't get you out of the way"}
@@ -212,6 +215,7 @@ Dialogue: 0,0:10:52.78,0:10:56.19,Default,,0,0,0,,Will Taruruuto really manage \
 Dialogue: 0,0:10:56.19,0:10:57.28,Default,,0,0,0,,I'm worried.
 Dialogue: 0,0:10:58.87,0:10:59.78,Default,,0,0,0,,Who did that?
 Dialogue: 0,0:11:02.74,0:11:03.99,Sign,,0,0,0,,{\c&H2F2C29&\3c&HA7B2B6&}Japanese test \NEdojo Honmaru
+Dialogue: 0,0:11:04.64,0:11:05.35,Default,,0,0,0,,Why, you...
 Dialogue: 0,0:11:08.31,0:11:10.52,Default,,0,0,0,,You again, Ijigawa!
 Dialogue: 0,0:11:14.17,0:11:19.33,Default,,0,0,0,,{it seems, }Jolly time Honmaru having at school. \NAnd I'm bored here.
 Dialogue: 0,0:11:23.85,0:11:28.77,Sign,,0,0,0,,{\c&HABACAB&\3c&H8E844C&}Harako Tsutomu
@@ -220,15 +224,15 @@ Dialogue: 0,0:11:33.88,0:11:35.38,Default,,0,0,0,,Everyone get along, okay?
 Dialogue: 0,0:11:35.80,0:11:37.63,Default,,0,0,0,,What kind of guy is he? \NI'm excited{ to see}.
 Dialogue: 0,0:11:38.94,0:11:40.05,Default,,0,0,0,,Harako-kun.
 Dialogue: 0,0:11:42.86,0:11:43.81,Default,,0,0,0,,Him again!{/that guy}
-Dialogue: 0,0:11:53.79,0:11:56.50,Default,,0,0,0,,Name is Harako Tsutomu.
+Dialogue: 0,0:11:53.79,0:11:56.50,Default,,0,0,0,,The name is Harako Tsutomu.
 Comment: 0,0:11:53.79,0:11:56.50,Sign,,0,0,0,,literally "empowered with atoms"
 Dialogue: 0,0:11:56.50,0:12:01.74,Default,,0,0,0,,Often being mistaken for a college{/university} student, \NI have today been admitted into your grade school.{koredemo is rather "despite that/and still" but rekkitoshita - lit is "accepted; fully-fledged; clear; respectable" but I've no clue what it means here, how can a grade school student be any of this}
 Dialogue: 0,0:12:02.33,0:12:03.61,Default,,0,0,0,,Let it be no secret,{/as you may see,}
 Dialogue: 0,0:12:03.97,0:12:07.10,Default,,0,0,0,,my impeccable appearances{/attractive face and figure​} \Nare complemented{/on top of ...} by a shrewd mind{/distinctive brain}.
 Dialogue: 0,0:12:07.58,0:12:09.18,Default,,0,0,0,,A prodigy in every sport.{lit: sports are omnipotent/universal}
 Dialogue: 0,0:12:09.66,0:12:14.56,Default,,0,0,0,,From his President's chair at Harako Conglomerate, \Nmy dad manipulates Japan from the shadows.{/My dad is Japan's shadow puppeteer, and a chaiman at atomic zaibatsu}
-Dialogue: 0,0:12:16.19,0:12:17.27,Default,,0,0,0,,He is so cool!
-Dialogue: 0,0:12:17.27,0:12:18.73,Default,,0,0,0,,Also handsome.
+Dialogue: 0,0:12:16.19,0:12:17.27,Default,,0,0,0,,He's so cool!
+Dialogue: 0,0:12:17.27,0:12:18.73,Default,,0,0,0,,And handsome!
 Dialogue: 0,0:12:19.17,0:12:22.64,Default,,0,0,0,,If you have a problem you want sorted, \Nthat is my field of expertise.{/feel free to ask me for a consultation}
 Dialogue: 0,0:12:22.64,0:12:23.72,Default,,0,0,0,,Nice to meet you.
 Dialogue: 0,0:12:31.27,0:12:33.54,Default,,0,0,0,,Let's see, where do we seat you...{/you seat will be}
@@ -252,21 +256,23 @@ Dialogue: 0,0:13:49.53,0:13:55.00,Default,,0,0,0,,This sweet scent of danger is 
 Dialogue: 0,0:13:55.97,0:13:56.65,Default,,0,0,0,,You think so?
 Dialogue: 0,0:14:00.21,0:14:04.88,Default,,0,0,0,,That way is the infirmary, \Nand then we have the staff room here.{/over there, it's the health preservation room and there the teachers' room}
 Dialogue: 0,0:14:06.34,0:14:08.55,Default,,0,0,0,,Iyona-chan, let me show him around, too!
-Dialogue: 0,0:14:08.55,0:14:10.91,Default,,0,0,0,,Then, next is going to be my turn!
+Dialogue: 0,0:14:08.55,0:14:10.91,Default,,0,0,0,,Then it'll be my turn next!
 Dialogue: 0,0:14:14.22,0:14:17.89,Default,,0,0,0,,Look, look, Iyona-chan doesn't seem \Nto mind his attention either!{/doesn't reject him at all, it seems}
-Dialogue: 0,0:14:19.23,0:14:20.86,Default,,0,0,0,,What will you do, Honmaru-kun?
+Dialogue: 0,0:14:18.63,0:14:20.86,Default,,0,0,0,,Say, what will you do, Honmaru-kun?
 Dialogue: 0,0:14:23.23,0:14:28.10,Default,,0,0,0,,Iyona-san, today after school, \Nwon't you mind me walking you home?{/today, on the way home, could you let me accompany you}
 Dialogue: 0,0:14:29.64,0:14:31.61,Default,,0,0,0,,It's unfair if you only take Iyona-chan{/walk home only yona}!
 Dialogue: 0,0:14:32.60,0:14:33.91,Default,,0,0,0,,Your turn will come too.{/one of these days/next time, it would be you all too}
+Dialogue: 0,0:14:34.44,0:14:36.36,Default,,0,0,0,,You prick...
 Dialogue: 0,0:14:36.37,0:14:37.41,Default,,0,0,0,,To hell with it!{/I can't take this!}{probably meaningless exclamation}
 Dialogue: 0,0:14:39.82,0:14:41.92,Default,,0,0,0,,What is it you need at such a moment?{What's with that impatient/dashing/impetuous approach?/What do you need, all of a sudden?}
 Dialogue: 0,0:14:41.92,0:14:44.40,Default,,0,0,0,,I was asking Kawai Iyona-san's permission \Nto walk her home.{rather, he says "I'm going home with kawai yona... like, now" but that can't be true; maybe it's cute yona, you never know}
-Dialogue: 0,0:14:45.06,0:14:48.14,Default,,0,0,0,,I'm not letting you pull \Nany more of those cocky escapades!{dekaitsura is to act self-importantly; to be arrogant; to be high-handed; to puff up; /to someone like you, I won't let to act dekaitsura}
+Dialogue: 0,0:14:45.06,0:14:48.14,Default,,0,0,0,,I'm not letting you pull \Nany more of these cocky escapades!{dekaitsura is to act self-importantly; to be arrogant; to be high-handed; to puff up; /to someone like you, I won't let to act dekaitsura}
 Dialogue: 0,0:14:48.14,0:14:50.11,Default,,0,0,0,,I challenge you to a duel, Harako Tsutomu!
 Dialogue: 0,0:14:50.11,0:14:52.17,Default,,0,0,0,,The one who wins, walks Iyona-chan home!
 Dialogue: 0,0:14:52.89,0:14:56.17,Default,,0,0,0,,What a desperado one must be \Nto challenge me to a duel!
 Dialogue: 0,0:14:56.68,0:15:00.30,Default,,0,0,0,,The deed akin to facing the king of beasts \Nwith nothing but your bare hands.{/it's like you're opposing the king of 100 kinds of animals with just your bare hands}
-Dialogue: 0,0:15:03.52,0:15:04.52,Default,,0,0,0,,Silence!{/shut up}
+Dialogue: 0,0:15:03.52,0:15:04.52,Default,,0,0,0,,Shut up!
+Dialogue: 0,0:15:07.59,0:15:08.47,Default,,0,0,0,,Alright!
 Dialogue: 0,0:15:09.03,0:15:12.09,Default,,0,0,0,,During the next PE class, \Nwe'll compare our strengths with a shot put!{lit: next physical education class, strength measuring ball throwing}
 Dialogue: 0,0:15:12.09,0:15:14.70,Default,,0,0,0,,That would be our duel!{/competition/showdown}
 Dialogue: 0,0:15:15.23,0:15:16.89,Default,,0,0,0,,A move worthy of Jabao-san.
@@ -275,7 +281,7 @@ Dialogue: 0,0:15:18.91,0:15:24.21,Default,,0,0,0,,A guy who could rival Jabao-sa
 Dialogue: 0,0:15:24.83,0:15:27.21,Default,,0,0,0,,Very well. I will rise to the challenge.{/I accept so let's compete}
 Dialogue: 0,0:15:29.87,0:15:30.70,Default,,0,0,0,,Wait a minute!
 Dialogue: 0,0:15:31.08,0:15:32.70,Default,,0,0,0,,I can't allow such a competition!{/this kind of duel is troublesome for me}
-Dialogue: 0,0:15:33.05,0:15:37.69,Default,,0,0,0,,Iyona-san, please leave worries aside. \NThere is no way I lose to such a wimp.{/guy}
+Dialogue: 0,0:15:33.05,0:15:37.69,Default,,0,0,0,,Iyona-san, leave your worries aside. \NThere is no way I can lose to such a wimp.{/guy}
 Dialogue: 0,0:15:37.69,0:15:39.21,Default,,0,0,0,,You {\i1}what?{\i0}{/what did you say}
 Dialogue: 0,0:15:41.71,0:15:43.19,Default,,0,0,0,,So, shall we be on our way?{/let's go, shall we?}
 Dialogue: 0,0:15:45.52,0:15:46.23,Default,,0,0,0,,I gotta see it!{/let's go too}
@@ -296,7 +302,7 @@ Dialogue: 0,0:16:27.05,0:16:29.19,Default,,0,0,0,,Time to challenge your strengt
 Dialogue: 0,0:16:29.19,0:16:32.69,Default,,0,0,0,,With our own hands, we'll shape \Nthe new progressive model of education.{/This must be something I'm aiming for - the new education; shin might also be true not new; her manner and phrasing strongly suggest a reference to some famous quote, like "from new family to new society" from kasei yakuyoku, or even some other philosophical/social/documentary/historical anime, eg ningen kakumei but I can't come up with any quote except "The purpose of education is to replace an empty mind with an open one"}
 Dialogue: 0,0:16:33.97,0:16:35.67,Default,,0,0,0,,What is wrong with them all?{/what a guy}
 Dialogue: 0,0:16:38.37,0:16:42.02,Default,,0,0,0,,But can I really pose any challenge \Nwith a body so physically underdeveloped?{/Still, what am I to offer, being that weak/feeble?}
-Dialogue: 0,0:16:42.44,0:16:46.91,Default,,0,0,0,,At this rate, Iyona-chan ends up going home \Nwith Harako or Jabao courting her{/accompanied by}...
+Dialogue: 0,0:16:42.44,0:16:46.91,Default,,0,0,0,,At this rate, Iyona-chan will end up going home \Nwith Harako or Jabao courting her{/accompanied by}...
 Dialogue: 0,0:16:46.91,0:16:48.70,Default,,0,0,0,,Honmaru!
 Dialogue: 0,0:16:50.68,0:16:52.51,Default,,0,0,0,,You won't lose, Honmaru!
 Dialogue: 0,0:16:52.51,0:16:53.37,Default,,0,0,0,,Taruruuto?
@@ -305,7 +311,7 @@ Dialogue: 0,0:16:57.36,0:16:59.93,Default,,0,0,0,,I just want a super power!{/wa
 Dialogue: 0,0:16:59.93,0:17:01.06,Default,,0,0,0,,That I can.
 Dialogue: 0,0:17:08.79,0:17:10.84,Default,,0,0,0,,Not the time to be playing around, Taruruuto!{/joking/messing}
 Dialogue: 0,0:17:12.36,0:17:13.65,Default,,0,0,0,,Wait, what?
-Dialogue: 0,0:17:15.47,0:17:18.53,Default,,0,0,0,,Muscles appear out of thin air?{/start to swell/rise/heap up}
+Dialogue: 0,0:17:15.47,0:17:18.53,Default,,0,0,0,,Muscles appearing out of thin air?{/start to swell/rise/heap up}
 Dialogue: 0,0:17:21.49,0:17:25.41,Default,,0,0,0,,Inflatable Muscles-kun{morimori kinnikun} can make you \Nas strong as a burudozer.{/make you an incredibly strong body builder}
 Dialogue: 0,0:17:25.41,0:17:26.52,Default,,0,0,0,,For real?
 Dialogue: 0,0:17:27.03,0:17:27.90,Default,,0,0,0,,Let's see.
@@ -313,9 +319,9 @@ Dialogue: 0,0:17:30.80,0:17:32.26,Default,,0,0,0,,For real! Super-strong!
 Dialogue: 0,0:17:33.71,0:17:36.20,Default,,0,0,0,,My power has not yet lost to anyone!{/if it's power [we're competing in] I won't lose to anyone}
 Dialogue: 0,0:17:39.51,0:17:41.89,Default,,0,0,0,,Jabao-san - 18 meters!
 Dialogue: 0,0:17:42.25,0:17:44.02,Default,,0,0,0,,No kidding around, Jabao-san!
-Dialogue: 0,0:17:44.02,0:17:46.47,Default,,0,0,0,,Broke the record for the boys division once again!
+Dialogue: 0,0:17:44.02,0:17:46.47,Default,,0,0,0,,You broke the record for the boys division once again!
 Dialogue: 0,0:17:46.88,0:17:48.80,Default,,0,0,0,,How was it? Saw it, Harako?
-Dialogue: 0,0:17:49.27,0:17:52.02,Default,,0,0,0,,Just as I thought, \Nmy power would be too much for this place.{unsure about shousen, would assume "after all" unsure about kusujikara, maybe it's kuso chikara then no clue what is "shit power alone" then sugiru is probably "too much", either it's what I wrote or he means "you strength is too shitty to be reckoned with" but then I still dunno where to put dake - just/only}
+Dialogue: 0,0:17:49.27,0:17:52.02,Default,,0,0,0,,Just as I thought, \Nyou're nothing more than a musclebrain.{unsure about shousen, would assume "after all" unsure about kusujikara, maybe it's kuso chikara then no clue what is "shit power alone" then sugiru is probably "too much", either it's what I wrote or he means "you strength is too shitty to be reckoned with" but then I still dunno where to put dake - just/only} {yume: "shosen, kusojikara dake ni suginai" ->\N      lit. "all in all, being really fucking strong is your only redeeming quality";\N      lib. "You're nothing more than a musclebrain" / "Brute strength is all you've got going for you"}
 Dialogue: 0,0:17:57.68,0:18:01.47,Default,,0,0,0,,The goddess of victory never smiles \Nupon those not fighting for love.{I guess the first part as ainai kemono = brutes without love implying "my opponent (ai also sorta similar to "opponent/counterpart") is fighting without love ..."}
 Dialogue: 0,0:18:01.47,0:18:06.37,Default,,0,0,0,,Love is transient, for that reason, \Nlove is the most priceless of treasures.{/love is fleeting, thus, love is the most valuable/precious thing}{I have a strong suspicion this is a reference as well, maybe versailles no bara}
 Dialogue: 0,0:18:07.23,0:18:12.37,Default,,0,0,0,,In his quest for love, Harako Tsutomu devoted his life \Nto Kawai Iyona-chan, whose beauty dwarfs that of roses,
@@ -330,8 +336,8 @@ Dialogue: 0,0:18:51.45,0:18:52.38,Default,,0,0,0,,Wait a minute!
 Dialogue: 0,0:18:52.88,0:18:56.41,Default,,0,0,0,,Don't put on airs{/think you should start acting bossy} after throwing a ball \Nthat was all bragging and no action{/substantial power in it}, Harako!\N{first part sounds a bit like annai yona so I think it means "calling out such an announcement" but the tone suggests it's rather something like "such a weak ball"}
 Dialogue: 0,0:18:57.47,0:19:01.81,Default,,0,0,0,,The Miracle Ball from Honmaru-sama you're about to see \Nwill speak louder than all your boasting!{/lit: the first-class(unsure, may be "with your own eyes/from the first hands") miracle ball from honmaru will put an end to your self-advertising}
 Dialogue: 0,0:19:03.60,0:19:04.84,Default,,0,0,0,,Honmaru-kun?
-Dialogue: 0,0:19:06.10,0:19:09.80,Default,,0,0,0,,Suddenly, your demeanor is so valiant!{/in a moment, your manners became big/bulging/forward/bold}\NAnd body seems to have grown too!
-Dialogue: 0,0:19:10.10,0:19:12.81,Default,,0,0,0,,Honmaru-kun, you also participate? Very well.
+Dialogue: 0,0:19:06.10,0:19:09.80,Default,,0,0,0,,Your demeanor is suddenly so valiant!{/in a moment, your manners became big/bulging/forward/bold}\NAnd your body seems to have grown too!
+Dialogue: 0,0:19:10.10,0:19:12.81,Default,,0,0,0,,Honmaru-kun, you also wish to participate? Very well.
 Dialogue: 0,0:19:15.30,0:19:16.26,Default,,0,0,0,,Don't lose, Honmaru!
 Dialogue: 0,0:19:31.08,0:19:33.38,Default,,0,0,0,,This is something only Honmaru can do!{guess, maybe he means "this is unique honmaru's ball"}
 Dialogue: 0,0:19:42.59,0:19:45.10,Default,,0,0,0,,The ball...{maybe he asks tama-chan} Where. Where?
@@ -371,7 +377,7 @@ Dialogue: 0,0:22:13.73,0:22:16.00,Default,,0,0,0,,If you'd like it, you can have
 Dialogue: 0,0:22:18.86,0:22:22.65,Default,,0,0,0,,Bravo... You're a woman of many talents, Iyona-san.{/how skillful of you, ...}
 Dialogue: 0,0:22:28.13,0:22:29.17,Default,,0,0,0,,Idiot!
 Dialogue: 0,0:22:29.78,0:22:31.10,Default,,0,0,0,,And idiot!{/Two idiots! - I hope it's "to"}
-Dialogue: 0,0:22:41.65,0:22:42.86,Default,,0,0,0,,Taruru!
+Comment: 0,0:22:41.65,0:22:42.86,Default,,0,0,0,,Taruru!
 Dialogue: 0,0:22:42.86,0:22:46.51,Default,,0,0,0,,Listen well, Taru. \NThat little thing of you being a magician
 Dialogue: 0,0:22:46.51,0:22:49.11,Default,,0,0,0,,should by no means ever leak out to dad and mom!
 Dialogue: 0,0:22:49.57,0:22:52.20,Default,,0,0,0,,Honmaru, I'll keep my promise!

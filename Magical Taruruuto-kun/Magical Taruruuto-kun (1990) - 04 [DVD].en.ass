@@ -15,13 +15,13 @@ Video File: [Perevodildo] Magical Taruruuto-kun (1990) - 04 [DVD].mkv
 Video AR Mode: 4
 Video AR Value: 1.367377
 Video Zoom Percent: 0.750000
-Scroll Position: 322
-Active Line: 325
-Video Position: 33099
+Scroll Position: 52
+Active Line: 60
+Video Position: 3949
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Tahoma,26,&H00FFFFFF,&H000000FF,&H00370924,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,20,20,45,1
+Style: Default,Tahoma,26,&H00FFFFFF,&H000000FF,&H006A0029,&H00000000,-1,0,0,0,100,100,0,0,1,2.7,0,2,20,20,45,1
 Style: Sign,Arial,24,&H00FFFFFF,&H000000FF,&H00161C3C,&H00000000,0,0,0,0,100,100,0,0,1,1.8,0,8,10,10,10,1
 
 [Events]
@@ -66,7 +66,7 @@ Dialogue: 0,0:24:10.85,0:24:13.01,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c
 Dialogue: 0,0:24:13.01,0:24:15.68,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c&HE2E2E2&\1a&H20&\3c&HB9AD88&\3a&H3F&\4c&HA82DBF&\4a&H49&\fs30}{本気さマジだぜ}If I'm honest,
 Dialogue: 0,0:24:15.68,0:24:17.85,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c&HE2E2E2&\1a&H20&\3c&HB9AD88&\3a&H3F&\4c&HA82DBF&\4a&H49&\fs30}I speak my mind:
 Dialogue: 0,0:24:17.85,0:24:21.06,Sign,ED,0,0,40,,{\an2\b0\blur1\bord0.3\shad2\c&HE2E2E2&\1a&H20&\3c&HB9AD88&\3a&H3F&\4c&HA82DBF&\4a&H49&\fs30}{素直な自分になれ!!}Being frank with yourself is paramount!
-Dialogue: 1,0:24:19.02,0:24:23.44,Sign,,10,10,10,,{\shad1\fs23\b0\fsp1\bord0.1\blur1\c&HE0E6EF&\1a&H1F&\4c&H14329B&\4a&H61&\3c&H1179AC&\3a&H38&\pos(450,335)}A study in .srt by Perevodildo \NRAW by Renascent
+Dialogue: 1,0:24:19.02,0:24:23.44,Sign,,10,10,10,,{\shad1\fs23\b0\fsp1\bord0.1\blur1\c&HE0E6EF&\1a&H1F&\4c&H14329B&\4a&H61&\3c&H1179AC&\3a&H38&\pos(450,195)}A study in .srt by Perevodildo \NRAW by Renascent \N QC by MartyMcflies (LonelyChaser) \N Translation checking by Yume
 Dialogue: 1,0:01:19.89,0:01:27.83,Sign,,0,0,120,,{\b1\blur5\bord5\fs20\c&HB2B6B9&\3c&H73271C&}Episode 4 \N{\fs50}I Love Mama!
 Dialogue: 2,0:01:19.89,0:01:27.83,Sign,,0,0,120,,{\b1\blur1\bord0\fs20\c&HB2B6B9&\3c&H73271C&}Episode 4 \N{\fs50}I Love Mama!
 Dialogue: 0,0:01:35.09,0:01:36.47,Default,,0,0,0,,Honmaru?
@@ -80,32 +80,32 @@ Dialogue: 0,0:01:58.88,0:02:00.76,Default,,0,0,0,,My neck is rock-stiff.{/won't 
 Dialogue: 0,0:02:00.76,0:02:02.74,Default,,0,0,0,,Alright, let me take care of it.
 Dialogue: 0,0:02:08.87,0:02:11.38,Default,,0,0,0,,Knead, knead, knead.{rather, ikunya is "make soft/limp/unstiff" but considering he is visually rotating/spinning his head, maybe something more appropriate to that, like "spin"}
 Dialogue: 0,0:02:12.03,0:02:14.27,Default,,0,0,0,,What are you doing...
-Dialogue: 0,0:02:20.89,0:02:23.08,Default,,0,0,0,,You can't just toy with human body like that!{/use one's body as a toy}
-Dialogue: 0,0:02:24.75,0:02:25.67,Default,,0,0,0,,Unstiffened.{guess}
+Dialogue: 0,0:02:20.89,0:02:23.08,Default,,0,0,0,,You can't just toy with the human body like that!{/use one's body as a toy}
+Dialogue: 0,0:02:24.75,0:02:25.67,Default,,0,0,0,,It's unstiffened....{guess}
 Dialogue: 0,0:02:26.67,0:02:31.19,Default,,0,0,0,,This is magic for softening{/suppling} things. \NCan soften anything.
-Dialogue: 0,0:02:31.69,0:02:34.63,Default,,0,0,0,,Could tell me this before, \Nnot just attack without warning!{/you startled/suprised/scaried me, don't you think?}
-Dialogue: 0,0:02:36.86,0:02:38.87,Default,,0,0,0,,It's that late already! \NGotta hurry
+Dialogue: 0,0:02:31.69,0:02:34.63,Default,,0,0,0,,You could've told me this before, \Nnot just attack without warning!{/you startled/suprised/scaried me, don't you think?}
+Dialogue: 0,0:02:36.86,0:02:38.87,Default,,0,0,0,,It's that late already?! \NI gotta hurry.
 Dialogue: 0,0:02:40.70,0:02:44.14,Default,,0,0,0,,We're friends to make meet ends. \NI should hurry too!
 Dialogue: 0,0:02:44.68,0:02:46.35,Default,,0,0,0,,I'm in a hurry, in a hurry!
 Dialogue: 0,0:02:50.29,0:02:51.08,Default,,0,0,0,,Taruruuto.
-Dialogue: 0,0:02:52.49,0:02:53.44,Default,,0,0,0,,I have to say
+Dialogue: 0,0:02:52.49,0:02:53.44,Default,,0,0,0,,I have to say...
 Dialogue: 0,0:02:54.75,0:02:56.38,Default,,0,0,0,,the same thing as always.
 Dialogue: 0,0:02:56.38,0:02:59.57,Default,,0,0,0,,When it's time for me to go to school, \Nyou ought to keep it quiet.{unsure, maybe "while I'm preparing for school, you promised to not make noise"}
-Dialogue: 0,0:03:00.63,0:03:04.83,Default,,0,0,0,,{\bord2.5}It's best that dad and mom don't find out \Nyou are actually freeloading at our house.
+Dialogue: 0,0:03:00.63,0:03:04.83,Default,,0,0,0,,{\bord2.5}It's best that dad and mom don't find out \Nyou're actually freeloading at our house.
 Dialogue: 0,0:03:05.39,0:03:07.21,Default,,0,0,0,,{\bord2.7}Magic should be kept a secret!{/magic is also classified}
 Dialogue: 0,0:03:07.21,0:03:12.50,Default,,0,0,0,,{\bord3}In our world, witchcraft is only exercised by fiends{/magicians are considered alike to spooks/demons/monsters}, \Nso everyone would think ill of you!{/for this world, a magician is similar to the ghost, everyone would think you're bad}
 Dialogue: 0,0:03:12.50,0:03:16.63,Default,,0,0,0,,{\bord3}This is especially the case for my dad, \Nwho is a picture book author and is a magic maven!
-Dialogue: 0,0:03:16.63,0:03:19.21,Default,,0,0,0,,{\bord3}In other words: \Nit leaks out - kiss living here goodbye!{/if it becomes known we won't be able to live together}
+Dialogue: 0,0:03:16.63,0:03:19.21,Default,,0,0,0,,{\bord3}In other words: \Nif it leaks out, you can kiss living here goodbye!{/if it becomes known we won't be able to live together}
 Dialogue: 0,0:03:19.64,0:03:20.40,Default,,0,0,0,,Understood?
-Dialogue: 0,0:03:20.40,0:03:21.71,Default,,0,0,0,,Give me a promise!
-Dialogue: 0,0:03:22.58,0:03:23.87,Default,,0,0,0,,A promise!
+Dialogue: 0,0:03:20.40,0:03:21.71,Default,,0,0,0,,You have to promise me!
+Dialogue: 0,0:03:22.58,0:03:23.87,Default,,0,0,0,,Promise you!
 Dialogue: 0,0:03:23.87,0:03:25.16,Default,,0,0,0,,I'm off!
 Dialogue: 0,0:03:31.02,0:03:33.01,Default,,0,0,0,,Honmaru goes to school.
 Dialogue: 0,0:03:33.38,0:03:35.44,Default,,0,0,0,,I behave and be quiet.{/I must act quiet}
-Dialogue: 0,0:03:35.44,0:03:37.74,Default,,0,0,0,,Gave a promise... A promise...
+Dialogue: 0,0:03:35.44,0:03:37.74,Default,,0,0,0,,Promise him... Promise...
 Dialogue: 0,0:03:43.79,0:03:45.43,Default,,0,0,0,,Now you tell me, Iyona-chan,
-Dialogue: 0,0:03:45.76,0:03:48.01,Default,,0,0,0,,which kind of a boy \Nwould you say you like?{/which kind of boys do you like}
-Dialogue: 0,0:03:49.35,0:03:51.14,Default,,0,0,0,,{\i1}A boy I'd say I like?{\i0}{the joke is she doesn't say "kind" so it sounds like she is just saying the one i like}
+Dialogue: 0,0:03:45.76,0:03:48.01,Default,,0,0,0,,what kind of boy \Nwould you say you like?{/which kind of boys do you like}
+Dialogue: 0,0:03:49.35,0:03:51.14,Default,,0,0,0,,A boy I'd say I like?{\i0}{the joke is she doesn't say "kind" so it sounds like she is just saying the one i like}
 Dialogue: 0,0:03:52.21,0:03:52.90,Default,,0,0,0,,I think...{/well/let me see}
 Dialogue: 0,0:03:53.42,0:03:55.42,Default,,0,0,0,,Hands down, that's Honmaru-kun.
 Dialogue: 0,0:03:56.59,0:03:57.96,Default,,0,0,0,,No way!{/you lie}
@@ -113,17 +113,20 @@ Dialogue: 0,0:03:57.96,0:04:00.86,Default,,0,0,0,,After all, Honmaru-kun is so c
 Dialogue: 0,0:04:01.40,0:04:03.16,Default,,0,0,0,,Oh, you're flattering me...{/something like that/there's nothing of the kind...}
 Dialogue: 0,0:04:05.31,0:04:09.54,Default,,0,0,0,,I think, it should be a buoyant boy. \NHands down, it's Taru-chan!
 Dialogue: 0,0:04:10.92,0:04:13.33,Default,,0,0,0,,Can't shrug it off with a joke this time.{/in other words, joking again?}
-Dialogue: 0,0:04:13.33,0:04:16.78,Default,,0,0,0,,Just admit it - the one light but steady on his feet{/after all, someone nimble and reliable/bright (maybe in the head) and dependable}, \Nyour type is a sportsman.
+Dialogue: 0,0:04:13.33,0:04:16.78,Default,,0,0,0,,Just admit it. One who's light but steady on his feet - \Nyour type's a sportsman.{/after all, someone nimble and reliable/bright (maybe in the head) and dependable}
 Dialogue: 0,0:04:21.88,0:04:26.80,Default,,0,0,0,,So what about someone handsome and rich, \Nmature in manners and dependable as a man?{/a person handsome and who has money, paragon of maturity and someone reliable - what about it?}
+Dialogue: 0,0:04:29.62,0:04:30.42,Default,,0,0,0,,Hey...
 Dialogue: 0,0:04:30.96,0:04:32.85,Default,,0,0,0,,What is it you're trying to do?
 Dialogue: 0,0:04:32.85,0:04:34.35,Default,,0,0,0,,What's it to you?{/What does it look like?}
 Dialogue: 0,0:04:34.35,0:04:35.31,Default,,0,0,0,,What?!
+Dialogue: 0,0:04:36.34,0:04:37.76,Default,,0,0,0,,Why, you...
 Dialogue: 0,0:04:43.05,0:04:45.79,Default,,0,0,0,,You seem to be having some sweet chat about me.{/somehow I felt that I had become the topic of this conversation}
 Dialogue: 0,0:04:46.43,0:04:48.87,Default,,0,0,0,,This morning, your beauty \Nis once again even more refined,{/you are again, even more beautiful [than yesterday]}
 Dialogue: 0,0:04:49.24,0:04:50.58,Default,,0,0,0,,Iyona-san.
 Dialogue: 0,0:04:51.05,0:04:51.90,Default,,0,0,0,,Accept this.{/this is for you}
 Dialogue: 0,0:04:52.93,0:04:56.58,Default,,0,0,0,,Iyona-chan's type is defined \Nby Harako Tsutomu!{/yona's type is from now on called .../is settled on ...}
 Dialogue: 0,0:04:57.08,0:04:58.08,Default,,0,0,0,,What?!
+Dialogue: 0,0:04:59.86,0:05:00.78,Default,,0,0,0,,Um...
 Dialogue: 0,0:05:00.78,0:05:03.07,Default,,0,0,0,,I'd still rather say Taru-chan.{/it's taru after all}
 Dialogue: 0,0:05:14.81,0:05:15.92,Default,,0,0,0,,Serves you right!{/looking good}
 Dialogue: 0,0:05:17.65,0:05:20.05,Default,,0,0,0,,Losing even to Taruruuto! \NTo Taruruuto!{/it's taruruuto after all[, not you], taruruuto}
@@ -142,16 +145,19 @@ Dialogue: 0,0:06:07.76,0:06:08.66,Default,,0,0,0,,Mama.
 Dialogue: 0,0:06:09.67,0:06:12.14,Default,,0,0,0,,Wonder what she is doing now...
 Dialogue: 0,0:06:12.14,0:06:15.08,Default,,0,0,0,,Please remain just as good a boy, Taru-chan.{/behave like a good child, okay?}
 Dialogue: 0,0:06:17.00,0:06:17.96,Default,,0,0,0,,Mama...
-Dialogue: 0,0:06:29.08,0:06:31.81,Default,,0,0,0,,Honmaru's mama, \Nwhat is it she doing?
+Dialogue: 0,0:06:29.08,0:06:31.81,Default,,0,0,0,,Honmaru's mama... \NWhat is she doing?
 Dialogue: 0,0:07:03.11,0:07:04.29,Default,,0,0,0,,Imagining things again.{/just my imagination?}
 Dialogue: 0,0:07:12.84,0:07:13.58,Default,,0,0,0,,Now this is odd.
 Dialogue: 0,0:07:14.37,0:07:15.97,Default,,0,0,0,,Is someone there?
+Dialogue: 0,0:07:32.98,0:07:34.06,Default,,0,0,0,,Oh?
+Dialogue: 0,0:07:34.98,0:07:36.73,Default,,0,0,0,,My!
 Dialogue: 0,0:07:37.62,0:07:39.20,Default,,0,0,0,,You're a cute little doll{-san}!
-Dialogue: 0,0:07:43.10,0:07:44.17,Default,,0,0,0,,{Now finish this.}
+Dialogue: 0,0:07:43.10,0:07:44.17,Default,,0,0,0,,Now finish this.
 Dialogue: 0,0:08:05.15,0:08:06.13,Default,,0,0,0,,Are you okay?
-Dialogue: 0,0:08:15.63,0:08:17.33,Default,,0,0,0,,Spectacular!
+Dialogue: 0,0:08:15.63,0:08:17.33,Default,,0,0,0,,How pretty!
 Dialogue: 0,0:08:17.33,0:08:18.37,Default,,0,0,0,,Mama...
-Dialogue: 0,0:08:20.94,0:08:22.25,Default,,0,0,0,,You are smiling!
+Dialogue: 0,0:08:19.73,0:08:20.48,Default,,0,0,0,,Oh my?
+Dialogue: 0,0:08:20.94,0:08:22.25,Default,,0,0,0,,You're smiling!
 Dialogue: 0,0:08:22.70,0:08:26.38,Default,,0,0,0,,Honmaru's mama smells just like my mama.{/and my mama have the same smell}
 Dialogue: 0,0:08:30.67,0:08:34.85,Default,,0,0,0,,I mistook you for a doll at first, \Nbut turns out, it was Taruruuto-kun!{/I thought you're a doll, but now I see - your name is taruruuto?}
 Dialogue: 0,0:08:35.79,0:08:38.11,Default,,0,0,0,,Honmaru my friend!
@@ -175,19 +181,20 @@ Dialogue: 0,0:09:33.61,0:09:34.34,Default,,0,0,0,,Rubbish.{/litter}
 Dialogue: 0,0:09:55.20,0:09:56.12,Default,,0,0,0,,Ru-rubbish!{I hear gomiru but I don't know of such a verb so I think he just uses ru instead of da}
 Dialogue: 0,0:09:57.51,0:09:59.04,Default,,0,0,0,,Many rubbish!
 Dialogue: 0,0:10:13.61,0:10:14.05,Default,,0,0,0,,Taru!{maybe Repel! since it'd make more sense if he shouts that to command the opposite action to the attractor, because it may become confusing later without explanation from manga}
-Dialogue: 0,0:10:18.18,0:10:18.89,Default,,0,0,0,,
+Dialogue: 0,0:10:18.18,0:10:18.89,Default,,0,0,0,,Wow!
 Dialogue: 0,0:10:19.78,0:10:21.89,Default,,0,0,0,,I've never seen it that clean.{/it became this much clean}
 Dialogue: 0,0:10:27.44,0:10:28.77,Default,,0,0,0,,You did it all alone?
 Dialogue: 0,0:10:30.02,0:10:31.67,Default,,0,0,0,,Thank you so much, Taru-chan!
 Dialogue: 0,0:10:36.38,0:10:37.34,Default,,0,0,0,,Mama!
 Dialogue: 0,0:10:38.05,0:10:39.37,Default,,0,0,0,,It's a little embarrassing.{primary meaning is ticklish but I don't see how it makes sense here}
-Dialogue: 0,0:10:41.30,0:10:44.37,Default,,0,0,0,,It reminds me of the time \NHonmaru was a baby, too.{unsure, maybe she means "I still remember the time ..."}
+Dialogue: 0,0:10:41.30,0:10:44.37,Default,,0,0,0,,It reminds me of when Honmaru was a baby, too.{unsure, maybe she means "I still remember the time ..."}
 Dialogue: 0,0:11:02.60,0:11:05.08,Default,,0,0,0,,Going out with mama! Going out!
 Dialogue: 0,0:11:16.35,0:11:20.17,Default,,0,0,0,,I'm still not sure what I should make \Nas an appetizer for dinner.{okazu is small/side dish}{/I wonder what ...}
 Dialogue: 0,0:11:20.17,0:11:22.38,Default,,0,0,0,,Taru-chan, is there anything you'd like?{/what would you like}
 Dialogue: 0,0:11:22.79,0:11:24.89,Default,,0,0,0,,Me? Anything{/a thing} I like?
 Dialogue: 0,0:11:30.28,0:11:31.86,Default,,0,0,0,,So,{/What would it be,} Taru-chan?
-Dialogue: 0,0:11:34.77,0:11:36.34,Default,,0,0,0,,Was here just a moment ago.{/I wonder where he went off to}
+Dialogue: 0,0:11:33.34,0:11:34.01,Default,,0,0,0,,Oh...
+Dialogue: 0,0:11:34.77,0:11:36.34,Default,,0,0,0,,He was here just a moment ago...{/I wonder where he went off to}
 Dialogue: 0,0:11:40.76,0:11:42.26,Default,,0,0,0,,Takoyaki!
 Dialogue: 0,0:11:44.57,0:11:47.20,Default,,0,0,0,,What are you trying to do with this thing?!{/what are you doing, you monster}
 Dialogue: 0,0:11:49.39,0:11:50.27,Default,,0,0,0,,Takoyaki!
@@ -203,35 +210,38 @@ Dialogue: 0,0:12:12.98,0:12:17.63,Default,,0,0,0,,What? Not "can," \Nbut "how mu
 Dialogue: 0,0:12:17.63,0:12:18.69,Default,,0,0,0,,Cath...
 Dialogue: 0,0:12:18.69,0:12:21.40,Default,,0,0,0,,Is this the most tasty kind of takoyaki?{rather, it's "Is this thing even more tasty than takoyaki?" but I think this works better considering how I handled previous lines}
 Dialogue: 0,0:12:23.28,0:12:24.81,Default,,0,0,0,,The hell?!
-Dialogue: 0,0:12:25.67,0:12:28.37,Default,,0,0,0,,If you're just window-shopping, \Nthen off you pop!{lit: if it's merely asking the price; just looking at goods; window-shopping; browsing then you should have came the day before yesterday - colloquial for leave and never come back}
+Dialogue: 0,0:12:25.67,0:12:28.37,Default,,0,0,0,,If you're just window-shopping, \Nthen off you go!{lit: if it's merely asking the price; just looking at goods; window-shopping; browsing then you should have came the day before yesterday - colloquial for leave and never come back}
 Dialogue: 0,0:12:28.37,0:12:29.56,Default,,0,0,0,,Get lost. Get lost!{this is majorly a guess, as keirei is salute; bow and not farewell, but I'd assume this is a colloquial meaning again}
 Dialogue: 0,0:12:30.35,0:12:31.58,Default,,0,0,0,,Takoyaki...
 Dialogue: 0,0:12:32.76,0:12:37.07,Default,,0,0,0,,Don't you know a disgruntled client \Nsticking to the store's front is detrimental to business?{/front desk where such a sullen face is shining (this is literal for tsurasa though I'm not sure) is a sales-pooper, isn't it}
-Dialogue: 0,0:12:38.88,0:12:39.82,Default,,0,0,0,,{\fs18\bord1}Takoyaki...
+Dialogue: 0,0:12:38.88,0:12:39.82,Default,,0,0,0,,{\fs\bord1.6\fscy80}Takoyaki...
 Dialogue: 0,0:12:43.12,0:12:45.34,Default,,0,0,0,,Cut the crap and go pester someone else!{/hurry up/immediately get lost for elsewhere}
 Dialogue: 0,0:12:45.70,0:12:47.05,Default,,0,0,0,,Look, everyone!{/wait, look}
-Dialogue: 0,0:12:50.47,0:12:52.68,Default,,0,0,0,,He is bullying a child that adorable!
+Dialogue: 0,0:12:46.58,0:12:47.04,Default,,0,0,0,,{\3c&H393019&}Huh?
+Dialogue: 0,0:12:49.50,0:12:50.17,Default,,0,0,0,,Uh-oh.
+Dialogue: 0,0:12:50.47,0:12:52.68,Default,,0,0,0,,He's bullying an adorable child!
 Dialogue: 0,0:12:52.68,0:12:56.57,Default,,0,0,0,,How heartless.{/cruel} I'm not buying takoyaki \Nfrom that stall{/store} ever again.
 Dialogue: 0,0:12:59.44,0:13:03.00,Default,,0,0,0,,Not at all! It's not like that at all!{/wrong} \NNobody is bullying anyone here.
 Dialogue: 0,0:13:06.24,0:13:07.36,Default,,0,0,0,,Here you go, kid{/boy - boya is more affectionate than bozu in japanese, but in english, I'm not sure which one is more affectionate - kid or boy or something else}.
-Dialogue: 0,0:13:08.05,0:13:10.02,Default,,0,0,0,,This - extra flavored just for you!{actually, he just says I give this to you in an extremely polite tone but I'm unsure how to convey this}
-Dialogue: 0,0:13:12.12,0:13:16.00,Default,,0,0,0,,Now because you're such a good boy, \Nonce done eating, you'll go home, right?
+Dialogue: 0,0:13:08.05,0:13:10.02,Default,,0,0,0,,Here. Extra-flavored, just for you!{actually, he just says I give this to you in an extremely polite tone but I'm unsure how to convey this}
+Dialogue: 0,0:13:12.12,0:13:16.00,Default,,0,0,0,,Now because you're such a good boy, \Nonce you're done eating, you'll go home, right?
 Dialogue: 0,0:13:16.00,0:13:18.92,Default,,0,0,0,,Yes, cause I'm good boy, I eat this!
 Dialogue: 0,0:13:36.88,0:13:39.57,Default,,0,0,0,,Eat takoyaki together with mama!
 Dialogue: 0,0:13:39.57,0:13:40.63,Default,,0,0,0,,You donkey!{no clue what is this tako, assume it's tako, which stands for octopus in takoyaki}
 Dialogue: 0,0:13:41.36,0:13:43.14,Default,,0,0,0,,How dare you!{/unacceptable/unforgivable}
 Dialogue: 0,0:13:44.34,0:13:47.72,Default,,0,0,0,,Please spare me! \NWe've barely met eyes for just a second!{/it was just a short eye contact, didn't we}
 Dialogue: 0,0:13:47.72,0:13:52.29,Default,,0,0,0,,And yet, it was enough for you \Nto start laughing at my head's misfortune!{/still, laughing at one's head after seeing it...}
-Dialogue: 0,0:13:52.29,0:13:57.73,Default,,0,0,0,,Knowing how delicate I am, \Nyou're still hitting the sorest ever spot!{/For a person as delicate as me, this is the thing hurting the most}
+Dialogue: 0,0:13:52.29,0:13:57.73,Default,,0,0,0,,Knowing how delicate I am, \Nyou're still hitting the sorest spot ever!{/For a person as delicate as me, this is the thing hurting the most}
 Dialogue: 0,0:13:57.73,0:14:01.75,Default,,0,0,0,,How dare you... How dare you. How dare you!{/unforgivable}
-Dialogue: 0,0:14:03.05,0:14:05.38,Default,,0,0,0,,N-ever again!{no clue what this is, maybe "enjoy"; zui sounds a bit like "totally/completely" so I spse forever would do}
+Dialogue: 0,0:14:03.05,0:14:05.38,Default,,0,0,0,,Roundhouse Kick! {no clue what this is, maybe "enjoy"; zui sounds a bit like "totally/completely" so I spse forever would do} {延髄 from 延髄斬り -> "Roundhouse Kick" - Yume}
 Dialogue: 0,0:14:13.16,0:14:15.00,Default,,0,0,0,,Help me, someone!
 Dialogue: 0,0:14:18.06,0:14:18.79,Default,,0,0,0,,Turning away?{/going/running}
+Dialogue: 0,0:14:19.34,0:14:20.05,Default,,0,0,0,,Uh-oh...
 Dialogue: 0,0:14:21.31,0:14:22.69,Default,,0,0,0,,Excuse me...
 Dialogue: 0,0:14:24.98,0:14:28.06,Default,,0,0,0,,Won't you be so kind \Nto call this punishment enough?{/can't you forgive him after this much [beating]?}
 Dialogue: 0,0:14:28.86,0:14:29.96,Default,,0,0,0,,Whaddya just say?
 Dialogue: 0,0:14:36.54,0:14:37.31,Default,,0,0,0,,Mama!
-Dialogue: 0,0:14:38.58,0:14:42.95,Default,,0,0,0,,Won't let me have any fun \Nto have fun with me yourself, is that your wish?{unsure, lit is "with finding fault with me/ruining the fun for me, having a good time?"}
+Dialogue: 0,0:14:38.58,0:14:42.95,Default,,0,0,0,,Want to demonstrate your character, \N interrupting my fun like that? {/'cuz you wanna \Nhave fun with me yourself, ain't that right?} {unsure, lit is "with finding fault with me/ruining the fun for me, having a good time?"} {yume: "ore ni kechi tsukeru to wa ii doukyou shiteru ja nai ka" -> "You've got some guts to defy me!"}
 Dialogue: 0,0:14:43.87,0:14:46.32,Default,,0,0,0,,Huh, sis?
 Dialogue: 0,0:14:46.96,0:14:49.91,Default,,0,0,0,,Mama! Eat takoyaki together!
 Dialogue: 0,0:14:49.91,0:14:50.68,Default,,0,0,0,,Taru-chan!
@@ -253,12 +263,13 @@ Dialogue: 0,0:15:38.92,0:15:40.42,Default,,0,0,0,,The hell are you saying!?
 Dialogue: 0,0:15:46.62,0:15:48.36,Default,,0,0,0,,Little shit!
 Dialogue: 0,0:15:48.69,0:15:49.99,Default,,0,0,0,,Dirk!
 Dialogue: 0,0:15:53.95,0:15:56.98,Default,,0,0,0,,My dirk is not for a kid to play with!{/is not a toy for a child}
-Dialogue: 0,0:16:00.96,0:16:02.47,Default,,0,0,0,,Be careful not to get hurt!{/you don't know if you get wounded}
+Dialogue: 0,0:16:00.96,0:16:02.47,Default,,0,0,0,,You'll get hurt before you know it!{/you don't know if you get wounded}
 Dialogue: 0,0:16:02.86,0:16:05.00,Default,,0,0,0,,Bend, bend, re-render soft!{I hate this}
 Dialogue: 0,0:16:08.95,0:16:10.51,Default,,0,0,0,,Mama, look, look.
 Dialogue: 0,0:16:12.84,0:16:14.34,Default,,0,0,0,,Big bro also look.
 Dialogue: 0,0:16:22.85,0:16:23.14,Default,,0,0,0,,Taru!
-Dialogue: 0,0:16:30.94,0:16:33.36,Default,,0,0,0,,Big bro runs away...
+Dialogue: 0,0:16:27.34,0:16:29.34,Default,,0,0,0,,IT HURTS!
+Dialogue: 0,0:16:30.94,0:16:33.36,Default,,0,0,0,,Old man runs away...
 Dialogue: 0,0:16:33.36,0:16:34.89,Default,,0,0,0,,Taru-chan, what did you just...
 Dialogue: 0,0:16:36.13,0:16:38.41,Default,,0,0,0,,Me the Great Magician!
 Dialogue: 0,0:16:40.85,0:16:41.62,Default,,0,0,0,,Taruruuto!
@@ -275,22 +286,23 @@ Dialogue: 0,0:17:14.72,0:17:15.81,Default,,0,0,0,,What do now?
 Dialogue: 0,0:17:20.75,0:17:22.83,Default,,0,0,0,,Taruruuto! Where are you going?
 Dialogue: 0,0:17:28.83,0:17:30.38,Default,,0,0,0,,Mom, take this home, too.
 Dialogue: 0,0:17:37.64,0:17:39.39,Default,,0,0,0,,Taruruuto!
-Dialogue: 0,0:17:55.15,0:17:57.56,Default,,0,0,0,,Hey, let's go home already, mama!{honestly, no clue what is that kakuita, but kaeru fits the sense}
+Dialogue: 0,0:17:55.15,0:17:57.56,Default,,0,0,0,,Hey, I'm hungry, mama! {honestly, no clue what is that kakuita, but kaeru fits the sense}
 Dialogue: 0,0:17:57.56,0:18:00.02,Default,,0,0,0,,Sure, sure. Going straight home now.
 Dialogue: 0,0:18:01.91,0:18:02.99,Default,,0,0,0,,Honmaru?
 Dialogue: 0,0:18:04.69,0:18:05.87,Default,,0,0,0,,Taruruuto.
-Dialogue: 0,0:18:06.46,0:18:10.03,Default,,0,0,0,,I thought you returned to the Magic Realm already. \NHad me worried there!
+Dialogue: 0,0:18:06.46,0:18:10.03,Default,,0,0,0,,I thought you returned to the Magic Realm already. \NYou had me worried there!
 Dialogue: 0,0:18:11.00,0:18:12.17,Default,,0,0,0,,Honmaru.
 Dialogue: 0,0:18:12.70,0:18:15.05,Default,,0,0,0,,I broke promise.
 Dialogue: 0,0:18:15.05,0:18:16.63,Default,,0,0,0,,Sorry, Honmaru.
-Dialogue: 0,0:18:18.28,0:18:21.60,Default,,0,0,0,,It was my fault, too, \Nfor leaving you all alone when going somewhere.{unsure, lit is "leaving you completely alone, me too going couldn't"}
+Dialogue: 0,0:18:18.28,0:18:21.60,Default,,0,0,0,,It was my fault, too, \Nfor leaving you all alone when I'm going somewhere.{unsure, lit is "leaving you completely alone, me too going couldn't"}
 Dialogue: 0,0:18:22.20,0:18:24.08,Default,,0,0,0,,So drop that gloom of yours now!{/that's why you should be genki again}
 Dialogue: 0,0:18:24.08,0:18:26.29,Default,,0,0,0,,It's not like your usual self, Taruruuto.
 Dialogue: 0,0:18:26.29,0:18:29.80,Default,,0,0,0,,But can't go to Honmaru's home anymore...{guess, assume this is tokoro janai}
+Dialogue: 0,0:18:30.55,0:18:31.59,Default,,0,0,0,,Alright!
 Dialogue: 0,0:18:34.11,0:18:38.90,Default,,0,0,0,,Since it came to this, I'll ask dad and mom openly \Nto let you stay with us.{unsure about kuraseru}
 Dialogue: 0,0:18:39.39,0:18:42.06,Default,,0,0,0,,Won't hurt to give it a try!\NWhat are we to lose now?{two proverbs: since have nothing to lose, might as well give it a try & nothing ventured, nothing gained}
 Dialogue: 0,0:18:42.06,0:18:44.06,Default,,0,0,0,,That true, Honmaru?
-Dialogue: 0,0:18:44.06,0:18:46.08,Default,,0,0,0,,Have no worries.
+Dialogue: 0,0:18:44.06,0:18:46.08,Default,,0,0,0,,Don't worry about it.
 Dialogue: 0,0:18:46.08,0:18:49.57,Default,,0,0,0,,That's precisely what we became friends for. \NLeave it to me.
 Dialogue: 0,0:18:50.79,0:18:53.21,Default,,0,0,0,,We go there together as friends,{absolute guess}
 Dialogue: 0,0:18:55.05,0:18:56.95,Default,,0,0,0,,Honmaru!
@@ -298,19 +310,21 @@ Dialogue: 0,0:18:59.76,0:19:01.26,Default,,0,0,0,,Oh, for Lord's sake!
 Dialogue: 0,0:19:02.05,0:19:05.06,Default,,0,0,0,,Taruruuto, it's too soon to rejoice yet.
 Dialogue: 0,0:19:10.84,0:19:11.94,Default,,0,0,0,,Here we go...
 Dialogue: 0,0:19:13.11,0:19:15.63,Default,,0,0,0,,Got it, Taruruuto? \NMom is more or less okay,{/this and that/one way or another - I think he means mom tends to be more lenient}
-Dialogue: 0,0:19:16.30,0:19:22.16,Default,,0,0,0,,but my dad, despite his meek appearance, \Ncan scold you THAT BAD if he gets really mad!{unsure if its koreijo or kowaizo, accordngly /can be that scary if he gets fired up when angry}
+Dialogue: 0,0:19:16.30,0:19:22.16,Default,,0,0,0,,but my dad, despite his meek appearance, \Ncan scold you THAT BADLY if he gets really mad!{unsure if its koreijo or kowaizo, accordngly /can be that scary if he gets fired up when angry}
 Dialogue: 0,0:19:28.31,0:19:31.32,Default,,0,0,0,,Father! Mother! We need to talk.
 Dialogue: 0,0:19:31.32,0:19:32.49,Default,,0,0,0,,Need to talk.
+Dialogue: 0,0:19:32.94,0:19:33.53,Default,,0,0,0,,Ah!
 Dialogue: 0,0:19:33.53,0:19:35.59,Default,,0,0,0,,Honmaru, Taru-chan, welcome home.
 Dialogue: 0,0:19:37.28,0:19:40.20,Default,,0,0,0,,Me and your father \Nwere already getting impatient.{lit is tired of waiting but I think she means weren't starting to eat without you}
 Dialogue: 0,0:19:44.89,0:19:47.11,Default,,0,0,0,,Takoyaki? Takoyaki?
+Dialogue: 0,0:19:47.50,0:19:48.13,Default,,0,0,0,,Eh?
 Dialogue: 0,0:19:48.56,0:19:49.83,Default,,0,0,0,,A portion for Taru...
 Dialogue: 0,0:19:50.63,0:19:56.64,Default,,0,0,0,,Well, Taruruuto-kun, I don't know how to thank you enough\Nfor tidying my room up so shiningly clean.{/sorry for bothering you with picking my room up so clean}
 Dialogue: 0,0:19:56.64,0:20:00.84,Default,,0,0,0,,A deed worthy of a Great Magician. \NI hope you don't mind doing it again sometimes.{/from now on, I hope to ask you for it again occasionally, okay?}
 Dialogue: 0,0:20:01.86,0:20:02.62,Default,,0,0,0,,But that means...
 Dialogue: 0,0:20:03.16,0:20:06.01,Default,,0,0,0,,You don't mind Taruruuto staying with us?
 Dialogue: 0,0:20:06.01,0:20:07.38,Default,,0,0,0,,Dad! Mom!
-Dialogue: 0,0:20:07.94,0:20:10.58,Default,,0,0,0,,I don't see how we should have \Nany problem with it.{/I think there's no reason to prevent it at all}
+Dialogue: 0,0:20:07.94,0:20:10.58,Default,,0,0,0,,I don't see why we'd have any problem with it.{/I think there's no reason to prevent it at all}
 Dialogue: 0,0:20:10.58,0:20:12.01,Default,,0,0,0,,Right, darling?
 Dialogue: 0,0:20:12.62,0:20:19.11,Default,,0,0,0,,Having a Great Magician chosen our house for freeloading, \Nmakes it the most distinguished in the neighborhood!{/lit: great mag. in the house freeloading, this guy, in this neighborhood too keep the nose high/be proud}
 Dialogue: 0,0:20:20.42,0:20:25.39,Default,,0,0,0,,What's more important now, I don't want this little dish \NI made for Taru-chan to go cold.{sekkaku is with great trouble but I don't see how to include it here}
@@ -319,31 +333,32 @@ Dialogue: 0,0:20:27.83,0:20:30.08,Default,,0,0,0,,Taruruuto! We pulled{/did/mana
 Dialogue: 0,0:20:31.43,0:20:34.63,Default,,0,0,0,,Together with Honmaru, \Ntoday to eternity!
 Dialogue: 0,0:20:34.63,0:20:36.56,Default,,0,0,0,,Good job,{/thank god/that's a relief} Taru.
 Dialogue: 0,0:20:42.43,0:20:43.72,Default,,0,0,0,,Finished.
-Dialogue: 0,0:20:44.47,0:20:50.39,Default,,0,0,0,,Aaand now, to commemorate Taruruuto's \Nintroduction into the Edojo family,{/becoming a member of the edojo family house}
+Dialogue: 0,0:20:44.47,0:20:50.39,Default,,0,0,0,,And now, to commemorate Taruruuto's \Nintroduction into the Edojo family,{/becoming a member of the edojo family house}
 Dialogue: 0,0:20:50.39,0:20:54.48,Default,,0,0,0,,the Great Magician Taruruuto-sensei \Nis putting his magic on display{/please witness ...}.
 Dialogue: 0,0:20:54.48,0:20:56.42,Default,,0,0,0,,Sensei, your say{/please}!
 Dialogue: 0,0:20:59.80,0:21:00.96,Default,,0,0,0,,Taru!
+Dialogue: 0,0:21:07.20,0:21:08.16,Default,,0,0,0,,Yahoo!
 Dialogue: 0,0:21:11.93,0:21:13.43,Default,,0,0,0,,Astounding, Taru-chan!
 Dialogue: 0,0:21:13.84,0:21:17.16,Default,,0,0,0,,This means every day \Nwill be a Magic Show now.
-Dialogue: 0,0:21:31.10,0:21:32.27,Default,,0,0,0,,Amusing, amusing.{primary meaning is "pleasant/enjoyable" but I think he means this in ironic sense}
-Dialogue: 0,0:21:33.33,0:21:34.29,Default,,0,0,0,,That was too much.{/this is dangerous}
+Dialogue: 0,0:21:31.10,0:21:32.27,Default,,0,0,0,,Amusing, amusing.{primary meaning is "pleasant/enjoyable" but I think he means this in ironic sense} {Yume: The current TL is good enough. "Wonderful, just wonderful! " if you want an alternative take.}
+Dialogue: 0,0:21:33.33,0:21:34.29,Default,,0,0,0,,That was too much...{/this is dangerous}
 Dialogue: 0,0:21:37.81,0:21:40.13,Default,,0,0,0,,Taruruuto, revert this guy to how he used to be!
 Dialogue: 0,0:21:42.17,0:21:43.70,Default,,0,0,0,,Hear my command...{guess}
 Dialogue: 0,0:21:45.12,0:21:47.22,Default,,0,0,0,,Taruru... Order you...{/tururu}
-Dialogue: 0,0:21:49.80,0:21:52.75,Default,,0,0,0,,Don't tell me you've forgotten the spell!
+Dialogue: 0,0:21:49.08,0:21:52.75,Default,,0,0,0,,Hey! Don't tell me you've forgotten the spell!
 Dialogue: 0,0:21:53.17,0:21:54.71,Default,,0,0,0,,Taruruuto!
-Dialogue: 0,0:21:55.25,0:21:57.90,Default,,0,0,0,,This and that, that and this, \Nmagic, rinse!
-Dialogue: 0,0:21:59.61,0:22:01.55,Default,,0,0,0,,Disappear to somewhere else!{yes I gave up completely and can't even find a word with ru in it; I don't have a clue what was the original word either lol}
+Dialogue: 0,0:21:55.25,0:21:57.90,Default,,0,0,0,,This and that, that and this, \Nmagic, rinse! {actually, desharo was "Throw and grow" in ep 1}
+Dialogue: 0,0:21:59.61,0:22:01.55,Default,,0,0,0,,Disappear to somewhere else!{yes I gave up completely and can't even find a word with ru in it; I don't have a clue what was the original word either lol} {Not 100% sure, most likely 破棄になる -> "Begone!"}
 Dialogue: 0,0:22:03.32,0:22:04.97,Default,,0,0,0,,Danger behind.{/no need to worry anymore}
-Dialogue: 0,0:22:06.43,0:22:07.93,Default,,0,0,0,,Hurry up next time,{lit is "made it" so I think "barely" is implied} Taruruuto.
+Dialogue: 0,0:22:06.43,0:22:07.93,Default,,0,0,0,,Be quicker next time, Taruruuto...{lit is "made it" so I think "barely" is implied}
 Dialogue: 0,0:22:07.93,0:22:09.18,Default,,0,0,0,,Spectacular.
 Dialogue: 0,0:22:09.58,0:22:12.41,Default,,0,0,0,,What a magnanimous display!{may be "a product of great amount of hard work" but really unsure of anything} \NJapan's #1!
 Dialogue: 0,0:22:12.41,0:22:13.92,Default,,0,0,0,,Impressive, Taru-chan!
-Dialogue: 0,0:22:21.39,0:22:24.05,Default,,0,0,0,,Any idea about the ruckus outside, Taruruuto?{/you have something to do with how noisy it is outside}
+Dialogue: 0,0:22:20.44,0:22:24.05,Default,,0,0,0,,Eh? Any idea about the ruckus outside, Taruruuto?{/you have something to do with how noisy it is outside}
 Dialogue: 0,0:22:24.05,0:22:24.99,Default,,0,0,0,,Taru!
 Dialogue: 0,0:22:24.99,0:22:26.63,Default,,0,0,0,,Just your imagination, imagination!
 Dialogue: 0,0:22:26.63,0:22:28.12,Default,,0,0,0,,That's what I thought, too.
-Dialogue: 0,0:22:41.52,0:22:43.29,Default,,0,0,0,,Taruru!
+Comment: 0,0:22:41.52,0:22:43.29,Default,,0,0,0,,Taruru!
 Dialogue: 0,0:22:44.09,0:22:45.61,Default,,0,0,0,,What should I do?
 Dialogue: 0,0:22:46.26,0:22:49.57,Default,,0,0,0,,I'm not ready for tomorrow's test at all!
 Dialogue: 0,0:22:51.60,0:22:52.99,Default,,0,0,0,,Say, Taruruuto,
@@ -351,6 +366,6 @@ Dialogue: 0,0:22:52.99,0:22:54.93,Default,,0,0,0,,why don't we pay a visit to te
 Dialogue: 0,0:22:55.62,0:22:57.27,Default,,0,0,0,,I like our teacher, too!
 Dialogue: 0,0:22:57.27,0:22:58.73,Default,,0,0,0,,Let's hurry there!
 Dialogue: 0,0:22:58.73,0:23:00.48,Default,,0,0,0,,Magical Taruruuto-kun:
-Dialogue: 0,0:23:00.48,0:23:02.54,Default,,0,0,0,,Preparing for Test with Magic!{魔法でテスト対策 - daisaku is rather "strategy/countermeasure"}
+Dialogue: 0,0:23:00.48,0:23:02.54,Default,,0,0,0,,Preparing for the Test with Magic!{魔法でテスト対策 - daisaku is rather "strategy/countermeasure"}
 Dialogue: 0,0:23:02.54,0:23:04.25,Default,,0,0,0,,Make su-ru-rure to watch!
-Dialogue: 0,0:23:03.03,0:23:05.86,Sign,,0,0,0,,Episode 5 \NPreparing for Test with Magic!
+Dialogue: 0,0:23:03.03,0:23:05.86,Sign,,0,0,0,,Episode 5 \NPreparing for the Test with Magic
