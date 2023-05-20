@@ -15,9 +15,9 @@ Video File: Watashi To Watashi Futari No Lotte - 12.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.875000
-Scroll Position: 226
-Active Line: 235
-Video Position: 34449
+Scroll Position: 65
+Active Line: 66
+Video Position: 8371
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -65,7 +65,7 @@ Dialogue: 0,0:03:13.23,0:03:15.25,Default,,0,0,0,,My report on business communic
 Dialogue: 0,0:03:15.25,0:03:18.43,Default,,0,0,0,,Sorry I come at an unfortunate moment, \Nbut I have an important matter to... {confusion; bustle; misfortune; disorder - again, why;d you fucking apologize for interrupting that}
 Dialogue: 0,0:03:18.43,0:03:20.52,Default,,0,0,0,,Ah! Found it. Here you are, here.
 Dialogue: 0,0:03:21.45,0:03:22.48,Default,,0,0,0,,Hey...
-Dialogue: 0,0:03:23.21,0:03:24.49,Default,,0,0,0,,Ah! Blimey! 
+Dialogue: 0,0:03:23.21,0:03:24.49,Default,,0,0,0,,Ah! Blimey!
 Dialogue: 0,0:03:30.46,0:03:32.46,Default,,0,0,0,,Ah... Ruined.
 Dialogue: 0,0:03:36.57,0:03:37.60,Default,,0,0,0,,Mom...
 Dialogue: 0,0:03:38.14,0:03:40.87,Default,,0,0,0,,Can't you see, Lotte, I'm busy now. \NLet's talk later.
@@ -92,7 +92,7 @@ Dialogue: 0,0:04:28.23,0:04:29.28,Default,,0,0,0,,Ah! Hey, that's rude! {sly; cu
 Dialogue: 0,0:04:30.12,0:04:32.26,Default,,0,0,0,,Look, you didn't eat your carrot again.
 Dialogue: 0,0:04:32.26,0:04:34.27,Default,,0,0,0,,Go finish it, it's nutritious.
 Dialogue: 0,0:04:34.27,0:04:36.70,Default,,0,0,0,,You leave some milk in your cup every time!
-Dialogue: 0,0:04:36.70,0:04:39.00,Default,,0,0,0,,And yet, you make me drink mine and gagging me.
+Dialogue: 0,0:04:36.70,0:04:39.00,Default,,0,0,0,,And yet, you make me drink mine while gagging me.
 Dialogue: 0,0:04:40.33,0:04:41.42,Default,,0,0,0,,But of course!
 Dialogue: 0,0:04:41.42,0:04:44.33,Default,,0,0,0,,In any discussion, grown-ups do the speaking,\Nkids do the listening. {I think she means "whatever is the matter, it's good for adults [to speak], but it's bad for kids"}
 Dialogue: 0,0:04:44.33,0:04:48.73,Default,,0,0,0,,It seems, the grown-ups are convinced, the rest of the world \Nis supposed to cater to their needs.

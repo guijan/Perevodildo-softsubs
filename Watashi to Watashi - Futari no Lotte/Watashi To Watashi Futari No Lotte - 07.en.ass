@@ -15,9 +15,9 @@ Video File: Watashi To Watashi Futari No Lotte - 07.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.750000
-Scroll Position: 327
-Active Line: 338
-Video Position: 39272
+Scroll Position: 57
+Active Line: 63
+Video Position: 6738
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -89,7 +89,7 @@ Dialogue: 0,0:03:33.52,0:03:34.72,Default,,0,0,0,,I made up my mind.
 Dialogue: 0,0:03:34.72,0:03:35.83,Default,,0,0,0,,- Luise. \N- Dad...
 Dialogue: 0,0:03:36.26,0:03:37.49,Default,,0,0,0,,- What is it? \N- Yes?
 Dialogue: 0,0:03:40.90,0:03:42.92,Default,,0,0,0,,Well, dad, you go first.
-Dialogue: 0,0:03:42.92,0:03:45.44,Default,,0,0,0,,Ah... No, I would like to hear Luise out first.
+Dialogue: 0,0:03:42.92,0:03:45.44,Default,,0,0,0,,Ah... No, I would like to hear you out first.
 Dialogue: 0,0:03:46.34,0:03:47.97,Default,,0,0,0,,Good morning, Luise!
 Dialogue: 0,0:03:48.51,0:03:50.17,Default,,0,0,0,,Truda stopped by to say hello. {/came to pick me up on her way}
 Dialogue: 0,0:03:51.88,0:03:53.30,Default,,0,0,0,,Good morning, Truda.
