@@ -15,9 +15,9 @@ Video File: Watashi To Watashi Futari No Lotte - 06.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.625000
-Scroll Position: 330
-Active Line: 341
-Video Position: 42809
+Scroll Position: 327
+Active Line: 339
+Video Position: 42581
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -287,10 +287,10 @@ Dialogue: 0,0:15:03.01,0:15:05.58,Default,,0,0,0,,Why am I crying that hard? \NW
 Dialogue: 0,0:15:06.08,0:15:11.96,Default,,0,0,0,,"When the meat is soft enough, remove it from the pot. \NAnd take out the bones with a colander." {doesn't make any practica; sense, but that's what she says}
 Dialogue: 0,0:15:13.76,0:15:14.89,Default,,0,0,0,,Oh God!
 Dialogue: 0,0:15:16.73,0:15:20.23,Default,,0,0,0,,Ah... Half of the soup is now on the floor!
-Dialogue: 0,0:15:20.23,0:15:22.83,Default,,0,0,0,,Can't be helped now. \NWill have to refill it with water. {/add}
+Dialogue: 0,0:15:20.23,0:15:22.83,Default,,0,0,0,,Can't be helped. \NWill have to refill it with water. {/add}
 Dialogue: 0,0:15:25.65,0:15:27.48,Default,,0,0,0,,It seems, I made it through, somehow.
 Dialogue: 0,0:15:27.48,0:15:28.82,Default,,0,0,0,,Let's get a little taste.
-Dialogue: 0,0:15:32.02,0:15:33.52,Default,,0,0,0,,What is this?! {/bad/disgusting}
+Dialogue: 0,0:15:32.02,0:15:33.52,Default,,0,0,0,,What's that?! {/bad/disgusting}
 Dialogue: 0,0:15:33.88,0:15:36.84,Default,,0,0,0,,Mom would refuse flatly to eat something like that!
 Dialogue: 0,0:15:36.84,0:15:39.59,Default,,0,0,0,,It seems, I won't ever be able \Nto make a convincing Lotte.
 Dialogue: 0,0:15:40.15,0:15:40.99,Default,,0,0,0,,Lotte!
@@ -361,11 +361,11 @@ Dialogue: 0,0:21:43.28,0:21:48.18,Default,,0,0,0,,And yet, with the fall of nigh
 Dialogue: 0,0:21:48.18,0:21:52.68,Default,,0,0,0,,gently tuck away the happiness in their hearts{ for later}, \Nmerely breathing out a sigh of relief. {lit: delights and sighs/exhales, softly; gently; quietly; lightly​ to wrap up, it seems - I've never yet been so lost as to what he means}
 Dialogue: 0,0:23:21.54,0:23:22.94,Sign,,0,0,0,,In the next episode
 Dialogue: 0,0:23:25.41,0:23:27.82,Default,,0,0,0,,We two have swapped places!
-Dialogue: 0,0:23:27.82,0:23:31.45,Default,,0,0,0,,Lotte, I've made a big fuss \Nin a school I've never attended before.
+Dialogue: 0,0:23:27.82,0:23:31.45,Default,,0,0,0,,Lotte, I made a big fuss \Nin a school I've never attended before.
 Dialogue: 0,0:23:31.45,0:23:33.15,Default,,0,0,0,,No way! Did you give away our secret?
 Dialogue: 0,0:23:33.15,0:23:38.06,Default,,0,0,0,,Not {\i1}that{\i0} big! But still, I've had enough \Nof Annie bullying the weak, so I introduced her to my palm.
 Dialogue: 0,0:23:38.06,0:23:40.76,Default,,0,0,0,,Oh God, Luise, why can't you ever control your urges?
-Dialogue: 0,0:23:40.76,0:23:44.57,Default,,0,0,0,,I know I should. \NBut the teacher had already called mom!
+Dialogue: 0,0:23:40.76,0:23:44.57,Default,,0,0,0,,I know I should. \NBut the teacher had already summoned mom!
 Dialogue: 0,0:23:45.52,0:23:48.83,Default,,0,0,0,,Next time in I and Myself: \NThe Classes Start.
 Dialogue: 0,0:23:47.99,0:23:52.15,Sign,,0,0,0,,Episode 7 \NThe Classes Start {初めての授業で…}
 Dialogue: 0,0:23:48.83,0:23:50.03,Default,,0,0,0,,Don't miss it!

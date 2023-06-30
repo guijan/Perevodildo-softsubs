@@ -14,10 +14,10 @@ Audio File: Watashi To Watashi Futari No Lotte - 12.avi
 Video File: Watashi To Watashi Futari No Lotte - 12.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
-Video Zoom Percent: 0.875000
-Scroll Position: 65
-Active Line: 66
-Video Position: 8371
+Video Zoom Percent: 1.125000
+Scroll Position: 103
+Active Line: 107
+Video Position: 14984
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -133,7 +133,7 @@ Dialogue: 0,0:08:06.07,0:08:10.58,Default,,0,0,0,,Most of the grown-ups are pret
 Dialogue: 0,0:08:10.58,0:08:12.71,Default,,0,0,0,,It's not at all surprising that you quarreled.
 Dialogue: 0,0:08:12.71,0:08:15.18,Sign,,0,0,0,,You're pretty well-informed on marriages, aren't you?
 Dialogue: 0,0:08:15.18,0:08:16.58,Sign,,0,0,0,,Not at all.
-Dialogue: 0,0:08:16.58,0:08:22.18,Sign,,0,0,0,,It's just that when when the others only ever bully you, you start pondering about the intricacies of life just to kill time. {hopefully she means this, lit: a bullied kid like me has no choice but to think profoundly about the life}
+Dialogue: 0,0:08:16.58,0:08:22.18,Sign,,0,0,0,,It's just that when the others only ever bully you, \Nyou start pondering on intricacies of life merely to kill time. {hopefully she means this, lit: a bullied kid like me has no choice but to think profoundly about the life}
 Dialogue: 0,0:08:23.31,0:08:24.69,Default,,0,0,0,,I don't envy you. {trouble; hardship; difficulty; labour; labor; toil; pains}
 Dialogue: 0,0:08:25.15,0:08:27.62,Default,,0,0,0,,I know! I should introduce you \Nto a "Benevolent Person."
 Dialogue: 0,0:08:28.82,0:08:30.02,Default,,0,0,0,,"Benevolent person?"
