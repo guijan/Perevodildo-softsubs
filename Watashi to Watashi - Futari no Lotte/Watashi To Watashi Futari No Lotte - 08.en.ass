@@ -15,9 +15,9 @@ Video File: Watashi To Watashi Futari No Lotte - 08.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.750000
-Scroll Position: 324
-Active Line: 336
-Video Position: 38873
+Scroll Position: 301
+Active Line: 312
+Video Position: 35716
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -112,7 +112,7 @@ Dialogue: 0,0:04:44.99,0:04:48.33,Default,,0,0,0,,"Take care, but only after I k
 Dialogue: 0,0:04:48.33,0:04:49.83,Default,,0,0,0,,I'll never be able to say that. {/I can't after all}
 Dialogue: 0,0:04:51.97,0:04:56.48,Default,,0,0,0,,You see, I spend my whole life \Nliving with mother, up until now.
 Dialogue: 0,0:04:56.48,0:04:59.78,Default,,0,0,0,,I haven't a clue how would dad react \Nif I try to kiss him.
-Dialogue: 0,0:05:00.42,0:05:03.49,Default,,0,0,0,,And it's been a week already since I had arrived!
+Dialogue: 0,0:05:00.42,0:05:03.18,Default,,0,0,0,,And it's been a week already since I've arrived!
 Dialogue: 0,0:05:13.32,0:05:14.71,Default,,0,0,0,,Oh, Frau Irene.
 Dialogue: 0,0:05:14.71,0:05:17.27,Default,,0,0,0,,Herr Palfy, fancy a ride?
 Dialogue: 0,0:05:17.27,0:05:18.56,Default,,0,0,0,,I could give you a lift.
@@ -174,7 +174,7 @@ Dialogue: 0,0:08:31.52,0:08:34.30,Default,,0,0,0,,Resi, can't you mop somewhere 
 Dialogue: 0,0:08:34.30,0:08:35.76,Default,,0,0,0,,Everywhere else is mopped already. {/went there before}
 Dialogue: 0,0:08:35.76,0:08:37.30,Default,,0,0,0,,But how about the bathroom?
 Dialogue: 0,0:08:37.30,0:08:38.94,Default,,0,0,0,,There, too.
-Dialogue: 0,0:08:38.94,0:08:40.12,Default,,0,0,0,,This is a hindrance.
+Dialogue: 0,0:08:38.94,0:08:40.12,Default,,0,0,0,,We're in trouble. 
 Dialogue: 0,0:08:40.12,0:08:42.97,Default,,0,0,0,,While Resi is in the room, \NI can't talk to Luise on the phone.
 Dialogue: 0,0:08:50.37,0:08:53.33,Default,,0,0,0,,Hey, but what if you take Peperl on a walk outside?
 Dialogue: 0,0:08:53.33,0:08:55.21,Default,,0,0,0,,But that's something only you ever do.
@@ -228,8 +228,8 @@ Dialogue: 0,0:11:03.70,0:11:05.07,Default,,0,0,0,,In Munich and in Vienna?
 Dialogue: 0,0:11:05.07,0:11:07.01,Default,,0,0,0,,Starting simultaneously, at six tonight.
 Dialogue: 0,0:11:07.01,0:11:09.05,Default,,0,0,0,,Sounds incredibly fun! \NI'm in, I'm in.
 Dialogue: 0,0:11:09.05,0:11:12.15,Default,,0,0,0,,I know, right? \NIt's a promise! At six! Bye!
-Dialogue: 0,0:11:14.59,0:11:17.76,Default,,0,0,0,,She seems beside herself with excitement. \NI hope she manages it fine. {to make merry; to be ecstatic; to be in high spirits}
-Dialogue: 0,0:11:17.76,0:11:19.03,Default,,0,0,0,,We'll see, I guess.
+Dialogue: 0,0:11:14.59,0:11:17.76,Default,,0,0,0,,She sounded might ecstatic. \NI hope it all goes fine. {to make merry; to be ecstatic; to be in high spirits}
+Dialogue: 0,0:11:17.76,0:11:18.66,Default,,0,0,0,,Well, we'll see.
 Dialogue: 0,0:11:24.42,0:11:26.50,Default,,0,0,0,,Dad's birthday...
 Dialogue: 0,0:11:31.68,0:11:33.07,Default,,0,0,0,,Thanks for your purchase!
 Dialogue: 0,0:11:45.14,0:11:47.62,Default,,0,0,0,,My, Luise, is there a carnival in the city?
@@ -245,7 +245,7 @@ Dialogue: 0,0:12:10.67,0:12:13.71,Default,,0,0,0,,Then, could you give him the l
 Dialogue: 0,0:12:14.41,0:12:15.37,Default,,0,0,0,,This one?
 Dialogue: 0,0:12:15.63,0:12:17.11,Default,,0,0,0,,It's an invitation.
 Dialogue: 0,0:12:18.08,0:12:19.98,Default,,0,0,0,,An invitation, eh?
-Dialogue: 0,0:12:36.77,0:12:39.44,Default,,0,0,0,,Hey there! We've met before, in the...
+Dialogue: 0,0:12:36.77,0:12:39.44,Default,,0,0,0,,Oh! We've met in the...
 Dialogue: 0,0:12:41.64,0:12:44.85,Default,,0,0,0,,OK. Now, let's do one final rehearsal \Nfrom the very first act.
 Dialogue: 0,0:12:44.85,0:12:49.05,Default,,0,0,0,,I wanted to ask, Frau, \Nif you could pass this to Palfy after he's done.
 Dialogue: 0,0:12:49.05,0:12:50.52,Default,,0,0,0,,You can count on me.
@@ -273,7 +273,7 @@ Dialogue: 0,0:14:21.07,0:14:23.78,Sign,,0,0,0,,Imperial Hotel
 Dialogue: 0,0:14:37.32,0:14:38.75,Default,,0,0,0,,Something bothers you still? {guess, no clue what's this question}
 Dialogue: 0,0:14:39.48,0:14:43.75,Default,,0,0,0,,Yeah, you see... \NI just can get Luise out of my mind.
 Dialogue: 0,0:14:44.05,0:14:46.66,Default,,0,0,0,,Lately, she's definitely hiding something from me.
-Dialogue: 0,0:14:47.14,0:14:49.59,Default,,0,0,0,,I think, it started with her departure to summer camp.
+Dialogue: 0,0:14:47.14,0:14:49.59,Default,,0,0,0,,I think, it started with her \Ngoing to the summer camp.
 Dialogue: 0,0:14:50.26,0:14:52.98,Default,,0,0,0,,In some bizarre way, \NI think, I may just know what you mean.
 Dialogue: 0,0:14:52.98,0:14:55.42,Default,,0,0,0,,The girl's feelings in that age \Nare rather easy to read.
 Dialogue: 0,0:14:55.42,0:14:55.91,Default,,0,0,0,,Eh?
@@ -284,23 +284,23 @@ Dialogue: 0,0:15:00.64,0:15:05.32,Default,,0,0,0,,Yes. After all, she's still a 
 Dialogue: 0,0:15:05.32,0:15:08.65,Default,,0,0,0,,But then... \NLuise is yearning to have a mother, too? {to yearn for; to miss}
 Dialogue: 0,0:15:08.65,0:15:11.79,Default,,0,0,0,,Girls depend on their mom \Nmore than on anyone else.
 Dialogue: 0,0:15:12.96,0:15:14.06,Default,,0,0,0,,A mother...
-Dialogue: 0,0:15:15.79,0:15:22.26,Default,,0,0,0,,Herr Palfy, it might sound like a bolt from the blue, \Nbut I just thought, should you remarry sometime soon,
-Dialogue: 0,0:15:22.26,0:15:25.73,Default,,0,0,0,,that'd provide for the most natural way \Nto give Luise a mother.
-Dialogue: 0,0:15:26.27,0:15:31.24,Default,,0,0,0,,In addition, I probably would have provided \Nfor a splendid mother myself.
+Dialogue: 0,0:15:15.79,0:15:22.26,Default,,0,0,0,,Herr Palfy, maybe it's just me thinking out loud, \Nbut suppose you remarry sometime about now,
+Dialogue: 0,0:15:22.26,0:15:25.73,Default,,0,0,0,,wouldn't that provide for the most natural way \Nto give Luise a mother?
+Dialogue: 0,0:15:26.27,0:15:31.24,Default,,0,0,0,,And I also think, I probably would provide \Nfor a splendid mother myself.
 Dialogue: 0,0:15:36.78,0:15:41.61,Default,,0,0,0,,For this week's front cover, \NI'm considering one of those three portraits.
 Dialogue: 0,0:15:41.61,0:15:43.88,Default,,0,0,0,,Unless someone here can think of a better one?
 Dialogue: 0,0:15:44.31,0:15:45.78,Default,,0,0,0,,Ah! I can!
 Dialogue: 0,0:15:46.15,0:15:47.18,Default,,0,0,0,,Who would it be?
 Dialogue: 0,0:15:47.18,0:15:49.89,Default,,0,0,0,,I think, today is that man's...
 Dialogue: 0,0:15:50.52,0:15:51.59,Default,,0,0,0,,That man?
-Dialogue: 0,0:15:54.77,0:15:55.83,Default,,0,0,0,,Which one of them?
+Dialogue: 0,0:15:54.77,0:15:55.83,Default,,0,0,0,,Which man?
 Dialogue: 0,0:16:10.85,0:16:15.45,Default,,0,0,0,,Do you mean to say dad gives more love to that woman \N and to his work, than to his Lotte? {no clue why she says ,ore than lotte here, must be that it's a recollection in lotte's mind }
 Dialogue: 0,0:16:17.02,0:16:18.69,Default,,0,0,0,,This can't be the truth.
 Dialogue: 0,0:16:19.90,0:16:21.03,Default,,0,0,0,,This can't...
 Dialogue: 0,0:16:21.96,0:16:22.56,Default,,0,0,0,,Be...
 Dialogue: 0,0:16:28.13,0:16:29.23,Default,,0,0,0,,Remarry?
-Dialogue: 0,0:16:31.50,0:16:32.30,Default,,0,0,0,,Like...
-Dialogue: 0,0:16:33.37,0:16:34.04,Default,,0,0,0,,with you?
+Dialogue: 0,0:16:31.50,0:16:32.30,Default,,0,0,0,,Like me...
+Dialogue: 0,0:16:33.37,0:16:34.04,Default,,0,0,0,,and you?
 Dialogue: 0,0:16:34.04,0:16:35.64,Default,,0,0,0,,Ah! So sorry!
 Dialogue: 0,0:16:39.14,0:16:41.51,Default,,0,0,0,,My, this dress is ruined!
 Dialogue: 0,0:16:42.05,0:16:43.31,Default,,0,0,0,,I beg a thousand pardons.
@@ -327,18 +327,18 @@ Dialogue: 0,0:18:44.57,0:18:45.64,Default,,0,0,0,,Luise!
 Dialogue: 0,0:18:58.92,0:19:01.91,Default,,0,0,0,,I knew it... \NI knew it that you'd come!
 Dialogue: 0,0:19:01.91,0:19:03.21,Default,,0,0,0,,I'm guilty for making you wait.
 Dialogue: 0,0:19:04.78,0:19:05.78,Default,,0,0,0,,Love you!
-Dialogue: 0,0:19:06.38,0:19:07.98,Default,,0,0,0,,Love you, dad!
+Dialogue: 0,0:19:06.38,0:19:07.98,Default,,0,0,0,,I love you, dad!
 Dialogue: 0,0:19:13.40,0:19:14.13,Default,,0,0,0,,Dad...
 Dialogue: 0,0:19:14.60,0:19:15.79,Default,,0,0,0,,Can I kiss you?
 Dialogue: 0,0:19:15.79,0:19:17.23,Default,,0,0,0,,You most certainly can!
 Dialogue: 0,0:19:17.23,0:19:19.04,Default,,0,0,0,,The most precious kiss in the world, too.
 Dialogue: 0,0:19:23.53,0:19:25.41,Default,,0,0,0,,And now, dad's turn.
 Dialogue: 0,0:19:26.64,0:19:28.01,Default,,0,0,0,,Your bristle is spiky! {/hurts}
-Dialogue: 0,0:19:34.55,0:19:37.52,Default,,0,0,0,,Lotte and Dad's party, \NI hope it's going well.
+Dialogue: 0,0:19:34.55,0:19:37.52,Default,,0,0,0,,Lotte and Dad's party, \NI hope it went well.
 Dialogue: 0,0:19:37.52,0:19:38.48,Default,,0,0,0,,Lotte.
 Dialogue: 0,0:19:39.06,0:19:42.59,Default,,0,0,0,,Your friend that had a birthday today, \Nwho was it, after all?
-Dialogue: 0,0:19:43.33,0:19:46.30,Default,,0,0,0,,It was Ilse's birthday. \NGoodnight, now!
-Dialogue: 0,0:19:49.27,0:19:51.09,Default,,0,0,0,,And finish your work soon!
+Dialogue: 0,0:19:43.33,0:19:46.30,Default,,0,0,0,,It was Ilse's. \NWell, goodnight now!
+Dialogue: 0,0:19:49.27,0:19:51.09,Default,,0,0,0,,And good luck with your work!
 Dialogue: 0,0:19:51.83,0:19:56.40,Default,,0,0,0,,So I thought. Lotte cannot possibly know \Nit's her father's birthday.
 Dialogue: 0,0:19:59.97,0:20:02.45,Default,,0,0,0,,Luise, can I ask just one thing?
 Dialogue: 0,0:20:03.27,0:20:04.94,Default,,0,0,0,,Don't you think it's about time

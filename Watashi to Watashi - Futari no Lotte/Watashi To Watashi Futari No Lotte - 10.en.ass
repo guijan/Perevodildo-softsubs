@@ -14,10 +14,10 @@ Audio File: Watashi To Watashi Futari No Lotte - 10.avi
 Video File: Watashi To Watashi Futari No Lotte - 10.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
-Video Zoom Percent: 0.625000
-Scroll Position: 213
-Active Line: 226
-Video Position: 29157
+Video Zoom Percent: 0.750000
+Scroll Position: 228
+Active Line: 236
+Video Position: 32185
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -51,9 +51,9 @@ Dialogue: 0,0:01:37.34,0:01:41.05,Default,,0,0,0,,World's number one in putting 
 Dialogue: 0,0:01:41.05,0:01:45.22,Default,,0,0,0,,As luck would have it, I have reasons to think \Nyou will conduct her performance, as well.
 Dialogue: 0,0:01:45.22,0:01:47.72,Default,,0,0,0,,Well, we'll see what comes out of it.
 Dialogue: 0,0:02:00.54,0:02:02.60,Default,,0,0,0,,Luise, I'll be back soon!
-Dialogue: 0,0:02:03.11,0:02:06.50,Default,,0,0,0,,Please do, dad! \NSoon and well!
+Dialogue: 0,0:02:03.11,0:02:06.50,Default,,0,0,0,,Please do, dad! \N In good health!
 Dialogue: 0,0:02:18.38,0:02:19.82,Default,,0,0,0,,Impressive!
-Dialogue: 0,0:02:19.82,0:02:21.55,Default,,0,0,0,,Yeah, he's damn nimble!
+Dialogue: 0,0:02:19.82,0:02:21.55,Default,,0,0,0,,Yeah, he's darn good!
 Dialogue: 0,0:02:39.57,0:02:41.54,Default,,0,0,0,,Wow! Amazing.
 Dialogue: 0,0:02:58.79,0:03:00.09,Default,,0,0,0,,Thank you very much.
 Dialogue: 0,0:03:00.09,0:03:01.23,Default,,0,0,0,,Much obliged.
@@ -88,7 +88,7 @@ Dialogue: 0,0:04:24.29,0:04:25.58,Default,,0,0,0,,And I'm Lotte.
 Dialogue: 0,0:04:27.24,0:04:28.42,Default,,0,0,0,,Luise Palfy.
 Dialogue: 0,0:04:28.71,0:04:29.78,Default,,0,0,0,,Palfy?
 Dialogue: 0,0:04:30.38,0:04:33.05,Default,,0,0,0,,Any chance you're a daughter of Ludwig Palfy?
-Dialogue: 0,0:04:33.65,0:04:35.39,Default,,0,0,0,,Oh, that would have been silly!
+Dialogue: 0,0:04:33.65,0:04:35.39,Default,,0,0,0,,Oh, that's straight-up silly!
 Dialogue: 0,0:04:35.91,0:04:36.89,Default,,0,0,0,,Why so?
 Dialogue: 0,0:04:36.89,0:04:42.63,Default,,0,0,0,,Well, imagine - a daughter of a famous conductor \Nand composer hanging out with me just like that!
 Dialogue: 0,0:04:45.29,0:04:46.56,Default,,0,0,0,,Or is it..?
@@ -107,7 +107,7 @@ Dialogue: 0,0:05:23.21,0:05:25.62,Default,,0,0,0,,Hey, Fraulein Luise. Good morn
 Dialogue: 0,0:05:26.07,0:05:28.90,Default,,0,0,0,,This here is my friend, \Nhis name is Hans.
 Dialogue: 0,0:05:29.41,0:05:30.15,Default,,0,0,0,,Good morning.
 Dialogue: 0,0:05:30.15,0:05:31.74,Default,,0,0,0,,Likewise. Good morning.
-Dialogue: 0,0:05:39.84,0:05:41.18,Default,,0,0,0,,Well, here you are.
+Dialogue: 0,0:05:39.84,0:05:41.18,Default,,0,0,0,,Well, here it is.
 Dialogue: 0,0:05:57.41,0:05:58.44,Default,,0,0,0,,Is this...
 Dialogue: 0,0:05:58.84,0:06:01.01,Default,,0,0,0,,Is this Herr Palfy's atelier?
 Dialogue: 0,0:06:18.02,0:06:20.76,Default,,0,0,0,,And here is where Herr Palfy \Nsits while composing?
@@ -117,13 +117,13 @@ Dialogue: 0,0:06:31.50,0:06:33.27,Default,,0,0,0,,Hans, you play piano?
 Dialogue: 0,0:06:34.65,0:06:36.41,Default,,0,0,0,,Yeah. Just a bit.
 Dialogue: 0,0:06:36.41,0:06:37.31,Default,,0,0,0,,Want to try?
 Dialogue: 0,0:06:37.68,0:06:40.62,Default,,0,0,0,,Why, of course... Ah... \NNo, I'm good.
-Dialogue: 0,0:06:40.62,0:06:44.35,Default,,0,0,0,,I should be sufficiently contented \Nwith just being let into Herr Palfy's atelier.{ whom I worship/adore}
+Dialogue: 0,0:06:40.62,0:06:44.35,Default,,0,0,0,,I should be sufficiently content \Njust being let into Herr Palfy's atelier.{ whom I worship/adore}
 Dialogue: 0,0:06:44.89,0:06:46.33,Default,,0,0,0,,I don't mind, try it.
 Dialogue: 0,0:06:47.26,0:06:50.83,Default,,0,0,0,,You gotta be kidding! \NTo have me, some street performer, play {\i1}this{\i0}...
 Dialogue: 0,0:06:52.63,0:06:53.79,Default,,0,0,0,,Seriously serious?
 Dialogue: 0,0:06:53.79,0:06:55.19,Default,,0,0,0,,Most seriously serious.
 Dialogue: 0,0:06:56.17,0:06:58.50,Default,,0,0,0,,But for me, to play this piano...
-Dialogue: 0,0:07:01.28,0:07:04.11,Default,,0,0,0,,I get to play a real piano, \Nand {\i1}his{\i0} piano at that... {I wanted to try playing a real piano - this is lit, but this doesn't make sense, he clearly played piano before}
+Dialogue: 0,0:07:01.28,0:07:04.11,Default,,0,0,0,,I get to play a real piano... {I wanted to try playing a real piano - this is lit, but this doesn't make sense, he clearly played piano before}
 Dialogue: 0,0:07:52.92,0:07:54.75,Default,,0,0,0,,You're good, Hans.
 Dialogue: 0,0:07:55.67,0:07:58.49,Default,,0,0,0,,Bungled the last part. \NIt's been a while since I last played it.
 Dialogue: 0,0:07:58.49,0:08:01.54,Default,,0,0,0,,For a first performance in a while, \Nthis sounded amazing!
@@ -133,7 +133,7 @@ Dialogue: 0,0:08:05.85,0:08:06.99,Default,,0,0,0,,You can play, right?
 Dialogue: 0,0:08:08.33,0:08:10.03,Default,,0,0,0,,Just... not now. {/I can't}
 Dialogue: 0,0:08:10.03,0:08:12.31,Default,,0,0,0,,Not now? Why so?
 Dialogue: 0,0:08:13.18,0:08:16.39,Default,,0,0,0,,I'd like to, but at the moment, I'm my other self -
-Dialogue: 0,0:08:16.39,0:08:18.51,Default,,0,0,0,,Luise who isn't supposed to play piano.
+Dialogue: 0,0:08:16.39,0:08:18.51,Default,,0,0,0,,Luise who can't play the piano.
 Dialogue: 0,0:08:19.64,0:08:21.11,Default,,0,0,0,,That's a pity. {lit is " to live in luxury; to indulge oneself" and idk what he means}
 Dialogue: 0,0:08:21.94,0:08:23.03,Default,,0,0,0,,Pity?
 Dialogue: 0,0:08:23.54,0:08:25.55,Default,,0,0,0,,When you got a piano that exceptional,
@@ -148,7 +148,7 @@ Dialogue: 0,0:08:49.58,0:08:50.51,Default,,0,0,0,,Yes?
 Dialogue: 0,0:08:50.51,0:08:52.77,Default,,0,0,0,,Dad would be away for about a month.
 Dialogue: 0,0:08:52.77,0:08:55.73,Default,,0,0,0,,Until then, feel free to come play piano anytime!
 Dialogue: 0,0:08:55.73,0:08:58.25,Default,,0,0,0,,For real? \NMan, that's a godsend!
-Dialogue: 0,0:08:58.65,0:09:00.99,Default,,0,0,0,,By that time, I sure hope Luise \Nlets me hear her piano play!
+Dialogue: 0,0:08:58.65,0:09:00.99,Default,,0,0,0,,By then, I hope Luise lets me hear her play, too!
 Dialogue: 0,0:09:11.10,0:09:14.19,Default,,0,0,0,,Now I'm convinced! \NMom's cooking is better every time!
 Dialogue: 0,0:09:14.19,0:09:17.08,Default,,0,0,0,,Just letting you know, \Nflattery won't help increasing your allowance.
 Dialogue: 0,0:09:17.08,0:09:18.17,Default,,0,0,0,,Saw it right through! {hope its bareta ka}
@@ -181,8 +181,8 @@ Dialogue: 0,0:10:28.12,0:10:31.41,Default,,0,0,0,,It seems, I'll be away for som
 Dialogue: 0,0:10:31.41,0:10:32.91,Default,,0,0,0,,You can leave with an easy heart!
 Dialogue: 0,0:10:32.91,0:10:35.25,Default,,0,0,0,,I hope you do your best \Nduring that assignment.
 Dialogue: 0,0:10:36.15,0:10:37.16,Default,,0,0,0,,Thank you.
-Dialogue: 0,0:10:48.00,0:10:50.17,Default,,0,0,0,,What's taking Hans so long?
-Dialogue: 0,0:10:50.17,0:10:51.70,Default,,0,0,0,,Is he even coming today?
+Dialogue: 0,0:10:48.00,0:10:50.17,Default,,0,0,0,,What's the matter with Hans? 
+Dialogue: 0,0:10:50.17,0:10:51.70,Default,,0,0,0,,He never came today.
 Dialogue: 0,0:11:05.71,0:11:08.05,Default,,0,0,0,,Good evening, and pardon the intrusion.
 Dialogue: 0,0:11:08.05,0:11:09.92,Default,,0,0,0,,Ah... But who might the Frau be?
 Dialogue: 0,0:11:09.92,0:11:12.89,Default,,0,0,0,,Eh? What... What's all of this? Eh!
@@ -230,12 +230,12 @@ Dialogue: 0,0:14:37.31,0:14:40.08,Default,,0,0,0,,Mozart, Beethoven, Strauss -
 Dialogue: 0,0:14:40.08,0:14:42.37,Default,,0,0,0,,the great composers of the past, \Nall raised by Vienna.
 Dialogue: 0,0:14:42.37,0:14:44.33,Default,,0,0,0,,One day, I might stand alongside them!
 Dialogue: 0,0:14:44.33,0:14:46.09,Default,,0,0,0,,I believe in you, Hans.
-Dialogue: 0,0:14:49.39,0:14:53.33,Default,,0,0,0,,Call me weird, \Nbut I'm the one who's jealous here.
+Dialogue: 0,0:14:49.39,0:14:53.33,Default,,0,0,0,,Call me somehow odd, \Nbut I'm the one who's envious here.
 Dialogue: 0,0:14:54.57,0:14:58.81,Default,,0,0,0,,Luise, I can never be sure \Nwhich exact approach would work for you. {very unsure, lit: Luise, I don't know what specifications/way; method; means; resource; remedy you have}
 Dialogue: 0,0:14:58.81,0:15:01.44,Default,,0,0,0,,But as long as you like it, \Nyou should keep playing.
 Dialogue: 0,0:15:01.97,0:15:04.17,Default,,0,0,0,,And then, the piano will become your friend, too.
 Dialogue: 0,0:15:05.81,0:15:06.90,Default,,0,0,0,,Hans...
-Dialogue: 0,0:15:07.15,0:15:08.79,Default,,0,0,0,,Well... Later, Luise!
+Dialogue: 0,0:15:07.15,0:15:08.79,Default,,0,0,0,,Well... See you around, Luise!
 Dialogue: 0,0:15:21.50,0:15:23.42,Default,,0,0,0,,Berlin performance cancelled?
 Dialogue: 0,0:15:23.42,0:15:25.90,Default,,0,0,0,,Sudden illness? \NOr did someone get in an accident?
 Dialogue: 0,0:15:25.90,0:15:27.89,Default,,0,0,0,,That'd be petty, compared to reality. {no clue, lit: if that had been the case, we would have also resigned/gave up - maybe he means "we should dig this further"}
@@ -247,22 +247,22 @@ Dialogue: 0,0:15:37.87,0:15:42.58,Default,,0,0,0,,Palfy is playing an important 
 Dialogue: 0,0:15:42.58,0:15:45.82,Default,,0,0,0,,But isn't this duty mutual, for Maria Therese as well?
 Dialogue: 0,0:15:45.82,0:15:47.99,Default,,0,0,0,,Her snobbishness makes up half of her fame by now. {/her selfishness if famous}
 Dialogue: 0,0:15:48.76,0:15:51.00,Default,,0,0,0,,Do you happen to be a fan of Palfy?
-Dialogue: 0,0:15:51.00,0:15:53.56,Default,,0,0,0,,Quite the opposite! \NI find him quite sickening.
+Dialogue: 0,0:15:51.00,0:15:53.56,Default,,0,0,0,,Quite the opposite! \NI find him rather sickening.
 Dialogue: 0,0:15:53.56,0:15:57.67,Default,,0,0,0,,But I will always keep saying that conflicts \Nshould be judged from a position of impartiality.
 Dialogue: 0,0:15:57.67,0:15:58.84,Default,,0,0,0,,If you excuse me.
 Dialogue: 0,0:16:08.75,0:16:11.54,Default,,0,0,0,,Maria Therese, someone has to teach you some tact!
 Dialogue: 0,0:16:11.54,0:16:12.84,Default,,0,0,0,,How can you be so snot-nosed? {/too selfish}
-Dialogue: 0,0:16:12.84,0:16:16.31,Default,,0,0,0,,If you want to be taken seriously as an artist, \Nyou learn some modesty first! {unsure: as an artist, to do taisei/taisen, ... - taisei/sen can be a fuckton of things that I won't even bother listing}
+Dialogue: 0,0:16:12.84,0:16:16.22,Default,,0,0,0,,To be taken seriously as an artist, \Nyou learn some modesty first! {unsure: as an artist, to do taisei/taisen, ... - taisei/sen can be a fuckton of things that I won't even bother listing}
 Dialogue: 0,0:16:20.15,0:16:25.79,Default,,0,0,0,,Well, at the very least, I get to return home so soon. \NCan you even imagine Luise's rapture when she finds out?
 Dialogue: 0,0:16:36.88,0:16:40.48,Default,,0,0,0,,I cannot tell for certain, \Nwhich approach would work for you.
 Dialogue: 0,0:16:40.48,0:16:42.91,Default,,0,0,0,,But as long as you like it, \Nyou should keep playing.
-Dialogue: 0,0:17:15.79,0:17:18.43,Default,,0,0,0,,Aye, Herr Palfy. \NYoung Fraulein is also here.
+Dialogue: 0,0:17:15.79,0:17:18.43,Default,,0,0,0,,Hello, Herr Palfy! \NYoung Fraulein is also here.
 Dialogue: 0,0:17:18.43,0:17:20.62,Default,,0,0,0,,Oh, that's highly convenient. {/just what I needed}
 Dialogue: 0,0:17:21.10,0:17:22.80,Default,,0,0,0,,Need a hand with this luggage?
 Dialogue: 0,0:17:22.80,0:17:24.69,Default,,0,0,0,,Ah? No, no, I'm good.
 Dialogue: 0,0:17:24.69,0:17:25.96,Default,,0,0,0,,Take care, then.
 Dialogue: 0,0:17:52.42,0:17:53.38,Default,,0,0,0,,Who could that be?
-Dialogue: 0,0:17:53.88,0:17:56.35,Default,,0,0,0,,Did Luise bring along some of her friends?
+Dialogue: 0,0:17:53.88,0:17:56.35,Default,,0,0,0,,Did Luise bring along some friend?
 Dialogue: 0,0:18:13.10,0:18:14.10,Default,,0,0,0,,Ah... Keep going!
 Dialogue: 0,0:18:14.66,0:18:15.53,Default,,0,0,0,,Okay...
 Dialogue: 0,0:18:16.97,0:18:18.50,Default,,0,0,0,,Right, very soothing.

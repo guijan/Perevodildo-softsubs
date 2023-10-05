@@ -15,9 +15,9 @@ Video File: Watashi To Watashi Futari No Lotte - 07.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.750000
-Scroll Position: 57
-Active Line: 63
-Video Position: 6738
+Scroll Position: 274
+Active Line: 285
+Video Position: 28981
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -149,7 +149,7 @@ Dialogue: 0,0:06:49.68,0:06:50.73,Default,,0,0,0,,Is everything well? {/cheerful
 Dialogue: 0,0:06:50.73,0:06:51.63,Default,,0,0,0,,Don't come near me.
 Dialogue: 0,0:06:52.23,0:06:54.53,Default,,0,0,0,,Please. And don't try to talk to me.
 Dialogue: 0,0:06:54.53,0:06:56.67,Default,,0,0,0,,Did I offend you somehow? {/but I wasn't bullying you}
-Dialogue: 0,0:06:56.67,0:06:59.57,Default,,0,0,0,,I though I was just trying to defend you from Annie. {/rather, I saved you from annie, I thought}
+Dialogue: 0,0:06:56.67,0:06:59.57,Default,,0,0,0,,I thought I was just trying to defend you from Annie. {/rather, I saved you from annie, I thought}
 Dialogue: 0,0:06:59.91,0:07:02.54,Default,,0,0,0,,But I never asked you to slap Annie!
 Dialogue: 0,0:07:02.87,0:07:04.77,Default,,0,0,0,,Now she's coming back for me later! {it's payback; tit for tat; retaliation; revenge from earlier, so my guess was right and I'm keeping the wording to follow the callback}
 Dialogue: 0,0:07:05.38,0:07:09.35,Default,,0,0,0,,Why would she target you? \NI was the one who fought Annie, and I did it myself.
@@ -157,7 +157,7 @@ Dialogue: 0,0:07:09.35,0:07:11.78,Default,,0,0,0,,That's... what Annie told me.
 Dialogue: 0,0:07:12.72,0:07:13.85,Default,,0,0,0,,Annie!
 Dialogue: 0,0:07:15.95,0:07:19.42,Default,,0,0,0,,Hey, Lotte Körner, \NFrau Annie needs to have a word with you.
 Dialogue: 0,0:07:20.10,0:07:22.94,Default,,0,0,0,,Frau Annie? A word? \NWhat's this all about?
-Dialogue: 0,0:07:22.94,0:07:27.16,Default,,0,0,0,,Frau Annie has taken a grave offense\Nin your behaviour yesterday. {to take offense; to take offence; to get angry; to lose one's temper - might wanna do it the way I tled it in early eps}
+Dialogue: 0,0:07:22.94,0:07:27.16,Default,,0,0,0,,Frau Annie had taken a grave offense\Nin your behaviour yesterday. {to take offense; to take offence; to get angry; to lose one's temper - might wanna do it the way I tled it in early eps}
 Dialogue: 0,0:07:27.16,0:07:30.87,Default,,0,0,0,,To express her protest, she won't ever again \Ncondescend to talking to Lotte personally. {/decided to not bother talking to lotte}
 Dialogue: 0,0:07:30.87,0:07:34.90,Default,,0,0,0,,Therefore, from now on, she will rely on our - \NMaria and Miria's heralding services. {/will use us for messaging - technically maria and myriam are one name in german, but w/e, they aren't in the book, and I'm not sure it's mirijam, I don't hear m on the end}
 Dialogue: 0,0:07:34.90,0:07:39.11,Default,,0,0,0,,Frau Annie said, until you apologize to her, \Nshe would never forgive you two! {unsure futari here refers to them two, maybe it's we two tho unlikely}
@@ -165,7 +165,7 @@ Dialogue: 0,0:07:39.11,0:07:40.33,Default,,0,0,0,,One, two...
 Dialogue: 0,0:07:40.33,0:07:41.71,Default,,0,0,0,,{\i1}Is it clear?{\i0} {that's all; that is the end; the end}
 Dialogue: 0,0:07:42.83,0:07:44.55,Default,,0,0,0,,What will you do, Lotte?
 Dialogue: 0,0:07:44.55,0:07:48.68,Default,,0,0,0,,Annie is gravely injured this time! \NShe'll start harassing me even more!
-Dialogue: 0,0:07:49.21,0:07:52.62,Default,,0,0,0,,Don't you worry about that. \NI'll be here to protect you in that case.
+Dialogue: 0,0:07:49.21,0:07:52.62,Default,,0,0,0,,Don't you worry about that. \NI'll be there to protect you.
 Dialogue: 0,0:07:52.95,0:07:53.96,Default,,0,0,0,,Now, let's go.
 Dialogue: 0,0:07:57.86,0:08:01.16,Default,,0,0,0,,Is that clear? When the denominator \Nis smaller than the numerator, {/therefore, ...}
 Dialogue: 0,0:08:01.16,0:08:04.80,Default,,0,0,0,,you need to calculate how many times \Nthe nominator is more than denominator. {how many numerators you can fit into denumentaor}
@@ -201,7 +201,7 @@ Dialogue: 0,0:09:30.31,0:09:31.31,Default,,0,0,0,,Damn straight! {of course; cer
 Dialogue: 0,0:09:34.72,0:09:36.41,Default,,0,0,0,,Yes, Körner listening.
 Dialogue: 0,0:09:36.41,0:09:37.39,Default,,0,0,0,,Yes.
 Dialogue: 0,0:09:37.39,0:09:39.59,Default,,0,0,0,,Eh? Lotte did? In the class?
-Dialogue: 0,0:09:39.59,0:09:41.93,Default,,0,0,0,,Yes, I see. \NI'll be there in no time.
+Dialogue: 0,0:09:39.59,0:09:41.93,Default,,0,0,0,,Yes, I see. \NI'll go there right away.
 Dialogue: 0,0:09:43.83,0:09:48.37,Default,,0,0,0,,Editor, we'll have to settle our article disagreement\Nafter I return from some other place. {/we'll have plenty of exchanging opinions}
 Dialogue: 0,0:09:48.37,0:09:51.30,Default,,0,0,0,,Ah... Hey, wait a minute! Hey!
 Dialogue: 0,0:09:51.87,0:09:53.47,Default,,0,0,0,,Are you kidding me?!
@@ -227,16 +227,18 @@ Dialogue: 0,0:11:05.15,0:11:09.55,Default,,0,0,0,,Tell me, do you also see Luise
 Dialogue: 0,0:11:10.12,0:11:11.62,Default,,0,0,0,,This can't be true.
 Dialogue: 0,0:11:11.99,0:11:13.52,Default,,0,0,0,,So I thought.
 Dialogue: 0,0:11:21.86,0:11:23.76,Default,,0,0,0,,Ah! Something bad happened!
-Dialogue: 0,0:11:24.16,0:11:27.13,Default,,0,0,0,,With Luise in the center! \NShe'll never stop giving us the trouble. {/it seems she hit someone bringing them to tears}
+Dialogue: 0,0:11:24.16,0:11:27.13,Default,,0,0,0,,Luise is at it again! \N She hit someone and now they're crying.
 Dialogue: 0,0:11:30.64,0:11:31.91,Default,,0,0,0,,Leave her alone!
 Dialogue: 0,0:11:33.34,0:11:35.38,Default,,0,0,0,,Luise, you're at it again?
 Dialogue: 0,0:11:35.38,0:11:36.21,Default,,0,0,0,,You're wrong!
 Dialogue: 0,0:11:36.21,0:11:37.08,Default,,0,0,0,,Well...
 Dialogue: 0,0:11:38.25,0:11:41.81,Default,,0,0,0,,I tripped and tore my skirt while falling!
 Dialogue: 0,0:11:42.27,0:11:43.91,Default,,0,0,0,,But then, Luise...
-Dialogue: 0,0:11:44.43,0:11:46.29,Default,,0,0,0,,Offered to mend it.
+Dialogue: 0,0:11:44.43,0:11:46.22,Default,,0,0,0,,Offered to mend it.
+Dialogue: 0,0:11:46.22,0:11:47.05,Default,,0,0,0,,Oh?
+Dialogue: 0,0:11:47.05,0:11:48.15,Default,,0,0,0,,My!
 Dialogue: 0,0:11:55.08,0:11:56.06,Default,,0,0,0,,Yes?
-Dialogue: 0,0:11:56.52,0:11:58.63,Default,,0,0,0,,Ah, teacher? The please is mine.
+Dialogue: 0,0:11:56.52,0:11:58.63,Default,,0,0,0,,Ah, teacher? The pleasure is mine.
 Dialogue: 0,0:11:59.52,0:12:01.70,Default,,0,0,0,,Eh? It's about Luise again?
 Dialogue: 0,0:12:02.57,0:12:03.14,Default,,0,0,0,,Yes.
 Dialogue: 0,0:12:03.70,0:12:05.74,Default,,0,0,0,,Yes, I'll head there immediately.
@@ -268,7 +270,7 @@ Dialogue: 0,0:13:17.50,0:13:19.40,Default,,0,0,0,,I wish someone would explain i
 Dialogue: 0,0:13:19.40,0:13:23.21,Default,,0,0,0,,Frau Mother, did you loose your grip \Non supervising her behaviour? {/negligent supervision}
 Dialogue: 0,0:13:23.21,0:13:24.74,Default,,0,0,0,,I am terribly sorry.
 Dialogue: 0,0:13:29.98,0:13:31.45,Default,,0,0,0,,Well, if you excuse me.
-Dialogue: 0,0:13:35.39,0:13:39.97,Default,,0,0,0,,I'm sorry. Because of me, \Nthey even called you out during the work.
+Dialogue: 0,0:13:35.39,0:13:39.97,Default,,0,0,0,,I'm sorry. Because of me, \Nthey even called you out from work.
 Dialogue: 0,0:13:41.93,0:13:46.70,Default,,0,0,0,,Never mind it. I'm certain that the person you hit \Nhad seriously deserved it, somehow.{/gave you a good reason}
 Dialogue: 0,0:13:47.85,0:13:48.70,Default,,0,0,0,,Mom...
 Dialogue: 0,0:13:49.57,0:13:50.70,Default,,0,0,0,,Make way, make way!
@@ -301,7 +303,7 @@ Dialogue: 0,0:15:17.70,0:15:19.82,Default,,0,0,0,,Your intrepid kind is in decli
 Dialogue: 0,0:15:19.82,0:15:21.37,Default,,0,0,0,,Please spare me your patting. {/get your hand away}
 Dialogue: 0,0:15:34.59,0:15:36.58,Default,,0,0,0,,Oh my, is he okay? {guess, "I did it"?}
 Dialogue: 0,0:15:38.22,0:15:41.49,Default,,0,0,0,,Frau Körner, what a fine example \Nyou give to your daughter! {tatoe is example, but the rest - kinda dunno what she means}
-Dialogue: 0,0:15:41.49,0:15:44.57,Default,,0,0,0,,You deem it appropriate for one \Nto raise a hand against other people? {/infliicting violence on people is unforgivable}
+Dialogue: 0,0:15:41.49,0:15:44.57,Default,,0,0,0,,You deem it appropriate for one \Nto raise a hand at others? {/infliicting violence on people is unforgivable}
 Dialogue: 0,0:15:44.57,0:15:45.96,Default,,0,0,0,,A thousand pardons.
 Dialogue: 0,0:15:45.96,0:15:47.24,Default,,0,0,0,,And you, Lotte?
 Dialogue: 0,0:15:47.24,0:15:48.45,Default,,0,0,0,,{\i1}We're sorry! {\i0}
@@ -309,7 +311,7 @@ Dialogue: 0,0:15:48.89,0:15:50.15,Default,,0,0,0,,Show some repentance! {regret;
 Dialogue: 0,0:15:50.15,0:15:51.53,Default,,0,0,0,,{\i1}We repent.{\i0}
 Dialogue: 0,0:15:56.33,0:15:59.20,Default,,0,0,0,,One more to the bag of unsolved mysteries! {/such a thing never happened before}
 Dialogue: 0,0:16:00.06,0:16:03.81,Default,,0,0,0,,Are you that much concerned with her \Nsuddenly acquiring a talent for learning? {lit: it's that she became able to study, isn't it}
-Dialogue: 0,0:16:05.11,0:16:07.44,Default,,0,0,0,,This is {\i1}really{\i0} highly unusual. {/really weird thing}
+Dialogue: 0,0:16:05.11,0:16:07.44,Default,,0,0,0,,This really {\i1}is{\i0} highly unusual. {/really weird thing}
 Dialogue: 0,0:16:17.58,0:16:19.92,Default,,0,0,0,,I don't see how that is one bit unusual.
 Dialogue: 0,0:16:20.59,0:16:25.76,Default,,0,0,0,,After all, even if your daughter's hidden talent \Nsuddenly wakes up in her, it's the most natural thing.
 Dialogue: 0,0:16:25.76,0:16:29.57,Default,,0,0,0,,Don't you understand? \NHer father is Herr Palfy. The acclaimed genius!

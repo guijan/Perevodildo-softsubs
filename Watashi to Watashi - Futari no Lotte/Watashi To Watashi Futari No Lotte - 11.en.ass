@@ -15,9 +15,9 @@ Video File: Watashi To Watashi Futari No Lotte - 11.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.625000
-Scroll Position: 249
-Active Line: 263
-Video Position: 34470
+Scroll Position: 255
+Active Line: 268
+Video Position: 35157
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -102,7 +102,7 @@ Dialogue: 0,0:05:01.08,0:05:05.75,Default,,0,0,0,,"Well, I guess losing some wei
 Dialogue: 0,0:05:07.32,0:05:09.32,Default,,0,0,0,,I'm so happy for you, Stephie.
 Dialogue: 0,0:05:17.81,0:05:20.60,Default,,0,0,0,,Oh, already done cleaning up in the atelier?
 Dialogue: 0,0:05:21.46,0:05:25.29,Default,,0,0,0,,And I was about to do groceries, \N so would look after the house?
-Dialogue: 0,0:05:25.29,0:05:26.30,Default,,0,0,0,,No problem.
+Dialogue: 0,0:05:25.29,0:05:26.07,Default,,0,0,0,,Sure thing.
 Dialogue: 0,0:05:42.60,0:05:44.73,Default,,0,0,0,,Yes, Palfy is listening.
 Dialogue: 0,0:05:44.73,0:05:47.13,Default,,0,0,0,,Hello, I'm looking for my friend.
 Dialogue: 0,0:05:47.13,0:05:48.54,Default,,0,0,0,,Is there anyone named Luise?
@@ -113,7 +113,7 @@ Dialogue: 0,0:05:52.67,0:05:55.31,Default,,0,0,0,,Yes. Nobody else is home.
 Dialogue: 0,0:05:55.31,0:05:57.64,Default,,0,0,0,,But if you're calling like that... \NSomething happened?
 Dialogue: 0,0:05:57.64,0:06:00.33,Default,,0,0,0,,Not at all! \NI got a letter from Stephie.
 Dialogue: 0,0:06:00.33,0:06:02.25,Default,,0,0,0,,And I got one, too!
-Dialogue: 0,0:06:02.25,0:06:07.61,Default,,0,0,0,,I was so surprised! I bet, this very minute \Nall her friend from the summer camp feel the same! {to be amazed; to be shocked; to be astonished; to be astounded; to be disgusted; to be exasperated; to be fed up} {not really sure what to make of kono bun ja} {actually just "all the kids from the summer camp" but that would be overkill}
+Dialogue: 0,0:06:02.25,0:06:07.61,Default,,0,0,0,,I was so surprised! I bet, this very minute \Nall her friends from the summer camp feel the same! {to be amazed; to be shocked; to be astonished; to be astounded; to be disgusted; to be exasperated; to be fed up} {not really sure what to make of kono bun ja} {actually just "all the kids from the summer camp" but that would be overkill}
 Dialogue: 0,0:06:07.61,0:06:09.85,Default,,0,0,0,,Stephie's lucky, don't you think? {/it's good for ... isn't it}
 Dialogue: 0,0:06:09.85,0:06:10.95,Default,,0,0,0,,True.
 Dialogue: 0,0:06:10.95,0:06:15.30,Default,,0,0,0,,If only our dad and mom \Nwould also reconcile, one way or another...
@@ -137,12 +137,12 @@ Dialogue: 0,0:07:37.14,0:07:40.34,Default,,0,0,0,,Need to ask him now. \NWhy did
 Dialogue: 0,0:07:43.91,0:07:45.39,Default,,0,0,0,,Ah, Luise?
 Dialogue: 0,0:07:45.39,0:07:46.95,Default,,0,0,0,,Thanks for your morning clean-up.
 Dialogue: 0,0:07:52.67,0:07:55.46,Sign,,0,0,0,,Dad, I need to ask you something.
-Dialogue: 0,0:07:56.63,0:07:57.86,Sign,,0,0,0,,What do you mean?
+Dialogue: 0,0:07:56.63,0:07:57.86,Sign,,0,0,0,,What could it be?
 Dialogue: 0,0:07:57.86,0:08:01.10,Sign,,0,0,0,,Don't try to evade the question. \NPut it frankly! {to dodge (e.g. a question); to evade; to sidestep}
 Dialogue: 0,0:08:01.10,0:08:04.00,Default,,0,0,0,,Oh my, oh my, how intimidating. \NWould you look at that. {no clue what he means by ittegoran}
 Dialogue: 0,0:08:04.50,0:08:06.61,Default,,0,0,0,,I mean... Please...
 Dialogue: 0,0:08:07.67,0:08:09.04,Default,,0,0,0,,What is it, Luise?
-Dialogue: 0,0:08:09.50,0:08:12.04,Default,,0,0,0,,Ah! It's no use. I can't ask this.
+Dialogue: 0,0:08:09.50,0:08:12.04,Default,,0,0,0,,Ah! It's no use. I can't ask.
 Dialogue: 0,0:08:14.53,0:08:16.35,Default,,0,0,0,,I need to muster some courage.
 Dialogue: 0,0:08:18.21,0:08:19.38,Default,,0,0,0,,Father...
 Dialogue: 0,0:08:21.54,0:08:25.18,Default,,0,0,0,,I mean... That is... If you don't mind...
@@ -150,7 +150,7 @@ Dialogue: 0,0:08:27.86,0:08:32.05,Default,,0,0,0,,Why did Mozart only give birth
 Dialogue: 0,0:08:35.60,0:08:37.97,Default,,0,0,0,,Is that what concerns you?
 Dialogue: 0,0:08:37.97,0:08:41.00,Default,,0,0,0,,Ah... no. Actually, not! What I wanted...
 Dialogue: 0,0:08:43.91,0:08:45.47,Default,,0,0,0,,Yeah, it's me!
-Dialogue: 0,0:08:46.01,0:08:47.71,Default,,0,0,0,,All right, got it. Going there now.
+Dialogue: 0,0:08:46.01,0:08:47.71,Default,,0,0,0,,All right, got it. Will be there now.
 Dialogue: 0,0:08:50.91,0:08:54.62,Default,,0,0,0,,Luise, I have to go now \Nto conduct a final general rehearsal.
 Dialogue: 0,0:08:54.62,0:08:57.09,Default,,0,0,0,,Tonight, I want you to show up as well.
 Dialogue: 0,0:08:57.09,0:08:59.13,Default,,0,0,0,,Deal? Make sure to free up some time for that.
@@ -158,7 +158,7 @@ Dialogue: 0,0:08:59.13,0:09:01.19,Default,,0,0,0,,Ah... Dad, wait!
 Dialogue: 0,0:09:04.01,0:09:08.41,Default,,0,0,0,,Before I forget! The reason Mozart \Ngave birth to such enthralling tunes -
 Dialogue: 0,0:09:08.41,0:09:12.59,Default,,0,0,0,,that's rather simple, \Nhe was a genius of about the same magnitude as your dad!
 Dialogue: 0,0:09:12.59,0:09:14.49,Default,,0,0,0,,Will this suffice for an answer?
-Dialogue: 0,0:09:22.17,0:09:24.46,Default,,0,0,0,,Oh well, I guess I can't do it.
+Dialogue: 0,0:09:22.17,0:09:24.51,Default,,0,0,0,,It's just impossible. For me at least.
 Dialogue: 0,0:09:47.70,0:09:52.73,Default,,0,0,0,,Could she be the reason behind dad and mom's parting?
 Dialogue: 0,0:09:54.31,0:09:57.88,Default,,0,0,0,,Oh, I see. So you've been fond \Nof that Palfy gent for some time? {no clue what this whole convo is, lit is "you liked mr. palfy/palfy's family"}
 Dialogue: 0,0:09:57.88,0:10:00.29,Default,,0,0,0,,Let me correct you there, father. {/it's a bit different}
@@ -234,12 +234,12 @@ Dialogue: 0,0:14:06.56,0:14:07.93,Default,,0,0,0,,Wait, Hans.
 Dialogue: 0,0:14:12.89,0:14:14.97,Default,,0,0,0,,If we search in only one place...
 Dialogue: 0,0:14:27.78,0:14:29.14,Default,,0,0,0,,Might be over there!
 Dialogue: 0,0:14:29.85,0:14:31.82,Default,,0,0,0,,I don't know...
-Dialogue: 0,0:14:31.82,0:14:33.15,Default,,0,0,0,,I think...
+Dialogue: 0,0:14:31.82,0:14:33.15,Default,,0,0,0,,If it was up to me...
 Dialogue: 0,0:14:42.43,0:14:43.60,Default,,0,0,0,,A key.
 Dialogue: 0,0:14:43.60,0:14:44.70,Default,,0,0,0,,And where's the lock?
 Dialogue: 0,0:14:44.70,0:14:46.50,Default,,0,0,0,,That might be...
 Dialogue: 0,0:14:46.50,0:14:47.47,Default,,0,0,0,,You know?
-Dialogue: 0,0:14:51.74,0:14:53.41,Default,,0,0,0,,This casket, likely.
+Dialogue: 0,0:14:51.74,0:14:53.41,Default,,0,0,0,,This casket, probably.
 Dialogue: 0,0:14:54.84,0:14:57.04,Default,,0,0,0,,That's our one place! \NLet's {open it and }look inside.
 Dialogue: 0,0:14:57.04,0:14:59.65,Default,,0,0,0,,But promise me that we'll back off after that.
 Dialogue: 0,0:15:07.09,0:15:08.98,Default,,0,0,0,,I'm not sure it'll fit.
@@ -263,11 +263,11 @@ Dialogue: 0,0:16:24.90,0:16:26.93,Default,,0,0,0,,Luise had told me some about y
 Dialogue: 0,0:16:28.86,0:16:30.20,Default,,0,0,0,,Honored to meet you.
 Dialogue: 0,0:16:30.20,0:16:31.69,Default,,0,0,0,,Ah, speaking of which,
 Dialogue: 0,0:16:31.69,0:16:36.27,Default,,0,0,0,,you're coming to listen to tonight's big concert \Nalongside Luise, don't you?
-Dialogue: 0,0:16:37.01,0:16:40.11,Default,,0,0,0,,Unless... You have planned a date just for two?
+Dialogue: 0,0:16:37.01,0:16:40.11,Default,,0,0,0,,Unless... You've planned a date just for two?
 Dialogue: 0,0:16:40.91,0:16:42.59,Default,,0,0,0,,No, not at all...
 Dialogue: 0,0:16:43.18,0:16:44.62,Default,,0,0,0,,Thank you very much.
 Dialogue: 0,0:17:14.20,0:17:15.28,Default,,0,0,0,,Fantastic.
-Dialogue: 0,0:17:16.04,0:17:18.67,Default,,0,0,0,,A fantastic dad you have!
+Dialogue: 0,0:17:16.04,0:17:18.67,Default,,0,0,0,,That's one fantastic dad you got.
 Dialogue: 0,0:17:25.15,0:17:29.15,Default,,0,0,0,,Somewhere in this opera hall, \NFrau Pamina is listening, too.
 Dialogue: 0,0:17:29.62,0:17:34.36,Default,,0,0,0,,This concert, too... \NAre you conducting it for Frau Pamina{, too}, dad? {/music, are you plaing ...}
 Dialogue: 0,0:17:49.14,0:17:51.84,Default,,0,0,0,,I guess, I should take a quick look.
@@ -281,7 +281,7 @@ Dialogue: 0,0:18:16.14,0:18:21.50,Default,,0,0,0,,Now I can't help worrying, if 
 Dialogue: 0,0:18:21.82,0:18:23.51,Default,,0,0,0,,Oh, you shouldn't be...
 Dialogue: 0,0:18:24.14,0:18:28.51,Default,,0,0,0,,Tonight's concert was excellent. \NI couldn't help getting deeply moved by it.
 Dialogue: 0,0:18:28.51,0:18:30.36,Default,,0,0,0,,That's a honey to my ears!
-Dialogue: 0,0:18:30.36,0:18:35.92,Default,,0,0,0,,Only when a profound emotion of my affection for someone \Nis overflowing me, the greatest is born.
+Dialogue: 0,0:18:30.36,0:18:35.92,Default,,0,0,0,,Only when a profound affection for someone \Nis overflowing me, the greatest music is born.
 Dialogue: 0,0:18:36.49,0:18:41.79,Default,,0,0,0,,It was only thanks to that emotion \Nthat I've been able to keep making music for ten years now.
 Dialogue: 0,0:18:42.71,0:18:45.94,Default,,0,0,0,,I know. But I'm not feeling left out because of that. {hope its what she means by "I'm not lonely"}
 Dialogue: 0,0:18:46.37,0:18:51.14,Default,,0,0,0,,Even if all the space in dad's heart \Nis currently occupied by Frau Pamina.
@@ -294,7 +294,7 @@ Dialogue: 0,0:19:10.71,0:19:14.65,Default,,0,0,0,,But still, it's nothing new, \
 Dialogue: 0,0:19:14.65,0:19:17.53,Default,,0,0,0,,Yes. Pamina would remain a celebrity for all times. {/eternal masterpiece}
 Dialogue: 0,0:19:18.03,0:19:19.73,Default,,0,0,0,,After all, she's from Mozart's opera,
 Dialogue: 0,0:19:21.38,0:19:23.77,Default,,0,0,0,,the heroine of The Magic Flute.
-Dialogue: 0,0:19:29.04,0:19:33.05,Default,,0,0,0,,But... Then... \NWho is the one that dad cherishes? {/loves}
+Dialogue: 0,0:19:29.04,0:19:33.05,Default,,0,0,0,,But... Then... \NWho is the one that you cherish? {/loves}
 Dialogue: 0,0:19:33.95,0:19:37.52,Default,,0,0,0,,She has loose curly hair, \Nand bright eyes, like two blue jewels.
 Dialogue: 0,0:19:38.35,0:19:43.36,Default,,0,0,0,,The only problem is that lately, \Nvarious trifles often mislead her into feeling lonely. {lonely person; someone who easily succumbs to loneliness​}
 Dialogue: 0,0:19:45.86,0:19:49.07,Default,,0,0,0,,Luise, you'll always be the prime source of my music.
