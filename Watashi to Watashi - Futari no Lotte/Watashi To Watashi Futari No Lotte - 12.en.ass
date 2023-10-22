@@ -14,10 +14,10 @@ Audio File: Watashi To Watashi Futari No Lotte - 12.avi
 Video File: Watashi To Watashi Futari No Lotte - 12.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
-Video Zoom Percent: 1.125000
-Scroll Position: 103
-Active Line: 107
-Video Position: 14984
+Video Zoom Percent: 0.750000
+Scroll Position: 268
+Active Line: 278
+Video Position: 39941
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -47,7 +47,7 @@ Dialogue: 0,0:01:49.39,0:01:51.29,Default,,0,0,0,,Well, this is a pity.
 Dialogue: 0,0:01:51.29,0:01:54.89,Default,,0,0,0,,It seems, our orchestra had just suffered a loss \Nof one more musical genius. {/great artist}
 Dialogue: 0,0:01:55.26,0:01:57.78,Default,,0,0,0,,My! That must be Herr Palfy! Over there!
 Dialogue: 0,0:01:57.78,0:01:59.10,Default,,0,0,0,,You mean the composer?
-Dialogue: 0,0:02:02.91,0:02:05.38,Default,,0,0,0,,Thanks for getting me this. \NHe's a spitting image of me.
+Dialogue: 0,0:02:02.91,0:02:05.38,Default,,0,0,0,,Thanks for this. \NThe resemblance is striking.
 Dialogue: 0,0:02:05.72,0:02:09.71,Default,,0,0,0,,By the way, Luise, is our investigation \Nof your dad's affairs still ongoing?
 Dialogue: 0,0:02:18.62,0:02:21.66,Default,,0,0,0,,I gave up on it. \NIt seems, on my end, it's a nonstarter.
 Dialogue: 0,0:02:22.12,0:02:23.89,Default,,0,0,0,,But I'm sure, on Luise's end...
@@ -129,7 +129,7 @@ Dialogue: 0,0:07:25.12,0:07:26.99,Default,,0,0,0,,Why was I so sharp... {/rude/c
 Dialogue: 0,0:08:00.83,0:08:01.86,Default,,0,0,0,,What do I do?
 Dialogue: 0,0:08:01.86,0:08:03.89,Default,,0,0,0,,This all spiraled out of control. {/this is not what i intended}
 Dialogue: 0,0:08:03.89,0:08:06.07,Default,,0,0,0,,That's the kind of world we're living in.
-Dialogue: 0,0:08:06.07,0:08:10.58,Default,,0,0,0,,Most of the grown-ups are pretty uptight \Nwhen talking about the reasons for their divorce. {/reluctant}
+Dialogue: 0,0:08:06.07,0:08:10.58,Default,,0,0,0,,Most of the grown-ups are pretty uptight \Nwhen it comes to the reasons for their divorce. {/reluctant}
 Dialogue: 0,0:08:10.58,0:08:12.71,Default,,0,0,0,,It's not at all surprising that you quarreled.
 Dialogue: 0,0:08:12.71,0:08:15.18,Sign,,0,0,0,,You're pretty well-informed on marriages, aren't you?
 Dialogue: 0,0:08:15.18,0:08:16.58,Sign,,0,0,0,,Not at all.
@@ -149,7 +149,7 @@ Dialogue: 0,0:08:59.72,0:09:01.06,Default,,0,0,0,,Rewrite all from scratch!
 Dialogue: 0,0:09:01.06,0:09:03.16,Default,,0,0,0,,We can't let your rebel views get in the way! {hoewever much resistance; opposition; standing up to you do - not sure what he means}
 Dialogue: 0,0:09:03.16,0:09:05.33,Default,,0,0,0,,Missis... No, Miss Körner!
 Dialogue: 0,0:09:06.72,0:09:08.62,Default,,0,0,0,,Oh, my bad, Editor-in-Chief.
-Dialogue: 0,0:09:10.13,0:09:12.79,Default,,0,0,0,,I will rewrite it at once and hand in today.
+Dialogue: 0,0:09:10.13,0:09:12.79,Default,,0,0,0,,I'll rewrite it at once. Will be done by tonight.
 Dialogue: 0,0:09:15.00,0:09:16.07,Default,,0,0,0,,Counting on you.
 Dialogue: 0,0:09:46.16,0:09:47.20,Default,,0,0,0,,Mom!
 Dialogue: 0,0:09:49.52,0:09:51.00,Default,,0,0,0,,Hungry, aren't you? {let's go home}
@@ -184,7 +184,7 @@ Dialogue: 0,0:12:14.82,0:12:16.51,Default,,0,0,0,,What should I do?
 Dialogue: 0,0:12:16.51,0:12:22.59,Default,,0,0,0,,New moms are always mean to their new children! \NThe one in Hänsel and Gretel sure was! {hope this is what she means by "new mom is decided at mean/bullying"}
 Dialogue: 0,0:12:24.19,0:12:25.46,Default,,0,0,0,,You don't have to worry!
 Dialogue: 0,0:12:25.46,0:12:28.93,Default,,0,0,0,,There's not a soul in this world \Nwho wouldn't love our little Fraulein Lotte!
-Dialogue: 0,0:12:28.93,0:12:33.50,Default,,0,0,0,,It won't work! Because I myself \Nwon't be able to love any mom other than mine! {unsure, maybe "i will no longer be loved by my mom"}
+Dialogue: 0,0:12:28.93,0:12:33.50,Default,,0,0,0,,It won't work! Because I myself \Nwon't be able to love any mom other than my own! {unsure, maybe "i will no longer be loved by my mom"}
 Dialogue: 0,0:12:36.60,0:12:40.06,Default,,0,0,0,,Actually, this must be your mother \Nwho came to hand in the manuscript.
 Dialogue: 0,0:12:40.06,0:12:43.88,Default,,0,0,0,,Eh? This is bad. \NShe doesn't want to see me now. What do I do?
 Dialogue: 0,0:12:47.28,0:12:48.64,Default,,0,0,0,,Not home, then?
@@ -215,7 +215,7 @@ Dialogue: 0,0:14:16.42,0:14:17.40,Default,,0,0,0,,Lotte?
 Dialogue: 0,0:14:31.95,0:14:34.65,Default,,0,0,0,,Ah... Well, well... Ah... You two...
 Dialogue: 0,0:14:35.75,0:14:37.88,Default,,0,0,0,,Our Lotte sure is adorable!
 Dialogue: 0,0:14:37.88,0:14:40.99,Default,,0,0,0,,And... Miss Körner is always in her best shape, too...
-Dialogue: 0,0:14:42.29,0:14:44.06,Default,,0,0,0,,Would you join me for a glass of wine?
+Dialogue: 0,0:14:42.29,0:14:44.06,Default,,0,0,0,,Care to join me for some wine?
 Dialogue: 0,0:14:57.90,0:14:59.55,Default,,0,0,0,,A taste for bitterness, huh?
 Dialogue: 0,0:16:02.84,0:16:04.84,Default,,0,0,0,,What now? Giving up already? {I'm beaten; I give up​ - unsure what she implies by that}
 Dialogue: 0,0:16:05.84,0:16:07.25,Default,,0,0,0,,I never give up!
@@ -265,9 +265,9 @@ Dialogue: 0,0:19:08.33,0:19:10.96,Default,,0,0,0,,Ah! It's cold! Let's hurry. Le
 Dialogue: 0,0:19:11.39,0:19:12.63,Default,,0,0,0,,Oh my, Lotte?
 Dialogue: 0,0:19:16.21,0:19:18.00,Default,,0,0,0,,Mom, hurry up!
 Dialogue: 0,0:19:21.43,0:19:23.50,Default,,0,0,0,,I'm glad you understand, Lotte.
-Dialogue: 0,0:19:23.91,0:19:27.84,Default,,0,0,0,,You're not too concerned about who exactly your father is. {very unsure what she means, maybe "I'm glad you didn't make me tell you who..."}
+Dialogue: 0,0:19:23.91,0:19:27.84,Default,,0,0,0,,You're not overly concerned \Nabout who exactly your father is. {very unsure what she means, maybe "I'm glad you didn't make me tell you who..."}
 Dialogue: 0,0:19:34.08,0:19:35.25,Default,,0,0,0,,Mom,
-Dialogue: 0,0:19:36.75,0:19:39.06,Default,,0,0,0,,thank you, now I know for sure. {/for telling me}
+Dialogue: 0,0:19:36.75,0:19:39.06,Default,,0,0,0,,thank you. Now I know for sure. {/for telling me}
 Dialogue: 0,0:19:47.30,0:19:54.00,Default,,0,0,0,,At last, the reason for dad and mom's break-up \Nwas brought to light in all the details.
 Dialogue: 0,0:19:54.60,0:20:00.00,Default,,0,0,0,,Both dad and mom \Nboth turned out to be the most amazing grown-ups. {no clue what he means: both/each look like great adults}
 Dialogue: 0,0:20:03.15,0:20:06.93,Default,,0,0,0,,"The way things stand now, \None day, they very much might reconcile," {/start getting along}
@@ -297,10 +297,10 @@ Dialogue: 0,0:21:48.58,0:21:50.65,Default,,0,0,0,,We two have switched places!
 Dialogue: 0,0:21:50.65,0:21:53.26,Default,,0,0,0,,Luise, this is bad! \NWe're having a gym class tomorrow.
 Dialogue: 0,0:21:53.26,0:21:56.62,Default,,0,0,0,,But because I'm not actually Luise, \NI can't do neither the horizontal bar, nor athletics!
 Dialogue: 0,0:21:56.62,0:21:58.29,Default,,0,0,0,,Lotte, try to make it through, somehow.
-Dialogue: 0,0:21:58.29,0:22:03.09,Default,,0,0,0,,All hope's lost now! Moreover, silly Truda is starting \Nto question whether or not I may be Lotte. {to doubt; to distrust; to be suspicious of; to suspect}
-Dialogue: 0,0:22:03.09,0:22:05.63,Default,,0,0,0,,But still, we must do our utmost to keep our secret.
+Dialogue: 0,0:21:58.29,0:22:03.09,Default,,0,0,0,,All hope's lost now! Moreover, Truda is starting \Nto question whether or not I may be Lotte. {to doubt; to distrust; to be suspicious of; to suspect}
+Dialogue: 0,0:22:03.09,0:22:05.63,Default,,0,0,0,,But still, we must do our utmost to protect our secret.
 Dialogue: 0,0:22:05.63,0:22:06.74,Default,,0,0,0,,Do your best, Lotte!
-Dialogue: 0,0:22:06.74,0:22:09.47,Default,,0,0,0,,I'm sorry, I don't think I'll be able to keep it.
+Dialogue: 0,0:22:06.74,0:22:09.47,Default,,0,0,0,,I'm sorry, I don't think I'll be able to protect it.
 Dialogue: 0,0:22:09.47,0:22:11.11,Default,,0,0,0,,Next time in I and Myself:
 Dialogue: 0,0:22:11.11,0:22:12.67,Default,,0,0,0,,Lotte's Quandary!
 Dialogue: 0,0:22:11.11,0:22:14.91,Sign,,0,0,0,,Episode 13 \NLotte's Quandary!

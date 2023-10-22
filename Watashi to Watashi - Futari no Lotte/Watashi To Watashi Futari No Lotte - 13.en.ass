@@ -15,9 +15,9 @@ Video File: Watashi To Watashi Futari No Lotte - 13.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.875000
-Scroll Position: 270
-Active Line: 275
-Video Position: 28282
+Scroll Position: 367
+Active Line: 376
+Video Position: 39801
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -63,12 +63,12 @@ Dialogue: 0,0:02:19.15,0:02:20.24,Default,,0,0,0,,5!
 Dialogue: 0,0:02:20.24,0:02:21.44,Default,,0,0,0,,6!
 Dialogue: 0,0:02:21.44,0:02:22.67,Default,,0,0,0,,7!
 Dialogue: 0,0:02:22.67,0:02:24.22,Default,,0,0,0,,8!
-Dialogue: 0,0:02:24.56,0:02:27.63,Default,,0,0,0,,Impressive, Ingrid! \NYou did eight revolutions this time! {hopefully it's this name}
+Dialogue: 0,0:02:24.56,0:02:27.63,Default,,0,0,0,,Impressive, Ingrid! \NYou revolved eight times! {hopefully it's this name}
 Dialogue: 0,0:02:27.63,0:02:30.57,Default,,0,0,0,,This way, our class is certain to emerge victorious!
 Dialogue: 0,0:02:30.57,0:02:33.57,Default,,0,0,0,,The tomorrow inter-class competition is predefined!
-Dialogue: 0,0:02:33.57,0:02:34.94,Default,,0,0,0,,Not so fast, you!
+Dialogue: 0,0:02:33.57,0:02:34.94,Default,,0,0,0,,Not so fast, everyone!
 Dialogue: 0,0:02:34.94,0:02:36.31,Default,,0,0,0,,Truda?
-Dialogue: 0,0:02:39.38,0:02:42.19,Default,,0,0,0,,Don't you discard our class so soon! {/our class won't lose either}
+Dialogue: 0,0:02:39.38,0:02:42.19,Default,,0,0,0,,Don't you disregard our class so carelessly! {/our class won't lose either}
 Dialogue: 0,0:02:42.19,0:02:43.60,Default,,0,0,0,,What do you mean?
 Dialogue: 0,0:02:43.60,0:02:46.04,Default,,0,0,0,,We have Luise, who can do much more than that!
 Dialogue: 0,0:02:46.04,0:02:48.75,Default,,0,0,0,,Ten, or twenty times - piece of cake!
@@ -95,7 +95,7 @@ Dialogue: 0,0:03:28.22,0:03:29.85,Default,,0,0,0,,She can't do it!
 Dialogue: 0,0:03:30.99,0:03:33.69,Default,,0,0,0,,Just admit it and don't force yourself, Luise.
 Dialogue: 0,0:03:33.69,0:03:34.53,Default,,0,0,0,,That's right!
 Dialogue: 0,0:03:34.53,0:03:37.46,Default,,0,0,0,,Your know you can't win against Ingrid! {\i1}Right?{\i0}
-Dialogue: 0,0:03:38.30,0:03:41.53,Default,,0,0,0,,I've promoted you up to this point, \Nso don't make me blush, Luise! {hope this she means by "talkng until here, has no choice but to do"}
+Dialogue: 0,0:03:38.30,0:03:41.53,Default,,0,0,0,,I've been promoting you up to this point, \Nso don't make me blush, Luise! {hope this she means by "talkng until here, has no choice but to do"}
 Dialogue: 0,0:03:45.48,0:03:48.59,Default,,0,0,0,,You just gotta do more than eight,\Nwhatever it takes!
 Dialogue: 0,0:03:48.59,0:03:51.55,Default,,0,0,0,,But I don't feel quite in the mood today...
 Dialogue: 0,0:03:51.55,0:03:53.25,Default,,0,0,0,,Oh, enough babbling!
@@ -104,18 +104,18 @@ Dialogue: 0,0:03:56.92,0:03:57.99,Default,,0,0,0,,Luise!
 Dialogue: 0,0:03:58.99,0:04:01.16,Default,,0,0,0,,Let's start with a simple back hip circle. {(gymnastics) pulling oneself upward with a forward, circling movement; back hip circle}
 Dialogue: 0,0:04:01.16,0:04:03.86,Default,,0,0,0,,Eh? What's a back hip circle?
 Dialogue: 0,0:04:10.09,0:04:13.20,Default,,0,0,0,,Ah! I guess I just gotta do something at least.
-Dialogue: 0,0:04:24.14,0:04:25.85,Default,,0,0,0,,It hurts!
+Dialogue: 0,0:04:24.14,0:04:25.85,Default,,0,0,0,,Ouch!
 Dialogue: 0,0:04:25.85,0:04:27.45,Default,,0,0,0,,Luise, are you okay?
 Dialogue: 0,0:04:27.45,0:04:28.99,Default,,0,0,0,,Are you hurt somewhere?
 Dialogue: 0,0:04:28.99,0:04:30.22,Default,,0,0,0,,Oh, you!
 Dialogue: 0,0:04:32.12,0:04:32.85,Default,,0,0,0,,See you!
 Dialogue: 0,0:04:32.85,0:04:33.67,Default,,0,0,0,,Good bye.
-Dialogue: 0,0:04:33.67,0:04:34.73,Default,,0,0,0,,Till tomorrow!
+Dialogue: 0,0:04:33.67,0:04:34.73,Default,,0,0,0,,'Till tomorrow!
 Dialogue: 0,0:04:38.83,0:04:41.03,Default,,0,0,0,,Hey, are you still mad at me?
 Dialogue: 0,0:04:41.50,0:04:42.83,Default,,0,0,0,,I've never been "mad."
 Dialogue: 0,0:04:42.83,0:04:44.14,Default,,0,0,0,,Just embarrassed.
 Dialogue: 0,0:04:44.53,0:04:47.54,Default,,0,0,0,,I'm sorry. \NI feel a bit off today.
-Dialogue: 0,0:04:50.94,0:04:52.49,Default,,0,0,0,,Luise, you're weird!
+Dialogue: 0,0:04:50.94,0:04:52.49,Default,,0,0,0,,Luise, you're strange!
 Dialogue: 0,0:04:52.49,0:04:53.93,Default,,0,0,0,,What happened?
 Dialogue: 0,0:04:55.25,0:04:56.31,Default,,0,0,0,,What do you mean?
 Dialogue: 0,0:04:56.85,0:05:02.75,Default,,0,0,0,,Well, I can get behind your sudden talent for studying, \NI can get behind being mindful about others... {/becoming a dilligent student with good grades}
@@ -127,7 +127,7 @@ Dialogue: 0,0:05:11.69,0:05:15.12,Default,,0,0,0,,but a gym class enthusiast, \N
 Dialogue: 0,0:05:16.79,0:05:19.60,Default,,0,0,0,,An "exemplary student Luise" is a bore!
 Dialogue: 0,0:05:22.90,0:05:25.17,Default,,0,0,0,,Oh goodness, I can't allow this. {/at this rate}
 Dialogue: 0,0:05:31.31,0:05:34.88,Default,,0,0,0,,Eat this! Don't you dare \Ncalling me an exemplary student!
-Dialogue: 0,0:05:42.12,0:05:43.72,Default,,0,0,0,,Even more weird now.
+Dialogue: 0,0:05:42.12,0:05:43.72,Default,,0,0,0,,Even stranger now.
 Dialogue: 0,0:05:59.04,0:06:01.71,Default,,0,0,0,,How do I handle this? Gym class today...
 Dialogue: 0,0:06:01.71,0:06:04.55,Default,,0,0,0,,The class representative in horizontal bar...
 Dialogue: 0,0:06:04.55,0:06:09.29,Default,,0,0,0,,If I don't do something about it, \NI might as well scribble "Not Luise" on my forehead.
@@ -168,7 +168,7 @@ Dialogue: 0,0:08:17.42,0:08:18.77,Default,,0,0,0,,Isn't that Truda?
 Dialogue: 0,0:08:18.77,0:08:19.27,Default,,0,0,0,,Eh?
 Dialogue: 0,0:08:20.10,0:08:21.41,Default,,0,0,0,,Christine!
 Dialogue: 0,0:08:22.18,0:08:23.28,Default,,0,0,0,,Long time no see.
-Dialogue: 0,0:08:23.28,0:08:24.84,Default,,0,0,0,,Looking might good!
+Dialogue: 0,0:08:23.28,0:08:24.84,Default,,0,0,0,,Looking good, girl!
 Dialogue: 0,0:08:28.72,0:08:30.60,Default,,0,0,0,,Ah, this is my little brother Martin. {it goes without saying, fucking hope it is, cause its not in the book}
 Dialogue: 0,0:08:30.60,0:08:33.48,Default,,0,0,0,,They always make me look after the children, \Nit's such a pain.
 Dialogue: 0,0:08:33.48,0:08:35.20,Default,,0,0,0,,Good afternoon, Herr Martin.
@@ -184,17 +184,17 @@ Dialogue: 0,0:09:02.12,0:09:04.26,Default,,0,0,0,,you pulled them both on their 
 Dialogue: 0,0:09:04.26,0:09:07.50,Default,,0,0,0,,And then, the one that was Luise \Ngave you a hearty slap!
 Dialogue: 0,0:09:07.50,0:09:09.87,Default,,0,0,0,,I haven't laughed that hard in my life!
 Dialogue: 0,0:09:11.97,0:09:14.94,Default,,0,0,0,,Lotte... Luise... Could it be..?
-Dialogue: 0,0:09:16.33,0:09:18.17,Default,,0,0,0,,Why are you so befuddled, Truda?
+Dialogue: 0,0:09:16.33,0:09:18.17,Default,,0,0,0,,What's on your mind, Truda?
 Dialogue: 0,0:09:18.80,0:09:21.40,Default,,0,0,0,,Hey, Christine. \NWill you hear me out?
-Dialogue: 0,0:09:21.40,0:09:24.17,Default,,0,0,0,,What's the matter? \NIn an instant, you're the seriousness itself.
-Dialogue: 0,0:09:26.28,0:09:27.89,Default,,0,0,0,,Luise has been really weird.
+Dialogue: 0,0:09:21.40,0:09:24.17,Default,,0,0,0,,What's the matter? \NIn an instant, you're the epitome of serious.
+Dialogue: 0,0:09:26.28,0:09:27.89,Default,,0,0,0,,Luise is acting strange.
 Dialogue: 0,0:09:27.89,0:09:30.25,Default,,0,0,0,,I even think, she might not really be our Luise.
-Dialogue: 0,0:09:30.25,0:09:33.83,Default,,0,0,0,,Eh? How can that be? \NYou just made that up, didn't you?
-Dialogue: 0,0:09:35.19,0:09:39.46,Default,,0,0,0,,I'm convinced by now, \Nthis Luise must be actually Lotte! {/I started feeling it}
+Dialogue: 0,0:09:30.25,0:09:33.83,Default,,0,0,0,,Eh? What are you saying? It's impossible...
+Dialogue: 0,0:09:35.19,0:09:39.46,Default,,0,0,0,,I'm convinced by now, \Nthis Luise must actually be Lotte! {/I started feeling it}
 Dialogue: 0,0:09:39.46,0:09:40.80,Default,,0,0,0,,No way!
 Dialogue: 0,0:09:41.94,0:09:43.13,Default,,0,0,0,,Lotte?
 Dialogue: 0,0:09:55.10,0:09:58.15,Default,,0,0,0,,That alone wouldn't be enough \Nto say Luise is actually Lotte.
-Dialogue: 0,0:09:58.15,0:10:01.25,Default,,0,0,0,,Why can't one start taking maths seriously, \Neven if suddenly?
+Dialogue: 0,0:09:58.15,0:10:01.25,Default,,0,0,0,,Why can't one become serious about math, \Neven if suddenly?
 Dialogue: 0,0:10:01.25,0:10:03.79,Default,,0,0,0,,Or why can't one just make a mistake \Non the horizontal bar?
 Dialogue: 0,0:10:05.45,0:10:09.10,Default,,0,0,0,,But then, consider, also, that she played hooky today.
 Dialogue: 0,0:10:09.10,0:10:12.36,Default,,0,0,0,,Before, she only did that \Nfor when we had an arithmetic test.
@@ -210,7 +210,7 @@ Dialogue: 0,0:10:34.18,0:10:35.34,Default,,0,0,0,,Eh? Right now?
 Dialogue: 0,0:10:35.34,0:10:37.79,Default,,0,0,0,,Exactly so. \NWe'll ascertain it here and now.
 Dialogue: 0,0:10:37.79,0:10:39.02,Default,,0,0,0,,You're right.
 Dialogue: 0,0:10:39.02,0:10:40.05,Default,,0,0,0,,Wait here.
-Dialogue: 0,0:10:40.05,0:10:42.35,Default,,0,0,0,,Rather, bring her to the park by the canal!
+Dialogue: 0,0:10:40.05,0:10:42.35,Default,,0,0,0,,Better yet, bring her to the park by the canal!
 Dialogue: 0,0:10:42.35,0:10:43.55,Default,,0,0,0,,Got it!
 Dialogue: 0,0:10:53.99,0:10:54.99,Default,,0,0,0,,Come in!
 Dialogue: 0,0:10:56.00,0:10:59.36,Default,,0,0,0,,Fraulein, Truda is here to check on you.
@@ -235,10 +235,10 @@ Dialogue: 0,0:11:55.96,0:11:59.65,Default,,0,0,0,,You mind if I ask you one thin
 Dialogue: 0,0:11:59.65,0:12:00.77,Default,,0,0,0,,About Luise?
 Dialogue: 0,0:12:00.77,0:12:02.48,Default,,0,0,0,,What can I help you with, Master?
 Dialogue: 0,0:12:02.48,0:12:06.74,Default,,0,0,0,,Ah... I left my address book here. \NHave you seen it?
-Dialogue: 0,0:12:06.74,0:12:08.61,Default,,0,0,0,,No, I don't think I happened to see it.
+Dialogue: 0,0:12:06.74,0:12:08.61,Default,,0,0,0,,No, I don't think I saw it.
 Dialogue: 0,0:12:08.61,0:12:12.14,Default,,0,0,0,,Hm... Pretty sure it was still here \Nlast time I used it. {the other day}
 Dialogue: 0,0:12:12.14,0:12:13.51,Default,,0,0,0,,I can't do without it.
-Dialogue: 0,0:12:13.51,0:12:15.80,Default,,0,0,0,,Could you try looking for it somewhere else?
+Dialogue: 0,0:12:13.51,0:12:15.80,Default,,0,0,0,,Could you try looking for it everywhere else?
 Dialogue: 0,0:12:15.80,0:12:17.33,Default,,0,0,0,,Sure, will get to it right away.
 Dialogue: 0,0:12:17.33,0:12:18.35,Default,,0,0,0,,Please do.
 Dialogue: 0,0:12:18.72,0:12:19.52,Default,,0,0,0,,Excuse me,
@@ -248,7 +248,7 @@ Dialogue: 0,0:12:23.38,0:12:25.92,Default,,0,0,0,,Ah, that girl sure did change.
 Dialogue: 0,0:12:25.92,0:12:29.45,Default,,0,0,0,,Oh, so you know? \NShe's like a completely different girl, isn't she?
 Dialogue: 0,0:12:29.45,0:12:32.43,Default,,0,0,0,,Yeah. The change has been so profound, \Nit was hard to comprehend.
 Dialogue: 0,0:12:32.43,0:12:35.74,Default,,0,0,0,,And I might just have an idea \Nas to what had caused it. {having in mind; happening to know of; idea}
-Dialogue: 0,0:12:37.17,0:12:39.07,Default,,0,0,0,,Now, that's weird... And here?
+Dialogue: 0,0:12:37.17,0:12:39.07,Default,,0,0,0,,Now, that's strange... And here?
 Dialogue: 0,0:12:39.07,0:12:41.20,Default,,0,0,0,,In the summer camp, during summer vacations
 Dialogue: 0,0:12:41.20,0:12:44.32,Default,,0,0,0,,Luise had happened \Nto meet one particularly interesting girl. {not sure why is there "aru" in such a place}
 Dialogue: 0,0:12:44.32,0:12:44.99,Default,,0,0,0,,That girl...
@@ -256,7 +256,7 @@ Dialogue: 0,0:12:44.99,0:12:46.35,Default,,0,0,0,,Truda, I'm ready!
 Dialogue: 0,0:12:46.35,0:12:47.71,Default,,0,0,0,,Welcome home, dad.
 Dialogue: 0,0:12:47.71,0:12:48.85,Default,,0,0,0,,Hey, Luise.
 Dialogue: 0,0:12:48.85,0:12:50.62,Default,,0,0,0,,Have you seen my address book anywhere?
-Dialogue: 0,0:12:50.62,0:12:52.12,Default,,0,0,0,,You always keep it right here.
+Dialogue: 0,0:12:50.62,0:12:52.12,Default,,0,0,0,,That would be right here. 
 Dialogue: 0,0:12:54.25,0:12:55.62,Default,,0,0,0,,Here. This one, right?
 Dialogue: 0,0:12:57.32,0:12:59.56,Default,,0,0,0,,Ah, yes, it is. Thank you.
 Dialogue: 0,0:12:59.56,0:13:02.06,Default,,0,0,0,,Well, dad, aren't you in a hurry now?
@@ -266,11 +266,11 @@ Dialogue: 0,0:13:05.83,0:13:07.49,Default,,0,0,0,,Oh, what a bummer.
 Dialogue: 0,0:13:07.49,0:13:09.47,Default,,0,0,0,,I was so close to asking!
 Dialogue: 0,0:13:09.87,0:13:12.25,Default,,0,0,0,,Whoa! That was a very close call.
 Dialogue: 0,0:13:12.25,0:13:14.27,Default,,0,0,0,,I was so close to being discovered!
-Dialogue: 0,0:13:19.68,0:13:23.89,Default,,0,0,0,,Wait though, what was it that Truda \Nwas trying to ask me about?
+Dialogue: 0,0:13:19.68,0:13:23.89,Default,,0,0,0,,Wait though, what was it Truda was telling me about?
 Dialogue: 0,0:13:24.38,0:13:27.82,Default,,0,0,0,,Something about Luise and the summer camp...
 Dialogue: 0,0:13:27.82,0:13:29.06,Default,,0,0,0,,Ah, whatever.
 Dialogue: 0,0:13:47.74,0:13:51.10,Default,,0,0,0,,Say, Truda, who that might be? \NThe person I'm to meet.
-Dialogue: 0,0:13:51.10,0:13:53.64,Default,,0,0,0,,Oh, it's rather simple. \NLook! There she is.
+Dialogue: 0,0:13:51.10,0:13:53.64,Default,,0,0,0,,It's rather simple. \NLook! There she is.
 Dialogue: 0,0:14:00.98,0:14:03.68,Default,,0,0,0,,Ah! Christine's here!
 Dialogue: 0,0:14:07.23,0:14:08.80,Default,,0,0,0,,Christine!
 Dialogue: 0,0:14:09.73,0:14:11.09,Default,,0,0,0,,Luise!
@@ -294,10 +294,10 @@ Dialogue: 0,0:15:08.35,0:15:12.02,Default,,0,0,0,,She's somehow convinced \Nyou'
 Dialogue: 0,0:15:14.11,0:15:17.62,Default,,0,0,0,,Oh my! Why'd you ever think I might be Lotte?
 Dialogue: 0,0:15:17.62,0:15:20.31,Default,,0,0,0,,Say what you will, \Nbut I don't believe I'm talking to Luise now.
 Dialogue: 0,0:15:20.31,0:15:21.70,Default,,0,0,0,,But Truda, this is the real me!
-Dialogue: 0,0:15:21.70,0:15:26.91,Default,,0,0,0,,Why, then, have you been acting so weird ever since \Nwe returned from the camp and the school term started?
-Dialogue: 0,0:15:26.91,0:15:29.25,Default,,0,0,0,,What are you saying? I'm not one bit weird!
-Dialogue: 0,0:15:29.25,0:15:30.51,Default,,0,0,0,,Very weird!
-Dialogue: 0,0:15:30.51,0:15:34.21,Default,,0,0,0,,However, if we suppose you're actually Lotte, \Nit's not weird at all!
+Dialogue: 0,0:15:21.70,0:15:26.91,Default,,0,0,0,,Why, then, have you been acting so strange ever since \Nwe returned from the camp and the school term started?
+Dialogue: 0,0:15:26.91,0:15:29.25,Default,,0,0,0,,What are you saying? I'm not one bit strange!
+Dialogue: 0,0:15:29.25,0:15:30.51,Default,,0,0,0,,Very strange!
+Dialogue: 0,0:15:30.51,0:15:34.21,Default,,0,0,0,,However, if we suppose you're actually Lotte, \Nit's not strange at all!
 Dialogue: 0,0:15:35.44,0:15:38.08,Default,,0,0,0,,That's... just a bunch of rubbish.
 Dialogue: 0,0:15:38.08,0:15:39.65,Default,,0,0,0,,Because I am Luise!
 Dialogue: 0,0:15:39.65,0:15:41.40,Default,,0,0,0,,Nah-ah. You're definitely Lotte!
@@ -321,7 +321,7 @@ Dialogue: 0,0:16:46.98,0:16:48.58,Default,,0,0,0,,Where is Martin?
 Dialogue: 0,0:16:48.95,0:16:49.69,Default,,0,0,0,,Sister!
 Dialogue: 0,0:16:49.69,0:16:51.06,Default,,0,0,0,,Look! She is drowning! {to sink; to go under; to submerge}
 Dialogue: 0,0:16:51.06,0:16:51.99,Default,,0,0,0,,No way! {sonna?}
-Dialogue: 0,0:16:52.91,0:16:55.39,Default,,0,0,0,,Martin... Need to save Martin now!
+Dialogue: 0,0:16:52.91,0:16:55.39,Default,,0,0,0,,Martin... Need to save Martin!
 Dialogue: 0,0:16:59.49,0:17:01.34,Default,,0,0,0,,Martin! I'm coming!
 Dialogue: 0,0:17:01.34,0:17:02.63,Default,,0,0,0,,Hang on!
 Dialogue: 0,0:17:05.30,0:17:07.41,Default,,0,0,0,,Martin! Martin!
@@ -394,11 +394,11 @@ Dialogue: 0,0:21:36.87,0:21:40.28,Sign,,0,0,0,,This is the story of my life, I'l
 Comment: 0,0:21:43.87,0:21:43.87,Default,,0,0,0,,{chapter}
 Dialogue: 0,0:21:44.25,0:21:45.68,Sign,,0,0,0,,Next episode
 Dialogue: 0,0:21:48.72,0:21:50.92,Default,,0,0,0,,We two switched places!
-Dialogue: 0,0:21:50.92,0:21:53.29,Default,,0,0,0,,Lotte, you know Herr Leitner, don't you? {say it with me, not in the book}
+Dialogue: 0,0:21:50.92,0:21:53.29,Default,,0,0,0,,Lotte, you know Frau Leitner, don't you? {say it with me, not in the book}
 Dialogue: 0,0:21:53.29,0:21:56.02,Default,,0,0,0,,Yeah. It's my piano teacher.
-Dialogue: 0,0:21:56.02,0:21:57.99,Default,,0,0,0,,About a year ago, he moved to Bonn.
-Dialogue: 0,0:21:57.99,0:22:00.30,Default,,0,0,0,,But now, it seems this teacher had returned! Which means...
-Dialogue: 0,0:22:00.30,0:22:01.63,Default,,0,0,0,,He wants to renew the lessons? {guess, no clue what's first word, maybe ressha - train}
+Dialogue: 0,0:21:56.02,0:21:57.99,Default,,0,0,0,,About a year ago, she moved to Bonn.
+Dialogue: 0,0:21:57.99,0:22:00.30,Default,,0,0,0,,But now, that teacher had returned! Which means...
+Dialogue: 0,0:22:00.30,0:22:01.63,Default,,0,0,0,,She wants to renew the lessons? {guess, no clue what's first word, maybe ressha - train}
 Dialogue: 0,0:22:01.90,0:22:03.13,Default,,0,0,0,,It seems so.
 Dialogue: 0,0:22:03.53,0:22:04.97,Default,,0,0,0,,What'll you do, Luise?
 Dialogue: 0,0:22:04.97,0:22:06.94,Default,,0,0,0,,I'll manage. Just trust me with this, will you?
