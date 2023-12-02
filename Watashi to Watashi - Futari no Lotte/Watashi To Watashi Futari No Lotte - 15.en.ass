@@ -15,9 +15,9 @@ Video File: Watashi To Watashi Futari No Lotte - 15.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.625000
-Scroll Position: 305
-Active Line: 319
-Video Position: 39950
+Scroll Position: 259
+Active Line: 273
+Video Position: 31509
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -90,7 +90,7 @@ Dialogue: 0,0:02:52.69,0:02:54.42,Default,,0,0,0,,So it's better if he doesn't c
 Dialogue: 0,0:02:54.42,0:02:56.73,Default,,0,0,0,,I know my Lotte would handle it.
 Dialogue: 0,0:02:56.73,0:02:58.90,Default,,0,0,0,,Mistakes won't blemish a talent such as yours. {/because you have ...}
 Dialogue: 0,0:02:59.34,0:03:03.90,Default,,0,0,0,,I'll leave this in the bedroom, \Nso once the classes are over, come and change. {and go out again}
-Dialogue: 0,0:03:08.57,0:03:13.47,Default,,0,0,0,,Malingering is still an option for me, \Nbut that'll upset mom beyond belief.
+Dialogue: 0,0:03:08.57,0:03:13.47,Default,,0,0,0,,Malingering is still an option for me, \Nbut that'd be a dead giveaway to mom. {/upset mom beyond belief.}
 Dialogue: 0,0:03:13.47,0:03:16.35,Default,,0,0,0,,Ah... What can I even do about it?
 Dialogue: 0,0:03:20.62,0:03:24.22,Default,,0,0,0,,In the Alps, the temperature \Nremains rather low even in the summer,
 Dialogue: 0,0:03:24.22,0:03:27.85,Default,,0,0,0,,so countless clusters of perpetual snow \Neventually form into glaciers.
@@ -106,22 +106,22 @@ Dialogue: 0,0:03:49.28,0:03:55.38,Default,,0,0,0,,After all, the mini-concert th
 Dialogue: 0,0:03:55.38,0:03:57.79,Default,,0,0,0,,You should refrain from misbehavior. {vulgar; crude; tacky​}
 Dialogue: 0,0:03:57.79,0:03:58.86,Default,,0,0,0,,Okay.
 Dialogue: 0,0:04:08.73,0:04:09.63,Default,,0,0,0,,Lotte!
-Dialogue: 0,0:04:09.63,0:04:12.74,Default,,0,0,0,,I'm super-excited \Nto hear your mini-concert today!
-Dialogue: 0,0:04:12.74,0:04:14.93,Default,,0,0,0,,Ah... Yeah! Thanks.
+Dialogue: 0,0:04:09.63,0:04:12.74,Default,,0,0,0,,I'm excited to hear your mini-concert today!
+Dialogue: 0,0:04:12.74,0:04:14.93,Default,,0,0,0,,Ah... Okay. Thanks.
 Dialogue: 0,0:04:18.47,0:04:21.21,Default,,0,0,0,,You think she'll dare to show up for the mini-concert?
-Dialogue: 0,0:04:21.21,0:04:24.22,Default,,0,0,0,,What would be the point of showing up, \Nif she can't play it ? {unsure, maybe she means "if she doesn't, that's fine by us too"}
+Dialogue: 0,0:04:21.21,0:04:24.22,Default,,0,0,0,,What's the point of showing up \Nif she can't play? {unsure, maybe she means "if she doesn't, that's fine by us too"}
 Dialogue: 0,0:04:35.78,0:04:38.15,Default,,0,0,0,,Say, how do you think, \Nwhat'll Lotte do?
 Dialogue: 0,0:04:38.15,0:04:40.12,Default,,0,0,0,,What would you have done in her shoes? {no clue what's the first word, would assume it's her name even though it's nowhere near miria.... as if her name wasn't enough an enigma before, ffs}
 Dialogue: 0,0:04:41.42,0:04:43.03,Default,,0,0,0,,I'd try to make a run for it!
 Dialogue: 0,0:04:43.50,0:04:45.98,Default,,0,0,0,,She might pretend to fall ill, too.
-Dialogue: 0,0:04:45.98,0:04:48.04,Default,,0,0,0,,And we're here to prevent any of that! 
+Dialogue: 0,0:04:45.98,0:04:48.04,Default,,0,0,0,,And we're here to prevent any of that!
 Dialogue: 0,0:04:48.04,0:04:52.38,Default,,0,0,0,,Whatever she tries to pull, we'll expose Lotte! \NShe'll bear the brunt of {the grand }embarrassment! {/pull lotte out}
 Dialogue: 0,0:04:58.48,0:05:02.92,Default,,0,0,0,,Could it be because Annie \Nalso suspects I'm not the real Lotte?
 Dialogue: 0,0:05:02.92,0:05:04.69,Default,,0,0,0,,But she doesn't have any reason to.
 Dialogue: 0,0:05:05.38,0:05:07.83,Default,,0,0,0,,Ah, this doesn't help... {depression; melancholy; dejection; gloom; despondency}
 Dialogue: 0,0:05:14.30,0:05:15.67,Default,,0,0,0,,What are you doing?!
 Dialogue: 0,0:05:15.67,0:05:18.06,Default,,0,0,0,,Luise, you can't tell? It's me!
-Dialogue: 0,0:05:20.63,0:05:22.80,Default,,0,0,0,,See? In the flesh, Luise.
+Dialogue: 0,0:05:20.63,0:05:22.80,Default,,0,0,0,,See? None other, Luise.
 Dialogue: 0,0:05:26.00,0:05:27.07,Default,,0,0,0,,Lotte!
 Dialogue: 0,0:05:27.07,0:05:29.13,Default,,0,0,0,,And the real one at that!
 Dialogue: 0,0:05:29.13,0:05:30.74,Default,,0,0,0,,You're a saver!
@@ -130,8 +130,8 @@ Dialogue: 0,0:05:32.64,0:05:33.98,Default,,0,0,0,,Something happened?
 Dialogue: 0,0:05:36.30,0:05:38.88,Default,,0,0,0,,This is bad, Annie is still on my tail. {/will find you}
 Dialogue: 0,0:05:38.88,0:05:39.52,Default,,0,0,0,,Eh?
 Dialogue: 0,0:05:39.52,0:05:40.89,Default,,0,0,0,,Put on your mask, Lotte! {disguise; masquerade}
-Dialogue: 0,0:05:47.89,0:05:50.55,Default,,0,0,0,,Must be some friend of Lotte's.
-Dialogue: 0,0:05:50.55,0:05:52.26,Default,,0,0,0,,Where could I have seen her...
+Dialogue: 0,0:05:47.89,0:05:50.55,Default,,0,0,0,,Must be some of Lotte's friends.
+Dialogue: 0,0:05:50.55,0:05:52.26,Default,,0,0,0,,Where could I have seen her... {usually, this phrase is used in the meaning "since when did you" so she likely means "at which point did she meet lotte" but I can't make it work :(}
 Dialogue: 0,0:06:00.84,0:06:05.47,Default,,0,0,0,,Nowhere to hide around this place. \NAnnie and others won't be able to get close.
 Dialogue: 0,0:06:05.81,0:06:09.88,Default,,0,0,0,,That sure was startling. \NYou materialized in front of me out of thin air!
 Dialogue: 0,0:06:09.88,0:06:13.41,Default,,0,0,0,,But it was you who didn't show up \Nfor the rendezvous. {/didn't come at the appointed place}
@@ -149,7 +149,7 @@ Dialogue: 0,0:06:40.41,0:06:43.59,Default,,0,0,0,,The phone? Did something urgen
 Dialogue: 0,0:06:43.59,0:06:46.62,Default,,0,0,0,,The mother of all urgencies! \NI got myself involved in something big.
 Dialogue: 0,0:06:46.62,0:06:47.91,Default,,0,0,0,,Something big?
 Dialogue: 0,0:06:47.91,0:06:51.33,Default,,0,0,0,,But now, we're in the clear - \NLotte showed up to save the day!
-Dialogue: 0,0:06:51.33,0:06:52.90,Default,,0,0,0,,Oh, you're a godsend!
+Dialogue: 0,0:06:51.33,0:06:52.90,Default,,0,0,0,,You're a godsend!
 Dialogue: 0,0:06:52.90,0:06:54.16,Default,,0,0,0,,Wait, Luise!
 Dialogue: 0,0:06:54.50,0:06:56.58,Default,,0,0,0,,What could they be talking about?
 Dialogue: 0,0:06:56.58,0:07:01.30,Default,,0,0,0,,Moreover, the way they cuddle each other,\Nyou'd think they've a foot in both camps! {REALLY fucking hope it's "jinkaku utagacchaimasu" and not "chigaimasu", but still that'd only mean "when two/fellow women are hugging each other, they are questioning/doubting/suspecting their personality/character" and I can't find "人格疑る" being used in the sense of "lesbian/gender/nature" and only tangentally "personality disorder" so... really fucking at a loss, if they don't mean "lesbians" that'd be a big fucking blunder, and vice versa}
@@ -159,7 +159,7 @@ Dialogue: 0,0:07:05.48,0:07:07.54,Default,,0,0,0,,If I knew, I wouldn't be askin
 Dialogue: 0,0:07:08.75,0:07:10.67,Default,,0,0,0,,I don't really get it myself.
 Dialogue: 0,0:07:11.14,0:07:12.57,Default,,0,0,0,,Gosh, you're useless.
 Dialogue: 0,0:07:17.51,0:07:19.53,Default,,0,0,0,,No "rewrite it once again?" {actually she just says "rewrite again" but I think she means this}
-Dialogue: 0,0:07:19.53,0:07:21.68,Default,,0,0,0,,Alas, this time, it's good enough as it is.
+Dialogue: 0,0:07:19.53,0:07:21.68,Default,,0,0,0,,This time, it's good enough as it is.
 Dialogue: 0,0:07:21.68,0:07:22.99,Default,,0,0,0,,My, how peculiar.
 Dialogue: 0,0:07:22.99,0:07:25.11,Default,,0,0,0,,I hope it doesn't snow today. {I was sure there's an analogous idiom for that in english, but apparently not }
 Dialogue: 0,0:07:26.86,0:07:30.91,Default,,0,0,0,,The event is peculiar indeed, \Nso you'd better be sincerely glad about it.
@@ -169,7 +169,7 @@ Dialogue: 0,0:07:37.94,0:07:43.48,Default,,0,0,0,,I'm told, for the upcoming ser
 Dialogue: 0,0:07:44.52,0:07:46.85,Default,,0,0,0,,He is currently in Munich?
 Dialogue: 0,0:07:46.85,0:07:50.38,Default,,0,0,0,,His previous performance in Berlin - \Nwhy was it cancelled?
 Dialogue: 0,0:07:50.79,0:07:54.25,Default,,0,0,0,,Does he regret letting down the audience \Nthat has been waiting for him eagerly? {/didn't he disregard ...}
-Dialogue: 0,0:07:54.25,0:07:56.64,Default,,0,0,0,,I'm counting on you \Nto take care of those mysteries. {/collect data on that topic}
+Dialogue: 0,0:07:54.25,0:07:56.64,Default,,0,0,0,,I'm counting on you \Nto unravel those mysteries. {/collect data on that topic}
 Dialogue: 0,0:07:57.73,0:07:58.53,Default,,0,0,0,,Okay.
 Dialogue: 0,0:08:03.36,0:08:06.37,Default,,0,0,0,,Really? A mini-concert on piano?
 Dialogue: 0,0:08:06.37,0:08:08.25,Default,,0,0,0,,You must really feel troubled.
@@ -178,7 +178,7 @@ Dialogue: 0,0:08:14.20,0:08:17.95,Default,,0,0,0,,But now, the true Lotte is als
 Dialogue: 0,0:08:17.95,0:08:22.64,Default,,0,0,0,,Which means, we just need to exchange places again, \Nin a way inconspicuous to Annie. {and her bunch, who are onto something/have a clue}
 Dialogue: 0,0:08:28.52,0:08:30.18,Default,,0,0,0,,But say, isn't it weird?
 Dialogue: 0,0:08:30.18,0:08:33.09,Default,,0,0,0,,Lotte no longer looks troubled!
-Dialogue: 0,0:08:33.09,0:08:34.90,Default,,0,0,0,,Hm! Must be just showing off. {enduring something out of pride; putting up with it; grinning and bearing it}
+Dialogue: 0,0:08:33.09,0:08:34.90,Default,,0,0,0,,Hm! Must be just pretending. {enduring something out of pride; putting up with it; grinning and bearing it}
 Dialogue: 0,0:08:48.68,0:08:50.71,Default,,0,0,0,,It seems, Lotte isn't running away.
 Dialogue: 0,0:08:50.71,0:08:52.40,Default,,0,0,0,,We can't know for sure yet!
 Dialogue: 0,0:08:52.40,0:08:54.78,Default,,0,0,0,,Not until she comes out and goes there.
@@ -220,8 +220,8 @@ Dialogue: 0,0:10:59.44,0:11:03.44,Default,,0,0,0,,Ah? There! My pen fell into un
 Dialogue: 0,0:11:03.44,0:11:07.18,Default,,0,0,0,,But I could have sworn, in the hallway, \NI heard you talking now.
 Dialogue: 0,0:11:07.18,0:11:11.53,Default,,0,0,0,,Oh, that... I was just humming the tune \NI'm to play at the mini-concert.
 Dialogue: 0,0:11:11.53,0:11:12.51,Default,,0,0,0,,Really?
-Dialogue: 0,0:11:13.35,0:11:17.28,Default,,0,0,0,,And also, this dress you bought for me - \Nit looks gorgeous!
-Dialogue: 0,0:11:18.15,0:11:20.31,Default,,0,0,0,,And looks becoming on you, too.
+Dialogue: 0,0:11:13.35,0:11:17.28,Default,,0,0,0,,Also, this dress you bought for me \Nis just gorgeous!
+Dialogue: 0,0:11:18.15,0:11:20.31,Default,,0,0,0,,It looks becoming on you too.
 Dialogue: 0,0:11:20.31,0:11:21.89,Default,,0,0,0,,Thank you, mom.
 Dialogue: 0,0:11:22.31,0:11:23.38,Default,,0,0,0,,Never mind it.
 Dialogue: 0,0:11:23.38,0:11:26.36,Default,,0,0,0,,Now, Editor-in-Chief Bernau \Nis waiting for us in the taxi
@@ -238,11 +238,11 @@ Dialogue: 0,0:11:51.38,0:11:55.92,Default,,0,0,0,,Luise, when the mini-concert i
 Dialogue: 0,0:11:56.70,0:11:58.71,Default,,0,0,0,,There, we'll change clothes again, right?
 Dialogue: 0,0:11:58.71,0:11:59.27,Default,,0,0,0,,Yeah!
 Dialogue: 0,0:11:59.27,0:12:00.73,Default,,0,0,0,,Well, see you there. {/I'm going}
-Dialogue: 0,0:12:03.53,0:12:06.07,Default,,0,0,0,,Good Heavens, that sure was close!
+Dialogue: 0,0:12:03.53,0:12:06.07,Default,,0,0,0,,Jeez, that sure was close!
 Dialogue: 0,0:12:09.70,0:12:11.70,Default,,0,0,0,,Now this is weird.
 Dialogue: 0,0:12:11.70,0:12:14.67,Default,,0,0,0,,Lotte is going there with her mom like it's nothing! {most likely "issho ni" tho sounds close to shujin - husband}
 Dialogue: 0,0:12:20.69,0:12:22.11,Default,,0,0,0,,They're gone.
-Dialogue: 0,0:12:22.11,0:12:23.72,Default,,0,0,0,,We should go, too. {not really sure how this message differs from prev. line}
+Dialogue: 0,0:12:22.11,0:12:23.72,Default,,0,0,0,,We should go too. {not really sure how this message differs from prev. line}
 Dialogue: 0,0:12:25.08,0:12:29.25,Default,,0,0,0,,Ah! Maybe her plan is to make a run for it from school?
 Dialogue: 0,0:12:30.90,0:12:33.31,Default,,0,0,0,,Annie sure is a diehard believer. {doubting; distrustful; incredulous; suspicious​}
 Dialogue: 0,0:12:33.31,0:12:36.55,Default,,0,0,0,,Wrong. This is called a tenacious disbeliever. {vindictive; tenacious; persistent; spiteful; vengeful} {not sure what;s the original joke here so I added my own one instead}
@@ -251,16 +251,16 @@ Dialogue: 0,0:12:39.27,0:12:41.11,Default,,0,0,0,,Yeah! On our way!
 Dialogue: 0,0:12:45.70,0:12:48.47,Default,,0,0,0,,Well, what do you know -\Nnobody noticed a thing!
 Dialogue: 0,0:12:48.47,0:12:51.18,Default,,0,0,0,,Oh, but that's for later. \NI need to get to school now!
 Dialogue: 0,0:12:59.30,0:13:04.10,Default,,0,0,0,,While we're at it, your schedule for tomorrow: \N at ten - first round of rehearsals.
-Dialogue: 0,0:13:08.33,0:13:10.20,Default,,0,0,0,,Yes, this sounds damn good!
+Dialogue: 0,0:13:08.33,0:13:10.20,Default,,0,0,0,,Yes, this sounds wonderful!
 Dialogue: 0,0:13:10.20,0:13:11.61,Default,,0,0,0,,As expected of a genius!
 Dialogue: 0,0:13:11.61,0:13:13.90,Default,,0,0,0,,Hey, Chauffeur, stop the car around here.
-Dialogue: 0,0:13:16.43,0:13:18.63,Default,,0,0,0,,Yeah, from here on, I'd rather walk.
+Dialogue: 0,0:13:16.43,0:13:18.63,Default,,0,0,0,,Yeah, from here on, I'll walk.
 Dialogue: 0,0:13:18.63,0:13:21.24,Default,,0,0,0,,But you're free to return on wheels.
 Dialogue: 0,0:13:21.24,0:13:24.81,Default,,0,0,0,,However, Herr Palfy, \Nit's still quite the long way from the hotel!
 Dialogue: 0,0:13:24.81,0:13:29.62,Default,,0,0,0,,A strange town and a strange wind \Nare exceptional ingredients for making a good music. {/create just the mood for composing}
 Dialogue: 0,0:13:29.62,0:13:31.12,Default,,0,0,0,,You know what I mean, don't you?
-Comment: 0,0:13:31.78,0:13:32.69,Default,,0,0,0,,Yeah...
-Dialogue: 0,0:13:53.71,0:13:56.40,Default,,0,0,0,,It's totally weird - \Nshe doesn't seem to be running away!
+Dialogue: 0,0:13:31.78,0:13:32.69,Default,,0,0,0,,Yeah...
+Dialogue: 0,0:13:53.71,0:13:56.40,Default,,0,0,0,,It's totally strange - \Nshe doesn't seem to be running away!
 Dialogue: 0,0:13:56.40,0:13:58.22,Default,,0,0,0,,Is she really going to play?
 Dialogue: 0,0:14:33.44,0:14:35.85,Default,,0,0,0,,That's my sis Lotte! Amazing!
 Dialogue: 0,0:15:06.41,0:15:09.58,Default,,0,0,0,,It's true what they say Lotte is good at this.
@@ -275,9 +275,9 @@ Dialogue: 0,0:15:40.19,0:15:42.72,Default,,0,0,0,,How did she manage it even wit
 Dialogue: 0,0:15:43.75,0:15:46.76,Default,,0,0,0,,I guess, she inherited her dad's aptitude in full. {makings (of); aptitude; talent; qualities}
 Dialogue: 0,0:15:47.58,0:15:52.09,Default,,0,0,0,,Come to think of it, this piano \Nsounds very alike to how he used to play it.
 Dialogue: 0,0:15:53.57,0:15:56.40,Default,,0,0,0,,Where had I heard this play before... {/it's similar to whose playing}
-Dialogue: 0,0:15:57.47,0:15:58.61,Default,,0,0,0,,I know!
-Dialogue: 0,0:15:58.61,0:16:01.13,Default,,0,0,0,,It's Luise's play, \Nno two ways about it!
-Dialogue: 0,0:16:01.13,0:16:05.04,Default,,0,0,0,,Still, how come? \NLuise playing in a place like this...
+Dialogue: 0,0:15:57.47,0:15:58.61,Default,,0,0,0,,That's right!
+Dialogue: 0,0:15:58.61,0:16:01.13,Default,,0,0,0,,It's just like Luise's play!
+Dialogue: 0,0:16:01.13,0:16:05.04,Default,,0,0,0,,Still, could it be? \NLuise is playing in a place like this...
 Dialogue: 0,0:16:06.43,0:16:07.35,Default,,0,0,0,,All right.
 Dialogue: 0,0:16:16.59,0:16:18.66,Default,,0,0,0,,I had no idea how good she was!
 Dialogue: 0,0:16:19.16,0:16:24.93,Default,,0,0,0,,Alas, we'll have to exchange places again. \NI'm returning to my mom, and Lotte stays with dad.
@@ -299,7 +299,7 @@ Dialogue: 0,0:17:21.98,0:17:24.21,Default,,0,0,0,,You shouldn't be deciding this
 Dialogue: 0,0:17:24.21,0:17:28.44,Default,,0,0,0,,Now, we should celebrate with a good feast. {/grab something to eat somewhere} \NLet's return to the hotel.
 Dialogue: 0,0:17:28.44,0:17:29.47,Default,,0,0,0,,Eh? But...
 Dialogue: 0,0:17:29.47,0:17:30.82,Default,,0,0,0,,Ah... Wait!
-Dialogue: 0,0:17:30.82,0:17:33.22,Default,,0,0,0,,Ah! Lotte, where are you?
+Dialogue: 0,0:17:30.82,0:17:33.22,Default,,0,0,0,,Ah! Lotte, what do I do?
 Dialogue: 0,0:17:44.70,0:17:47.34,Default,,0,0,0,,Lotte, this performance was something.
 Dialogue: 0,0:17:47.34,0:17:49.14,Default,,0,0,0,,Thank you, mom!
 Dialogue: 0,0:17:50.02,0:17:51.94,Default,,0,0,0,,I see you're really excited, aren't you? {excitement; stimulation; agitation; arousal}

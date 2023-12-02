@@ -14,10 +14,10 @@ Audio File: Watashi To Watashi Futari No Lotte - 14.avi
 Video File: Watashi To Watashi Futari No Lotte - 14.avi
 Video AR Mode: 4
 Video AR Value: 1.333333
-Video Zoom Percent: 0.750000
-Scroll Position: 314
-Active Line: 322
-Video Position: 36122
+Video Zoom Percent: 0.500000
+Scroll Position: 119
+Active Line: 131
+Video Position: 13177
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -27,7 +27,7 @@ Style: Sign,Calibri,30,&H00FFFFFF,&H000000FF,&H001C2C0E,&H00000000,-1,0,0,0,100,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:01.42,Default,,0,0,0,,...is mighty strange with her.
-Dialogue: 0,0:00:01.42,0:00:04.16,Default,,0,0,0,,She has always been a gymnastics enthusiast.
+Dialogue: 0,0:00:01.42,0:00:04.16,Default,,0,0,0,,She had always been a gymnastics enthusiast.
 Dialogue: 0,0:00:04.73,0:00:07.98,Default,,0,0,0,,A sneaking suspicion arises in Truda:
 Dialogue: 0,0:00:07.98,0:00:10.49,Default,,0,0,0,,"Might she be actually Lotte?"
 Dialogue: 0,0:00:11.96,0:00:17.40,Default,,0,0,0,,By chance, when she failed to talk her way through, \Nshe dispelled the doubts by saving a kid that fell into the river. {/luckily, ... she passed through the quandary} {to get over; to come through; to overcome (a difficulty)}
@@ -91,7 +91,7 @@ Dialogue: 0,0:03:46.25,0:03:48.51,Default,,0,0,0,,Annie! Silence, please.
 Dialogue: 0,0:03:55.39,0:03:58.96,Default,,0,0,0,,Avoided it for now, somehow. Oh my, oh my.
 Dialogue: 0,0:03:59.95,0:04:01.12,Default,,0,0,0,,Odd!
 Dialogue: 0,0:04:01.12,0:04:04.25,Default,,0,0,0,,She used to be beside herself when playing the piano.
-Dialogue: 0,0:04:04.25,0:04:07.22,Default,,0,0,0,,And this excuse, too... The most odd of all! {/motive/pretext}
+Dialogue: 0,0:04:04.25,0:04:07.22,Default,,0,0,0,,And this excuse, too... The oddest of all! {/motive/pretext}
 Dialogue: 0,0:04:13.23,0:04:15.13,Default,,0,0,0,,Don't you lose sight of her!
 Dialogue: 0,0:04:15.13,0:04:18.43,Default,,0,0,0,,If there's any field Lotte is lacking in, \Nwe'll have it on our radar. {/find all the lotte's shortcomings}
 Dialogue: 0,0:04:18.43,0:04:22.14,Default,,0,0,0,,Ah? No way! \NI forgot to buy the butter.
@@ -131,7 +131,7 @@ Dialogue: 0,0:05:46.46,0:05:47.82,Default,,0,0,0,,Wait, please!
 Dialogue: 0,0:05:48.42,0:05:49.26,Default,,0,0,0,,What is it?
 Dialogue: 0,0:05:49.26,0:05:52.70,Default,,0,0,0,,Well, you see, \NI was actually considering quitting piano.
 Dialogue: 0,0:05:53.46,0:05:54.53,Default,,0,0,0,,My!
-Dialogue: 0,0:05:54.53,0:05:57.31,Default,,0,0,0,,Lotte, who gave you that most asinine idea?!
+Dialogue: 0,0:05:54.53,0:05:57.31,Default,,0,0,0,,Lotte, who gave you that most ridiculous idea?!
 Dialogue: 0,0:05:57.31,0:05:59.08,Default,,0,0,0,,One way or another, I quit piano!
 Dialogue: 0,0:05:59.08,0:06:00.21,Default,,0,0,0,,Goodbye!
 Dialogue: 0,0:06:00.47,0:06:01.65,Default,,0,0,0,,Ah... Lotte!
@@ -139,8 +139,8 @@ Dialogue: 0,0:06:09.40,0:06:13.73,Default,,0,0,0,,I do know that woman! That was
 Dialogue: 0,0:06:13.73,0:06:15.51,Default,,0,0,0,,There was a time I visited her, too.
 Dialogue: 0,0:06:15.51,0:06:17.25,Default,,0,0,0,,Frau Annie learned piano?!
 Dialogue: 0,0:06:17.25,0:06:19.09,Default,,0,0,0,,Eh? You can play, too?
-Dialogue: 0,0:06:19.09,0:06:21.94,Default,,0,0,0,,It was in old days and only because dad implored me to!
-Dialogue: 0,0:06:21.94,0:06:23.61,Default,,0,0,0,,I got bored of it soon enough.
+Dialogue: 0,0:06:19.09,0:06:21.94,Default,,0,0,0,,It was in the old days and only because dad asked me to!
+Dialogue: 0,0:06:21.94,0:06:23.61,Default,,0,0,0,,I got bored of it right away.
 Dialogue: 0,0:06:23.61,0:06:26.34,Default,,0,0,0,,Lotte also said she is quitting piano just now.
 Dialogue: 0,0:06:26.34,0:06:30.81,Default,,0,0,0,,So suddenly... Odd, isn't it? \NThis and what she said during the music class. {really unsure about the last to ii mo to ii, would assume "time of music" to be time of the class}
 Dialogue: 0,0:06:30.81,0:06:34.10,Default,,0,0,0,,Lotte keeps feeding others the excuses \Nfor not playing the piano!
@@ -157,7 +157,7 @@ Dialogue: 0,0:07:04.21,0:07:06.81,Default,,0,0,0,,My, Frau Leitner!
 Dialogue: 0,0:07:06.81,0:07:09.20,Default,,0,0,0,,Ah, maybe this one, after all?
 Dialogue: 0,0:07:09.20,0:07:10.54,Default,,0,0,0,,Wait, though!
 Dialogue: 0,0:07:10.54,0:07:13.04,Default,,0,0,0,,My... Lotte said that?
-Dialogue: 0,0:07:14.66,0:07:19.29,Default,,0,0,0,,Very well. I'll try to talk her out of it possibly sooner. \NThanks for letting me know.
+Dialogue: 0,0:07:14.66,0:07:19.29,Default,,0,0,0,,Very well. I'll try to talk her out of it at once. \NThanks for letting me know.
 Dialogue: 0,0:07:22.27,0:07:23.72,Default,,0,0,0,,Alright, it's settled.
 Dialogue: 0,0:07:23.72,0:07:26.53,Default,,0,0,0,,Miss Körner, we're using your photo.
 Dialogue: 0,0:07:27.13,0:07:28.13,Default,,0,0,0,,Miss Körner...
