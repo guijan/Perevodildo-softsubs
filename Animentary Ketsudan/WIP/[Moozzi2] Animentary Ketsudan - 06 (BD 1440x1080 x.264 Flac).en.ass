@@ -15,8 +15,8 @@ Video File: [Moozzi2] Animentary Ketsudan - 06 (BD 1440x1080 x.264 Flac).mkv
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.375000
-Scroll Position: 241
-Active Line: 268
+Scroll Position: 45
+Active Line: 84
 Video Position: 3838
 
 [V4+ Styles]
@@ -49,7 +49,7 @@ Dialogue: 0,0:02:39.63,0:02:45.65,Sign,,0,0,190,,{\blur0.8\c&HE4E9E1&\bord0\xsha
 Dialogue: 0,0:02:55.17,0:03:00.24,Default,,0,0,0,,In preparation for the seizure of Hong Kong, \Nthe Japanese army had had gathered intelligence,
 Dialogue: 0,0:03:00.24,0:03:03.49,Default,,0,0,0,,creating detailed plans \Nand making timely arrangements.
 Dialogue: 0,0:03:03.49,0:03:06.62,Default,,0,0,0,,The enemy had prepared a line of fortifications \Non Kowloon Peninsula{ in order to stop us}:
-Dialogue: 0,0:03:06.62,0:03:08.98,Default,,0,0,0,,from Shau Kei Wan to Kam Shan{金山 - literally "golden mine", maybe replace with kinzan}, \Nto {Upper }Shing Mun Reservoir. {HA also adds here "to Lion Rock." for w/e reason, I don't hear it but maybee it's in the next line}
+Dialogue: 0,0:03:06.62,0:03:08.98,Default,,0,0,0,,from Shau Kei Wan to Golden Hill{金山 - literally "golden mine", maybe replace with kinzan}, \Nto {Upper }Shing Mun Reservoir. {HA also adds here "to Lion Rock." for w/e reason, I don't hear it but maybee it's in the next line}
 Dialogue: 0,0:03:08.98,0:03:15.04,Default,,0,0,0,,On this mountain ridge, to the south of the recess, \Nis the heavily fortified position, dubbed "Gin Drinkers Line." {honestly, no clue what's this shinzan, may be "recess in the mountains" but HA's is being constant about translating it as "lion rock" but it'd make no sense, as irl lion rock is to the south of gin drinkers and lit of this is "connecting to the south of this shinzan"}
 Dialogue: 0,0:03:15.48,0:03:20.20,Default,,0,0,0,,Gin Drinkers Line, so peculiarly named after the soldiers' \Ntendency towards too much Gin, {actually he just explains in japanese who "gin drinker" is so I'm having to make shit up here}
 Dialogue: 0,0:03:20.20,0:03:23.01,Default,,0,0,0,,is a well thought through \Nline of defensive fortifications.
@@ -65,7 +65,7 @@ Dialogue: 0,0:03:51.77,0:03:53.75,Default,,0,0,0,,You think they'll make it unde
 Dialogue: 0,0:03:54.69,0:03:55.67,Default,,0,0,0,,They'll have to.
 Dialogue: 0,0:03:55.67,0:03:56.57,Default,,0,0,0,,Good.
 Dialogue: 0,0:03:57.11,0:04:01.19,Default,,0,0,0,,Set the deadline for breaking through \Nthe Gin Drinkers Line to one week! {it was "The preparation period for breaking through the Gin Drinkers Line is one week." in HA's ver but that doesn't make sense: they won't decide on a date to start Pacific war based on the hong kong capture date, so it has to be something like "after a week's bombardment, we'll begin the general offensive" which is a bit closer to what happened irl, but still makes little sense}
-Dialogue: 0,0:04:03.84,0:04:07.29,Default,,0,0,0,,We'll center the shelling \Non a mountain pass next to Kam Shan. {this shinzan again, HA has it "Lion rock" again. He might just be right, but he is still not pointing at where the Lion rock is located irl and it's not even marked on their map so might as well be "mountain recess" as I assumed, but that'd make sense here as lit is "midway between shinzan and Golden hill"; amazingly, if I go the dumb way and write shinzan on-yomi as 新山 that would be the chinese name for Johor Bahru, with which I thought I was done in ep5; I deadass checked every on-yomi reading for every mountain in hong kong and I've still no clue what's shinzan - https://en.wikipedia.org/wiki/List_of_mountains,_peaks_and_hills_in_Hong_Kong}
+Dialogue: 0,0:04:03.84,0:04:07.29,Default,,0,0,0,,We'll center the shelling \Non a mountain pass next to Golden Hill. {this shinzan again, HA has it "Lion rock" again. He might just be right, but he is still not pointing at where the Lion rock is located irl and it's not even marked on their map so might as well be "mountain recess" as I assumed, but that'd make sense here as lit is "midway between shinzan and Golden hill"; amazingly, if I go the dumb way and write shinzan on-yomi as 新山 that would be the chinese name for Johor Bahru, with which I thought I was done in ep5; I deadass checked every on-yomi reading for every mountain in hong kong and I've still no clue what's shinzan - https://en.wikipedia.org/wiki/List_of_mountains,_peaks_and_hills_in_Hong_Kong}
 Dialogue: 0,0:04:07.29,0:04:10.48,Default,,0,0,0,,I would ask the artillery detachments \Nto target the middle of this area.
 Dialogue: 0,0:04:10.48,0:04:13.96,Default,,0,0,0,,Let's hammer them at full might with our 24 cm howitzers.{https://en.wikipedia.org/wiki/Type_96_24_cm_howitzer}
 Dialogue: 0,0:04:13.96,0:04:18.09,Default,,0,0,0,,If we break through in just one place, the rest of the line \Nwould be exposed in the flanks and rear.
